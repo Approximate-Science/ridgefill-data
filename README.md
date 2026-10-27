@@ -43,8 +43,8 @@ Gated DeltaNet layer so does its state update. Exact rows skip the map and run t
 | Qwen3.8-Flash-Next, vLLM fork, two R9700 | 1.50 to 1.60× faster time to first token at 9K to 32K tokens | RULER needle tasks 99.8 against 100.0; perplexity on novel tokens +2.65 % [−0.02 %, +4.93 %] |
 
 On three 8 to 9B reference models (Llama-3.1-8B, Qwen3.5-9B, Qwen3-8B), at the same split and tail as the identity
-fill, the fitted map retrieves 39.7 and 49.6 more filled-region RULER points on the two dense models, and it is level
-with the released SwiftKV checkpoint on long-document loss.
+fill, the fitted map retrieves 39.7 and 49.6 more filled-region RULER points on the two dense models, and its
+long-document loss is within 0.03 nats of the released SwiftKV checkpoint's.
 
 ## Reproducing results
 
