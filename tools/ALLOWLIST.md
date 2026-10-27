@@ -12,3 +12,4 @@ every hit it covers.
 | results/qwen38-27b/longbench/*/66ec0f7f821e116aacb19dde.json | RADIANCE | The model's answer to a LongBench v2 question about 3D style transfer uses the term "radiance field"; unrelated to any software of that name. |
 | results/qwen38-27b/longbench/stock/66fa2734bb02136c067c627a.json | EMAIL | The model's answer writes an example URL with the placeholder credentials user:token; no address or credential. |
 | results/reference/llama-3.1-8b-instruct-longbench/work/results/longbench-llama-3.1-8b-instruct-longbench/lb-lcc-38.json | EMAIL | A Python decorator (@pytest.mark) after an escaped newline in generated code; not an address. |
+| results/development/README.md | BANNED_WORD | Names the development checkpoint of Appendix I (the community base model), as the paper says the data repository does. |

@@ -1,5 +1,5 @@
 # SPDX-License-Identifier: Apache-2.0
-"""Figure 8 (Qwen3.8-27B row shares and compute ceiling), drawn from the release data.
+"""Figure 10 (Qwen3.8-27B row shares and compute ceiling), drawn from the release data.
 
 Usage: python fig_speedup_gap.py <ridgefill-data root> <output dir>
 Per length, every quantity is the median over the three timed requests of the resident arm, the same requests whose

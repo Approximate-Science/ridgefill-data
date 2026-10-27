@@ -59,15 +59,28 @@ Abbreviations: `R/` = `results/reference/`, `F/` = `results/flashnext/final-det-
 | S11 | LongBench v1 on Llama | `R/llama-3.1-8b-instruct-longbench/` (stored scores; gold answers hashed) | `recompute/s11_longbench.py` | 11 |
 | S12 | Second question on a once-filled cache | `R/*-secondq/` | `recompute/s12_turn2.py` | 6 |
 
+## Development measurements (Appendix I)
+
+Status DEVELOPMENT, not FINAL: these back §1, §3 and Appendix I, and no number of §4 to §6 rests on them.
+`DEV/` = `results/development/`; its `README.md` names the models and builds.
+
+| Claim | What the paper says | Files | Script | Values |
+|---|---|---|---|---|
+| D1 | Corrections from approximation theory (Table I.1), the key-mean shift end to end, the fill error's correlation along the prompt, spread exact rows against a tail | `DEV/closures/`, `DEV/whiteness/` | `recompute/dev_history.py` | 33 |
+| D2 | Needles in the filled region and exact digit rows on the development checkpoint; digit and attention rows on the reference models (Table I.2) | `DEV/needles-dev/`, `DEV/needles-reference/` | `recompute/dev_history.py` | 41 |
+| D3 | Fill error by token class; concentration of the first-order cost and its check | `DEV/token-classes/` | `recompute/dev_history.py` | 8 |
+| D4 | Decode-time check on Qwen3.8-27B: full-scan overhead, periodic-check misses | `DEV/certificate-27b/` | `recompute/dev_history.py` | 4 |
+| D5 | Needle suites passed where RULER multi-key failed on Qwen3.8-27B | `DEV/needles-vs-ruler-27b/` | `recompute/dev_history.py` | 6 |
+
 ## Facts in §9 and the appendices
 
 | Fact | Files | Check |
 |---|---|---|
 | Calibration rows, documents, λ per split | `P/fits/`, `P/inputs/calibration-docs.tsv` | `recompute/check_fit_records.py` |
 | Overlap of calibration text with the test sets | `P/checks/calib-vs-longbench-v2.json`, `P/inputs/calibration-exclude.json` | `tools/overlap_lbv2.py` (needs the texts) |
-| Pre-registration | `P/ledger/` | `tools/verify_ledger.py` |
+| Run ledger | `P/ledger/` | `tools/verify_ledger.py` |
 | Formal statements | `code/lean/kva_lean/` | `lake build` in that folder |
-| Figure 8 | `Q/results/timing/` | `recompute/fig_speedup_gap.py` |
+| Figure 10 | `Q/results/timing/` | `recompute/fig_speedup_gap.py` |
 
 Not claimed (and so not here): an identity-fill arm on Qwen3.8-27B, a matched comparison with token-dropping methods,
 any memory saving, and measured TTFT on the three reference models.

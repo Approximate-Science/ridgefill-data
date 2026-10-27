@@ -68,6 +68,7 @@ values; `REPRODUCE.md` is a checklist for redoing the load-bearing numbers by ha
 | Qwen3.8-27B in llama.cpp on four A100s: TTFT, RULER, LongBench v2, post-prompt KL, gates, BF16 reference, multi-user runs | §4 | `results/qwen38-27b/` (LongBench v2 per item in `results/qwen38-27b/longbench/`) |
 | Qwen3.8-Flash-Next in vLLM on two R9700s: TTFT, 64K request time, perplexity, RULER, determinism | §5 | `results/flashnext/final-det-20261010/` |
 | Reference study on Llama-3.1-8B, Qwen3.5-9B and Qwen3-8B: every arm of every cell, per sample | §6, Appendices A–E | `results/reference/` (19 cells) |
+| Development measurements behind §1, §3 and Appendix I, status DEVELOPMENT (not evidence for §4 to §6) | Appendix I | `results/development/` |
 | Per-document loss table of the reference study; key (model, set, doc), since 25 of the 30 fresh document names repeat locked-set names | §9, Appendix A | `derived/per-document-nll.csv` |
 | Reference implementation, fit and finals pipeline, tests | §2, §9 | `code/` (kva, scripts, finals, configs, tests) |
 | Flash-Next run kit (commit d1164746) and the determinism fix (diff and hashes) | §5, Appendix F | `code/c5/`, `code/engine-fix/` |
@@ -78,9 +79,9 @@ values; `REPRODUCE.md` is a checklist for redoing the load-bearing numbers by ha
 | Fit records (rows, documents, λ, map hashes) | §2.2, Appendix G | `provenance/fits/` |
 | Input manifests: hashes and pointers, no texts; per-document hashes of the calibration documents | §3, Appendix G | `provenance/inputs/` |
 | Calibration overlap checks | Appendix G | `provenance/checks/` |
-| Pre-registration ledger: chain index and the cited entries | §9 | `provenance/ledger/` |
+| Run ledger, a hash-chained log: chain index and the cited entries | §9 | `provenance/ledger/` |
 | Models, maps, engine image, forks, benchmarks and excluded large files, by revision and sha256 | Appendix F | `provenance/external.tsv` |
-| The paper's 15 figures as printed; Figure 8 is redrawn from the timing records by `recompute/fig_speedup_gap.py` (needs matplotlib) | all | `figures/` |
+| The paper's 15 figures as printed; Figure 10 is redrawn from the timing records by `recompute/fig_speedup_gap.py` (needs matplotlib) | all | `figures/` |
 | Claim → file → script map | all | `CLAIMS.md`, `derived/claims.csv` |
 
 Outside this repository:
@@ -107,7 +108,7 @@ Public (organization TheCacheIsALie on Hugging Face):
 | Repository | Revision | Files |
 |---|---|---|
 | `RidgeFill-Projector-Qwen3.8-27B-i8` | `d24ace6c3b176681b7075568134b150118a8b566` | the split-16 maps as one GGUF (Q8_0) file, the file the 27B runs loaded (unchanged since `07eb31cd`), and in `ridgefill-projector-qwen3.8-27b-i8/` the int8 release it was converted from |
-| `RidgeFill-Projector-Qwen3.8-Flash-Next-i8` | `0b6f2ce017fe912198c697bcc813a1578bc67ce1` | the split-24 int8 maps, correction and row table the Flash-Next runs loaded |
+| `RidgeFill-Projector-Qwen3.8-Flash-Next-i8` | `0b6f2ce017fe912198c697bcc813a1578bc67ce1` | the split-24 int8 maps, correction and row table the Flash-Next runs loaded; since `2c50360e` also `source/kva-big-s24.safetensors`, the bf16 fit those maps were quantized from, whose `final` map `code/c5/convert.py` copies into the engine's files |
 | `Llama-3.1-8B-Instruct-RidgeFill-Projector` | `6649dc3621ab11e9c2c5553343147bffe6800a85` | the bf16 safetensors maps the reference cells loaded, splits 8, 12, 16 and 20, in `safetensors/`; split 12 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
 | `RidgeFill-Projector-Qwen3-8B` | `fb663bb44f20c46fbb63bf6ba6a0d6e5dcc3f711` | the bf16 safetensors maps the reference cells loaded, splits 9, 13, 18 and 22, in `safetensors/`; split 13 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
 | `RidgeFill-Projector-Qwen3.5-9B` | `59d77e33cef73c6e387973f9e6926bd956867873` | the bf16 safetensors maps the reference cells loaded, splits 8, 12, 16 and 20 |
@@ -190,7 +191,7 @@ The paper is in preparation. Until it is out, cite this data release (`CITATION.
   author  = {Johnston, Dylan and {tcclaviger}},
   title   = {{RidgeFill}: data and code for ``Training-Free Late-Layer Cache Fill for Faster Prefill''},
   year    = {2026},
-  version = {1.1},
+  version = {1.2},
   url     = {https://github.com/Approximate-Science/ridgefill-data}
 }
 ```

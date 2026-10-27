@@ -584,3 +584,95 @@ S12.qwen35.rows,100.0,S12,CLAIMS S12
 S12.qwen35.exact,100.0,S12,CLAIMS S12
 S12.qwen3.rows,89.3,S12,CLAIMS S12
 S12.qwen3.exact,100.0,S12,CLAIMS S12
+D1.jensen.change,+62.9,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen.ci,"[+55.1, +70.5]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen.better,0 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_reversed.change,+2.5,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_reversed.ci,"[-1.5, +6.1]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_reversed.better,11 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_per_row.change,+80.2,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_per_row.ci,"[+60.2, +114.1]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_per_row.better,0 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_cross.change,+70.1,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_cross.ci,"[+61.7, +78.2]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.jensen_cross.better,0 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.cross.change,+1.8,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.cross.ci,"[+0.9, +2.6]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.cross.better,6 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.value_map.change,+51.2,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.value_map.ci,"[+43.5, +57.7]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.value_map.better,1 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.temperature.change,-6.5,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.temperature.ci,"[-8.2, -5.0]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.temperature.better,23 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean.change,-8.6,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean.ci,"[-11.1, -6.5]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean.better,23 of 23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean_loss.n,23,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean_loss.delta,+0.0010,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.key_mean_loss.ci,"[-0.0048, +0.0063]",D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.lag1.range,0.17 to 0.21,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.lag8.max,0.06,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.spread.cells,9,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.spread.tail_wins,9,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.spread.at25.spread,0.26,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D1.spread.at25.tail,0.22,D1,"App. I.1, Table I.1; results/development/closures, whiteness"
+D2.dev.t2048.filled,52,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t2048.correct,33,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t2048.no_number,9,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t2048.tail,8 of 8,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t4096.filled,36,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t4096.correct,25,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t4096.no_number,4,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.t4096.tail,24 of 24,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.wrong,17,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.wrong_last_digit_only,13,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.exact.wrong,0,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.dev.exact.no_number,16,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.digits.fill,26 of 36,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.digits.digits,36 of 36,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.digits.tail,28 of 36,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.digits.share,2.2 to 6.2,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.digits.n,156,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.digits.delta,+25,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.digits.ci,"[+18, +32]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.qattn5.n,156,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.qattn5.delta,+22,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.numeric.qattn5.ci,"[+14, +29]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.digits.n,660,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.digits.delta,+2,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.digits.ci,"[0, +3]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.qattn5.n,660,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.qattn5.delta,+15,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.text.qattn5.ci,"[+12, +18]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.digits.n,156,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.digits.delta,+26,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.digits.ci,"[+19, +33]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.qattn5.n,156,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.qattn5.delta,+21,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.numeric.qattn5.ci,"[+13, +28]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.digits.n,264,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.digits.delta,0,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.digits.ci,"[-1, +1]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.qattn5.n,264,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.qattn5.delta,+16,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.qwen.text.qattn5.ci,"[+11, +20]",D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D2.ref.llama.hexid.s12,0 of 44,D2,"App. I.2, Table I.2; results/development/needles-dev, needles-reference"
+D3.llama.classes,9,D3,App. I.3; results/development/token-classes
+D3.llama.ratio,1.08,D3,App. I.3; results/development/token-classes
+D3.qwen.classes,9,D3,App. I.3; results/development/token-classes
+D3.qwen.ratio,1.13,D3,App. I.3; results/development/token-classes
+D3.llama.top5,80 %,D3,App. I.3; results/development/token-classes
+D3.llama.first_order_over_measured,2.6,D3,App. I.3; results/development/token-classes
+D3.qwen.top5,63 %,D3,App. I.3; results/development/token-classes
+D3.qwen.first_order_over_measured,2.4,D3,App. I.3; results/development/token-classes
+D4.full_scan.16384,7.9 to 9.7,D4,App. I.4; results/development/certificate-27b
+D4.full_scan.32768,16.9 to 18.2,D4,App. I.4; results/development/certificate-27b
+D4.periodic.configs,14,D4,App. I.4; results/development/certificate-27b
+D4.periodic.miss,15 to 98,D4,App. I.4; results/development/certificate-27b
+D5.needles.stock,96 of 96,D5,App. I.5; results/development/needles-vs-ruler-27b
+D5.needles.ridgefill,96 of 96,D5,App. I.5; results/development/needles-vs-ruler-27b
+D5.niah_multikey_2.stock,20 of 20,D5,App. I.5; results/development/needles-vs-ruler-27b
+D5.niah_multikey_2.ridgefill,8 of 20,D5,App. I.5; results/development/needles-vs-ruler-27b
+D5.niah_multikey_3.stock,20 of 20,D5,App. I.5; results/development/needles-vs-ruler-27b
+D5.niah_multikey_3.ridgefill,6 of 20,D5,App. I.5; results/development/needles-vs-ruler-27b

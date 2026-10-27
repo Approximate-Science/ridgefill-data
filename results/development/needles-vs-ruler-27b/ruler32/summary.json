@@ -1,0 +1,1728 @@
+{
+  "n": 108,
+  "expected": 260,
+  "complete": false,
+  "kind": "ruler",
+  "invalid_excluded": [],
+  "items": [
+    {
+      "id": "ruler-32768-niah_single_1-000",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-001",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-002",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-003",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-004",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-005",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-006",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-007",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-008",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-009",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-010",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-011",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-012",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-013",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-014",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-015",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-016",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-017",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-018",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_1-019",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-000",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-001",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-002",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-003",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-004",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-005",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-006",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-007",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-008",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-009",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-010",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-011",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-012",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-013",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-014",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-015",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-016",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-017",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-018",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_2-019",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-000",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-001",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-002",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-003",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-004",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-005",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-006",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-007",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        },
+        "winner": {
+          "card": "13",
+          "build": "22ef3df4a2833df1d669001b53c5e3b4c769e7a4"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-008",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-009",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-010",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-011",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-012",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-013",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-014",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-015",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-016",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-017",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-018",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_single_3-019",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-000",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-001",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-002",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-003",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-004",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-005",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-006",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-007",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-008",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-009",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-010",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-011",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-012",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-013",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-014",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-015",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-016",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-017",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-018",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_1-019",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-000",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-001",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-002",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-003",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-004",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-005",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-006",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-007",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-008",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-009",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-010",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-011",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-012",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-013",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-014",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-015",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "03",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-016",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-017",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-018",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-019",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-000",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-001",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-002",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-003",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-004",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-005",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-006",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-007",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        },
+        "winner": {
+          "card": "13",
+          "build": "12947fda3580da61aaf090ecc924a022a2c5f1d8"
+        }
+      }
+    }
+  ],
+  "builds": {
+    "12947fda3580da61aaf090ecc924a022a2c5f1d8": 24,
+    "22ef3df4a": 36,
+    "22ef3df4a2833df1d669001b53c5e3b4c769e7a4": 12,
+    "bc3a6af8576f142e16babf5da2cdd47b4939fad6": 36
+  },
+  "stock": 100.0,
+  "winner": 82.4074074074074,
+  "delta": -17.59259259259259,
+  "official": {
+    "stock": {
+      "overall": {
+        "count": 108,
+        "score": 100.0,
+        "unparseable": 0,
+        "macro_task_score": 100.0
+      },
+      "by_task": {
+        "niah_multikey_1": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_multikey_2": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_multikey_3": {
+          "count": 8,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_single_1": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_single_2": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_single_3": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        }
+      },
+      "by_length_bucket": {
+        "32k": {
+          "count": 108,
+          "score": 100.0,
+          "unparseable": 0
+        }
+      },
+      "unparseable": 0
+    },
+    "winner": {
+      "overall": {
+        "count": 108,
+        "score": 82.407407,
+        "unparseable": 0,
+        "macro_task_score": 81.666667
+      },
+      "by_task": {
+        "niah_multikey_1": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_multikey_2": {
+          "count": 20,
+          "score": 40.0,
+          "unparseable": 0
+        },
+        "niah_multikey_3": {
+          "count": 8,
+          "score": 75.0,
+          "unparseable": 0
+        },
+        "niah_single_1": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_single_2": {
+          "count": 20,
+          "score": 100.0,
+          "unparseable": 0
+        },
+        "niah_single_3": {
+          "count": 20,
+          "score": 75.0,
+          "unparseable": 0
+        }
+      },
+      "by_length_bucket": {
+        "32k": {
+          "count": 108,
+          "score": 82.407407,
+          "unparseable": 0
+        }
+      },
+      "unparseable": 0
+    }
+  },
+  "refusals": [],
+  "prompt_count_flags": [],
+  "cards": {
+    "03": 24,
+    "13": 84
+  },
+  "flips": [
+    {
+      "id": "ruler-32768-niah_single_3-001",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_single_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_single_3-002",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_single_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_single_3-006",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_single_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_single_3-007",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_single_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_single_3-014",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_single_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-003",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-004",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-005",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-006",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-007",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-009",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-010",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-013",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-014",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-015",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "03",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-016",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_2-018",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_multikey_2",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-002",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_multikey_3",
+      "domain": null,
+      "depth": null
+    },
+    {
+      "id": "ruler-32768-niah_multikey_3-003",
+      "stock": 100.0,
+      "winner": 0.0,
+      "card": "13",
+      "refused": false,
+      "task": "niah_multikey_3",
+      "domain": null,
+      "depth": null
+    }
+  ],
+  "ci95": [
+    -25.925925925925927,
+    -11.11111111111111
+  ],
+  "degenerate": false,
+  "coverage": {
+    "measured_items": 108,
+    "tokens_skipped": 0.5750617259965727,
+    "macs_skipped": 0.3320483686919542
+  }
+}

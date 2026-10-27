@@ -1,0 +1,186 @@
+{
+ "n": 60,
+ "n_projected": 36,
+ "arms": {
+  "base": {
+   "acc_projected": 0.7222222222222222,
+   "exact_projected": 1.0,
+   "ratio": 0.7222222222222222,
+   "ratio_ci95": [
+    0.5833333333333334,
+    0.8611111111111112
+   ],
+   "acc_all": 0.8333333333333334,
+   "misses": {
+    "truncated": 9,
+    "wrong7": 1,
+    "other": 0
+   },
+   "needle_in_tail_for_arm": 0
+  },
+  "D": {
+   "acc_projected": 1.0,
+   "exact_projected": 1.0,
+   "ratio": 1.0,
+   "ratio_ci95": [
+    1.0,
+    1.0
+   ],
+   "acc_all": 1.0,
+   "misses": {
+    "truncated": 0,
+    "wrong7": 0,
+    "other": 0
+   },
+   "needle_in_tail_for_arm": 0
+  },
+  "DID": {
+   "acc_projected": 1.0,
+   "exact_projected": 1.0,
+   "ratio": 1.0,
+   "ratio_ci95": [
+    1.0,
+    1.0
+   ],
+   "acc_all": 1.0,
+   "misses": {
+    "truncated": 0,
+    "wrong7": 0,
+    "other": 0
+   },
+   "needle_in_tail_for_arm": 0
+  },
+  "tailD": {
+   "acc_projected": 0.7777777777777778,
+   "exact_projected": 1.0,
+   "ratio": 0.7777777777777778,
+   "ratio_ci95": [
+    0.6388888888888888,
+    0.9166666666666666
+   ],
+   "acc_all": 0.8666666666666667,
+   "misses": {
+    "truncated": 8,
+    "wrong7": 0,
+    "other": 0
+   },
+   "needle_in_tail_for_arm": 4
+  },
+  "tailDID": {
+   "acc_projected": 0.8333333333333334,
+   "exact_projected": 1.0,
+   "ratio": 0.8333333333333334,
+   "ratio_ci95": [
+    0.6944444444444444,
+    0.9444444444444444
+   ],
+   "acc_all": 0.9,
+   "misses": {
+    "truncated": 6,
+    "wrong7": 0,
+    "other": 0
+   },
+   "needle_in_tail_for_arm": 5
+  }
+ },
+ "budgets": {
+  "code": {
+   "D": {
+    "pct_prompt": 2.1992154551791114,
+    "pct_approx": 3.372003563330094,
+    "n": 15
+   },
+   "DID": {
+    "pct_prompt": 5.7728927168536,
+    "pct_approx": 9.5569120505345,
+    "n": 15
+   },
+   "tailD": {
+    "pct_prompt": 10.77926398220461,
+    "pct_approx": 23.280423280423282,
+    "n": 15
+   },
+   "tailDID": {
+    "pct_prompt": 12.37373215385399,
+    "pct_approx": 25.132275132275133,
+    "n": 15
+   }
+  },
+  "docs": {
+   "D": {
+    "pct_prompt": 4.890316493073953,
+    "pct_approx": 7.927835816866429,
+    "n": 15
+   },
+   "DID": {
+    "pct_prompt": 9.155069075219808,
+    "pct_approx": 15.295628171903681,
+    "n": 15
+   },
+   "tailD": {
+    "pct_prompt": 12.373772566166824,
+    "pct_approx": 25.132275132275133,
+    "n": 15
+   },
+   "tailDID": {
+    "pct_prompt": 13.968250466411778,
+    "pct_approx": 26.984126984126984,
+    "n": 15
+   }
+  },
+  "prose": {
+   "D": {
+    "pct_prompt": 2.9090901459469483,
+    "pct_approx": 4.107885217579096,
+    "n": 15
+   },
+   "DID": {
+    "pct_prompt": 5.313722039638432,
+    "pct_approx": 7.216722006262822,
+    "n": 15
+   },
+   "tailD": {
+    "pct_prompt": 12.373359716972894,
+    "pct_approx": 25.132275132275133,
+    "n": 15
+   },
+   "tailDID": {
+    "pct_prompt": 13.967837617217848,
+    "pct_approx": 26.984126984126984,
+    "n": 15
+   }
+  },
+  "rust": {
+   "D": {
+    "pct_prompt": 6.155001592015973,
+    "pct_approx": 9.364674441205054,
+    "n": 15
+   },
+   "DID": {
+    "pct_prompt": 17.668931319554638,
+    "pct_approx": 27.77943121693122,
+    "n": 15
+   },
+   "tailD": {
+    "pct_prompt": 13.968239294466068,
+    "pct_approx": 26.984126984126984,
+    "n": 15
+   },
+   "tailDID": {
+    "pct_prompt": 20.346267638592774,
+    "pct_approx": 34.39153439153439,
+    "n": 15
+   }
+  }
+ },
+ "base_matches_s2": 60,
+ "errors": 0,
+ "registered": {
+  "K28": {
+   "arm": "D",
+   "ratio": 1.0,
+   "confirm": true,
+   "kill": false
+  }
+ }
+}

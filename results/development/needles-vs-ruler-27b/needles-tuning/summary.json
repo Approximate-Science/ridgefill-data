@@ -1,0 +1,674 @@
+{
+  "n": 48,
+  "expected": 48,
+  "complete": true,
+  "kind": "needle",
+  "invalid_excluded": [],
+  "items": [
+    {
+      "id": "needle-prose-00",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-01",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-02",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-03",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-04",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-05",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-06",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-07",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-08",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-09",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-10",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-11",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-12",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-13",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-14",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-prose-15",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-00",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-01",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-02",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-03",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-04",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-05",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-06",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-07",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-08",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-09",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-10",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-11",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-12",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-13",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-14",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-encyclopedia-15",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-00",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-01",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-02",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-03",
+      "arms": {
+        "stock": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "03",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-04",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-05",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-06",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-07",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-08",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-09",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-10",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-11",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-12",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-13",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-14",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    },
+    {
+      "id": "needle-papers-15",
+      "arms": {
+        "stock": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        },
+        "winner": {
+          "card": "13",
+          "build": "bc3a6af8576f142e16babf5da2cdd47b4939fad6"
+        }
+      }
+    }
+  ],
+  "builds": {
+    "bc3a6af8576f142e16babf5da2cdd47b4939fad6": 48
+  },
+  "stock": 100.0,
+  "winner": 100.0,
+  "delta": 0.0,
+  "official": {},
+  "refusals": [],
+  "prompt_count_flags": [],
+  "cards": {
+    "03": 24,
+    "13": 24
+  },
+  "flips": [],
+  "ci95": [
+    0.0,
+    0.0
+  ],
+  "degenerate": true,
+  "needle_bar": {
+    "estimate": 0.0,
+    "lo": -6.050340934889431,
+    "hi": 0.0,
+    "lower": -2,
+    "upper": null,
+    "passed": false,
+    "n": 48,
+    "alpha": 0.05,
+    "method": "exact-binomial-floor",
+    "reason": "no unit worse than the reference: exact binomial floor, 6.05% worse units at most",
+    "verdict": "FAIL"
+  },
+  "coverage": {
+    "measured_items": 48,
+    "tokens_skipped": 0.48411057887885445,
+    "macs_skipped": 0.2688357784098644
+  },
+  "correct": {
+    "stock": 48,
+    "winner": 48
+  }
+}

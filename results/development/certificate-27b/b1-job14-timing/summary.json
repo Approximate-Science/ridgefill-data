@@ -1,0 +1,110 @@
+{
+ "16384": {
+  "per_token_ms": {
+   "off": [
+    34.304110236220474,
+    34.434858267716535,
+    37.943700787401575
+   ],
+   "full": [
+    37.19510236220473,
+    37.149173228346456,
+    36.95738582677165
+   ]
+  },
+  "median_ms": {
+   "off": 34.434858267716535,
+   "full": 37.149173228346456
+  },
+  "overhead_pct": {
+   "off": 0.0,
+   "full": 7.8824629958609504
+  },
+  "tokens_identical": true,
+  "steps": {
+   "full": [
+    128,
+    128,
+    128
+   ]
+  },
+  "uncertified": {
+   "full": [
+    0,
+    0,
+    0
+   ]
+  },
+  "periodic": {},
+  "trigger": {
+   "full": [
+    {
+     "rows_per_step": 0.9765625,
+     "steps_with_row": 60,
+     "first_step_rows": 0,
+     "new_rows_per_later_step": 0.6535433070866141,
+     "distinct_rows": 83
+    }
+   ]
+  },
+  "peak_vram_gib": {
+   "off": 18.89931869506836,
+   "full": 18.938507080078125
+  },
+  "idle_vram_gib": null
+ },
+ "32768": {
+  "per_token_ms": {
+   "off": [
+    35.90433858267716,
+    35.949700787401575,
+    35.902771653543304
+   ],
+   "full": [
+    42.44046456692914,
+    42.480755905511806,
+    42.444472440944885
+   ]
+  },
+  "median_ms": {
+   "off": 35.90433858267716,
+   "full": 42.444472440944885
+  },
+  "overhead_pct": {
+   "off": 0.0,
+   "full": 18.21544168877449
+  },
+  "tokens_identical": true,
+  "steps": {
+   "full": [
+    128,
+    128,
+    128
+   ]
+  },
+  "uncertified": {
+   "full": [
+    0,
+    0,
+    0
+   ]
+  },
+  "periodic": {},
+  "trigger": {
+   "full": [
+    {
+     "rows_per_step": 0.1484375,
+     "steps_with_row": 16,
+     "first_step_rows": 0,
+     "new_rows_per_later_step": 0.12598425196850394,
+     "distinct_rows": 16
+    }
+   ]
+  },
+  "peak_vram_gib": {
+   "off": 20.125694274902344,
+   "full": 20.125694274902344
+  },
+  "idle_vram_gib": null
+ }
+}

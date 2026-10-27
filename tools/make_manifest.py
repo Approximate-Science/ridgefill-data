@@ -65,6 +65,13 @@ CLAIMS = [  # path prefix -> claim ids (CLAIMS.md); first match wins
     ("derived/per-document-nll.csv", "S7,S8,R6"),
     ("provenance/fits/", "LB1a"),
     ("provenance/inputs/qwen38-27b/LOCK.json", "LB6"),
+    ("results/development/closures/", "D1"),
+    ("results/development/whiteness/", "D1"),
+    ("results/development/needles-dev/", "D2"),
+    ("results/development/needles-reference/", "D2"),
+    ("results/development/token-classes/", "D3"),
+    ("results/development/certificate-27b/", "D4"),
+    ("results/development/needles-vs-ruler-27b/", "D5"),
 ]
 
 
@@ -137,7 +144,8 @@ def main(argv):
                         problems.append(f"{rel}: origin {origin} missing")
                 elif not source.is_file() or sha256(source) != origin_sha:
                     problems.append(f"{rel}: origin {origin} does not match")
-        status = "FINAL" if rel.startswith("results/") and not rel.endswith(".md") else "n/a"
+        status = ("n/a" if not rel.startswith("results/") or rel.endswith(".md")
+                  else "DEVELOPMENT" if rel.startswith("results/development/") else "FINAL")
         rows.append([rel, str(path.stat().st_size), digest, first(LICENCES, rel), first(KINDS, rel), status,
                      first(CLAIMS, rel), origin, origin_sha, transform])
     if problems:

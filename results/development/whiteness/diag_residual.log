@@ -1,0 +1,15 @@
+doc 0 (T=4317): mean |r|/|y| over layers 0.6700
+  r[t]~r[t-1]: min +0.1401 max +0.2152 mean +0.1735
+  r[t]~r[t-2]: min +0.0864 max +0.1541 mean +0.1168
+  r[t]~r[t-4]: min +0.0573 max +0.1142 mean +0.0849
+  r[t]~r[t-8]: min +0.0368 max +0.0868 mean +0.0615
+doc 1 (T=4846): mean |r|/|y| over layers 0.6958
+  r[t]~r[t-1]: min +0.1342 max +0.2484 mean +0.1862
+  r[t]~r[t-2]: min +0.0918 max +0.1643 mean +0.1261
+  r[t]~r[t-4]: min +0.0596 max +0.1193 mean +0.0866
+  r[t]~r[t-8]: min +0.0410 max +0.0924 mean +0.0630
+doc 2 (T=4622): mean |r|/|y| over layers 0.6521
+  r[t]~r[t-1]: min +0.1717 max +0.2616 mean +0.2077
+  r[t]~r[t-2]: min +0.0973 max +0.1786 mean +0.1337
+  r[t]~r[t-4]: min +0.0601 max +0.1201 mean +0.0916
+  r[t]~r[t-8]: min +0.0368 max +0.0812 mean +0.0617

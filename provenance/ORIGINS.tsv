@@ -35,3 +35,11 @@ recompute/	release/	written	Recompute scripts (some adapted from the 2026-10-26 
 tools/	release/	written	Build and check tools of this release.
 figures/	paper-draft/figures/	copy	The paper's 15 figures as printed (rev3 files).
 	release/	written	Repository documentation.
+results/development/README.md	release/	written	Written for this release.
+results/development/closures/	dev-offline/	copy	Development checkpoint, offline closure screens of 2026-09-30 and the end-to-end key-mean run: the results folder of that study in the private archive TheCacheIsALie/kva-research-old.
+results/development/whiteness/	dev-context/	copy	Development checkpoint, the context study of 2026-09-29 (residual correlation log, interleaved exact chunks) in the private archive TheCacheIsALie/kva-research-old.
+results/development/needles-dev/	dev-offline-niah/	copy	Development checkpoint, needle runs of 2026-09-30 and 2026-10-01: k20/ is the needle session's results folder, the two summaries are from the study's results folder, both in the private archive TheCacheIsALie/kva-research-old.
+results/development/needles-reference/	kva-results/	copy	Reference models, needle bypass runs of 2026-10-02 in the reference implementation's results folder (summaries and per-prompt records).
+results/development/token-classes/	kva-results-te/	copy	Reference models, token error atlas and impact study of 2026-10-02 in the reference implementation's results folder.
+results/development/certificate-27b/	tierb-gpu/	copy	Qwen3.8-27B, decode-time check jobs 11 to 14 of 2026-10-23 (summaries and samples) from the llama.cpp fork's certified-repair branch.
+results/development/needles-vs-ruler-27b/	validate-e1/	copy	Qwen3.8-27B, the configuration of 2026-10-22 against stock: benchmark summaries and both arms' answers from the fork's validation tree.

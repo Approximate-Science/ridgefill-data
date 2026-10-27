@@ -40,3 +40,4 @@ run s9_rows.py
 run s10_splices.py
 run s11_longbench.py
 run s12_turn2.py
+run dev_history.py

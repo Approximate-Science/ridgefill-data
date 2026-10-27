@@ -1,0 +1,78 @@
+{
+ "dir": "results/niah-bypass-mk4-qwen",
+ "prompts": 60,
+ "per_config": {
+  "s12-t1024": {
+   "exact": 56,
+   "kva": 35,
+   "digits": 56,
+   "qattn5": 49,
+   "random-qattn5": 34,
+   "tail-qattn5": 36,
+   "tail-digits": 36,
+   "eligible": 56
+  },
+  "s16-t1024": {
+   "exact": 56,
+   "kva": 47,
+   "digits": 55,
+   "qattn5": 53,
+   "random-qattn5": 47,
+   "tail-qattn5": 47,
+   "tail-digits": 47,
+   "eligible": 56
+  },
+  "s16-t4096": {
+   "exact": 44,
+   "kva": 32,
+   "digits": 43,
+   "qattn5": 44,
+   "random-qattn5": 34,
+   "tail-qattn5": 32,
+   "tail-digits": 32,
+   "eligible": 44
+  }
+ },
+ "contrasts": {
+  "qattn5 - tail-qattn5": {
+   "diff": 0.1987,
+   "ci95": [
+    0.1126,
+    0.2883
+   ],
+   "pairs": 156
+  },
+  "digits - tail-digits": {
+   "diff": 0.25,
+   "ci95": [
+    0.1613,
+    0.3401
+   ],
+   "pairs": 156
+  },
+  "qattn5 - random-qattn5": {
+   "diff": 0.1987,
+   "ci95": [
+    0.1097,
+    0.2901
+   ],
+   "pairs": 156
+  },
+  "qattn5 - kva": {
+   "diff": 0.2051,
+   "ci95": [
+    0.12,
+    0.2956
+   ],
+   "pairs": 156
+  },
+  "digits - kva": {
+   "diff": 0.2564,
+   "ci95": [
+    0.1677,
+    0.35
+   ],
+   "pairs": 156
+  }
+ }
+}
