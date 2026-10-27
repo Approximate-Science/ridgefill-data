@@ -1,0 +1,41 @@
+[0;36m(EngineCore pid=74)[0;0m [32mINFO[0m [90m10-11 00:48:33[0m [90m[ced.py:422][0m CED on (plain): projector /c5proj/ridgefill-s24.safetensors split 24 taps (24,), exact tail 2048 (unrounded), min prompt 8192, correction none, exact rows none
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:46:19[0m [90m[ple.py:86][0m PLE NVMe direct load of language_model.model.layers.1.ple.ple_embedding: host RAM ok, need 1.23 GiB, free 64.86 GiB (MemAvailable 105.04 GiB - expert offload 40.18 GiB), chunk 131072 rows
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:46:19[0m [90m[nvme_table.py:155][0m PLE NVMe: reusing language_model.model.layers.1.ple.ple_embedding: 320001536 rows x 130 B = 38.7 GiB at /app/pleoffload/ple_nvme/language_model_model_layers_1_ple_ple_embedding.bin
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):   9% Completed | 2/23 [00:00<00:06,  3.22it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  13% Completed | 3/23 [00:00<00:05,  3.94it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  17% Completed | 4/23 [00:01<00:04,  4.42it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  22% Completed | 5/23 [00:01<00:03,  4.81it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  26% Completed | 6/23 [00:01<00:03,  4.97it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  30% Completed | 7/23 [00:01<00:03,  5.25it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  35% Completed | 8/23 [00:01<00:02,  5.31it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  39% Completed | 9/23 [00:01<00:02,  5.46it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  43% Completed | 10/23 [00:02<00:02,  5.73it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  48% Completed | 11/23 [00:02<00:02,  5.89it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  52% Completed | 12/23 [00:02<00:01,  6.02it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  57% Completed | 13/23 [00:02<00:01,  6.09it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  61% Completed | 14/23 [00:02<00:01,  6.10it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  65% Completed | 15/23 [00:02<00:01,  6.13it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  70% Completed | 16/23 [00:03<00:01,  6.12it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  74% Completed | 17/23 [00:03<00:00,  6.08it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  78% Completed | 18/23 [00:03<00:00,  6.05it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  83% Completed | 19/23 [00:03<00:00,  5.96it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  87% Completed | 20/23 [00:03<00:00,  5.89it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  91% Completed | 21/23 [00:03<00:00,  5.40it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload):  96% Completed | 22/23 [00:04<00:00,  2.43it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m Loading safetensors checkpoint shards (PLE-offload): 100% Completed | 23/23 [00:04<00:00,  4.66it/s]
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:46:23[0m [90m[worker.py:794][0m PLE offload matched 259 checkpoint tensor(s), loaded 3 offload entries, and verified 0/0 materialized parameter(s) for layers: ['language_model.model.layers.1.ple.ple_embedding']
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[nvme_table.py:278][0m PLE NVMe direct: language_model.model.layers.1.ple.ple_embedding sealed: 320001536 rows x 130 B = 38.7 GiB at /app/pleoffload/ple_nvme/language_model_model_layers_1_ple_ple_embedding.bin (reused), no row cache
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[worker.py:838][0m PLE weight loading complete.
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[expert.py:236][0m expert offload: load path = DIRECT (expert_direct_load=True, experts_repack_ongpu=True, expert_host_mlock=True, expert_host_pin=True, expert_packed_dir=None, pin_memory=True, cfg ExpertOffloadConfig)
+[0;36m(Worker_TP1 pid=121)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[expert.py:236][0m expert offload: load path = DIRECT (expert_direct_load=True, experts_repack_ongpu=True, expert_host_mlock=True, expert_host_pin=True, expert_packed_dir=None, pin_memory=True, cfg ExpertOffloadConfig)
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[expert.py:452][0m Expert offload: 48 MoE layers staged; 9062 cache slots in 11.02 GiB planned per rank, splitting each layer as it finishes loading
+[0;36m(Worker_TP1 pid=121)[0;0m [32mINFO[0m [90m10-11 00:46:24[0m [90m[expert.py:452][0m Expert offload: 48 MoE layers staged; 9062 cache slots in 11.02 GiB planned per rank, splitting each layer as it finishes loading
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:48:22[0m [90m[ced.py:219][0m CED projector split 24 taps (24,) impl triton loaded on cuda:0 (1.37 GiB): /c5proj/ridgefill-s24.safetensors
+[0;36m(Worker_TP1 pid=121)[0;0m [32mINFO[0m [90m10-11 00:48:22[0m [90m[ced.py:219][0m CED projector split 24 taps (24,) impl triton loaded on cuda:1 (1.37 GiB): /c5proj/ridgefill-s24.safetensors
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:48:25[0m [90m[expert.py:415][0m Expert offload: 48 layers split: 8582 VRAM-only experts, 480 swap slots, arena 11.05 GiB, host 20.09 GiB registered, 20.09 GiB long-term pinned, host rows prepacked on the GPU; host budget 20.09 GiB per-rank share of 40.18 GiB; arena counted as weights
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:48:25[0m [90m[gpu_stream_ops.py:148][0m PLE offload stream-ops backend latched: StreamOpsBackend.HIP
+[0;36m(Worker_TP1 pid=121)[0;0m [32mINFO[0m [90m10-11 00:48:25[0m [90m[expert.py:415][0m Expert offload: 48 layers split: 8582 VRAM-only experts, 480 swap slots, arena 11.05 GiB, host 20.09 GiB registered, 20.09 GiB long-term pinned, host rows prepacked on the GPU; host budget 20.09 GiB per-rank share of 40.18 GiB; arena counted as weights
+[0;36m(PleOffloadWorker pid=320)[0;0m [32mINFO[0m [90m10-11 00:48:25[0m [90m[worker.py:1034][0m PLE direct: language_model.model.layers.1.ple.ple_embedding dp0 ring /dev/shm/vllm-ple-direct-f60fbaedba6b-dp0-0: 2 token slots x 16 heads, 8192 B granules (0.3 MiB), dio align 512, queue depth 512, table /app/pleoffload/ple_nvme/language_model_model_layers_1_ple_ple_embedding.bin
+[0;36m(Worker_TP1 pid=121)[0;0m [33mWARNING[0m [90m10-11 00:48:31[0m [90m[expert_plan.py:866][0m expert offload plan check (this rank): runtime overhead planned 5.4 GiB, measured 1.91 GiB (-3.49); KV planned 7809 B/token, measured 7809 B/token (+0). Update the registry entry if this drifts.
+[0;36m(Worker_TP0 pid=120)[0;0m [33mWARNING[0m [90m10-11 00:48:31[0m [90m[expert_plan.py:866][0m expert offload plan check (this rank): runtime overhead planned 5.4 GiB, measured 1.95 GiB (-3.45); KV planned 7809 B/token, measured 7809 B/token (+0). Update the registry entry if this drifts.
+[0;36m(Worker_TP0 pid=120)[0;0m [32mINFO[0m [90m10-11 00:48:31[0m [90m[gpu_worker.py:842][0m expert offload: KV capped at the plan's reserve 0.49 GiB; 3.45 GiB of overhead headroom stays free

@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.72184528125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8153135623678647
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.7383876015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8316790380549683
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.740008525390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8336038583509513
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.728665923828125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8219773805496828
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.735432357421875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8289622642706131
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.7282827265625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.821869957716702
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.735782001953125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8286621670190275
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.7298108046875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8216925031712474
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.724220494140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.816069687103594
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.7266605,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.8188788710359407
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.7219537578125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 473,
+    "novel_nll": 1.814569957716702
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "legal_16384_2",
+ "domain": "legal",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/legal_16384_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16896
+}

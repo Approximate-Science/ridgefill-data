@@ -1,0 +1,63 @@
+2026-10-10T11:10:34-05:00 FINAL start: run WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/final-det-20261010, overlay WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3, code d1164746aa21b3f339db6d8bd2919601db450d7f
+2026-10-10T11:10:35-05:00 OVERLAY dir WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3 sha256 37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac  SHA256SUMS (1 files)
+2026-10-10T11:10:35-05:00 BOOT exact (since 2026-10-10 11:10:35)
+2026-10-10T11:10:35-05:00 memory.high 107374182400
+2026-10-10T11:13:55-05:00 HEALTHY exact after 200 s
+2026-10-10T11:13:55-05:00 OVERLAY ok in the container: 1 files
+2026-10-10T11:14:30-05:00 START exact ppl:a
+2026-10-10T12:00:55-05:00 END exact ppl:a rc=0
+2026-10-10T12:00:55-05:00 START exact ppl:b
+2026-10-10T12:47:25-05:00 END exact ppl:b rc=0
+2026-10-10T12:47:25-05:00 START exact pplchat:a
+2026-10-10T13:03:26-05:00 END exact pplchat:a rc=0
+2026-10-10T13:03:26-05:00 START exact pplfresh:a
+2026-10-10T13:05:04-05:00 END exact pplfresh:a rc=0
+2026-10-10T13:05:04-05:00 START exact rulerinst:a
+2026-10-10T15:28:36-05:00 END exact rulerinst:a rc=0
+2026-10-10T15:28:36-05:00 START exact ruler64inst:a
+2026-10-10T16:03:08-05:00 END exact ruler64inst:a rc=0
+2026-10-10T16:03:08-05:00 START exact speed:a
+2026-10-10T16:12:14-05:00 END exact speed:a rc=0
+2026-10-10T16:12:46-05:00 STOPPED exact
+2026-10-10T16:12:48-05:00 OVERLAY dir WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3 sha256 37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac  SHA256SUMS (1 files)
+2026-10-10T16:12:48-05:00 BOOT graded (since 2026-10-10 16:12:48)
+2026-10-10T16:12:48-05:00 memory.high 107374182400
+2026-10-10T16:15:58-05:00 HEALTHY graded after 190 s
+2026-10-10T16:15:58-05:00 OVERLAY ok in the container: 1 files
+2026-10-10T16:15:58-05:00 POLICY ok: [0;36m(EngineCore pid=74)[0;0m [32mINFO[0m [90m10-10 21:15:57[0m [90m[ced.py:422][0m CED on (quality): projector /c5proj/ridgefill-s24.safetensors split 24 taps (24,), exact tail 2048 (unrounded), min prompt 8192, correction ridgefill-s24-st x 1.0 (2 rank files), exact rows class56-cap+mixed+piece-s25 ranked by /c5proj/freq.safetensors
+2026-10-10T16:16:57-05:00 START graded ppl:a
+2026-10-10T16:54:15-05:00 END graded ppl:a rc=0
+2026-10-10T16:54:15-05:00 START graded pplchat:a
+2026-10-10T17:06:44-05:00 END graded pplchat:a rc=0
+2026-10-10T17:06:44-05:00 START graded pplfresh:a
+2026-10-10T17:08:02-05:00 END graded pplfresh:a rc=0
+2026-10-10T17:08:02-05:00 START graded rulerinst:a
+2026-10-10T19:02:03-05:00 END graded rulerinst:a rc=0
+2026-10-10T19:02:03-05:00 START graded ruler64inst:a
+2026-10-10T19:25:18-05:00 END graded ruler64inst:a rc=0
+2026-10-10T19:25:18-05:00 START graded speed:a
+2026-10-10T19:41:36-05:00 END graded speed:a rc=0
+2026-10-10T19:41:36-05:00 START graded control:a
+2026-10-10T19:44:54-05:00 END graded control:a rc=0
+2026-10-10T19:45:25-05:00 STOPPED graded
+2026-10-10T19:45:26-05:00 OVERLAY dir WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3 sha256 37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac  SHA256SUMS (1 files)
+2026-10-10T19:45:26-05:00 BOOT ridgefill (since 2026-10-10 19:45:26)
+2026-10-10T19:45:26-05:00 memory.high 107374182400
+2026-10-10T19:48:37-05:00 HEALTHY ridgefill after 191 s
+2026-10-10T19:48:37-05:00 OVERLAY ok in the container: 1 files
+2026-10-10T19:48:37-05:00 POLICY ok: [0;36m(EngineCore pid=74)[0;0m [32mINFO[0m [90m10-11 00:48:33[0m [90m[ced.py:422][0m CED on (plain): projector /c5proj/ridgefill-s24.safetensors split 24 taps (24,), exact tail 2048 (unrounded), min prompt 8192, correction none, exact rows none
+2026-10-10T19:49:33-05:00 START ridgefill ppl:a
+2026-10-10T20:20:19-05:00 END ridgefill ppl:a rc=0
+2026-10-10T20:20:19-05:00 START ridgefill pplchat:a
+2026-10-10T20:30:56-05:00 END ridgefill pplchat:a rc=0
+2026-10-10T20:30:56-05:00 START ridgefill pplfresh:a
+2026-10-10T20:32:02-05:00 END ridgefill pplfresh:a rc=0
+2026-10-10T20:32:02-05:00 START ridgefill rulerinst:a
+2026-10-10T22:05:36-05:00 END ridgefill rulerinst:a rc=0
+2026-10-10T22:05:36-05:00 START ridgefill ruler64inst:a
+2026-10-10T22:25:29-05:00 END ridgefill ruler64inst:a rc=0
+2026-10-10T22:25:29-05:00 START ridgefill speed:a
+2026-10-10T22:40:26-05:00 END ridgefill speed:a rc=0
+2026-10-10T22:40:58-05:00 STOPPED ridgefill
+2026-10-10T22:40:59-05:00 OVERLAY dir WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3 sha256 37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac  SHA256SUMS (1 files)
+2026-10-10T22:40:59-05:00 BOOT ridgefill-corr (since 2026-10-10 22:40:59)

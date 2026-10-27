@@ -1,0 +1,18 @@
+{"t": 1792970929.9158368, "processes": []}
+{"t": 1792970930.27516, "processes": [{"pid": 22914, "used_mib": 12, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970930.5766883, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970930.8781922, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970931.1759133, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970931.477743, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970931.7764173, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970932.7342153, "processes": [{"pid": 22914, "used_mib": 416, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970933.0486934, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970933.351454, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970933.6524537, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970933.9545162, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970934.2542949, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970934.552427, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970935.0832422, "processes": [{"pid": 22914, "used_mib": 16136, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970935.3796165, "processes": [{"pid": 22914, "used_mib": 18642, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970935.6777804, "processes": [{"pid": 22914, "used_mib": 18642, "uuid": "GPU_UUID-1"}]}
+{"t": 1792970935.9767137, "processes": [{"pid": 22914, "used_mib": 18642, "uuid": "GPU_UUID-1"}]}

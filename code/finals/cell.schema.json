@@ -1,0 +1,492 @@
+{
+ "title": "RidgeFill paper final battery: one cell (one model x one battery part) on a rented box",
+ "$comment": "Validated by finals/lib/cellcheck.py (a fail-closed mini-validator: every keyword here is implemented there; anything else is an error). Cell v2 (protocol 1.1, 2026-10-04). Reference-model cells (ruler, longbench, nll, decode, secondq, speed, mechanism) are lists of harness runs; finals/lib/kvabackend.py turns each (set, variant, model, tasks, lengths) group of runs into one scripts/evaluate.py config whose arms are kva.protocol.template() specs (protocol 1.1 rows by construction). Arm names are the paper's (protocol.json arm_aliases plus the v1.1 kinds, kvabackend PAPER); 'exact' runs in every harness run and is listed in every run. The flashnext cell (the engine tier, run by its own driver, not by kvabackend) declares arms, sets, split_layer, declared_share, positive_control and margins instead of runs. 'split' is the primary split (finals/tables.py reads it). Cells are written by finals/make_cells.py; registration is the FINAL- ledger id whose record pins the cell's and every config's sha256 (finals/register.sh).",
+ "type": "object",
+ "additionalProperties": false,
+ "required": [
+  "name",
+  "kind",
+  "model",
+  "split",
+  "tail",
+  "margins",
+  "dataset_manifest_sha256",
+  "deterministic",
+  "registration",
+  "code_tag"
+ ],
+ "properties": {
+  "name": {
+   "type": "string",
+   "pattern": "^[a-z0-9][a-z0-9.-]*$"
+  },
+  "kind": {
+   "enum": [
+    "ruler",
+    "longbench",
+    "nll",
+    "decode",
+    "secondq",
+    "speed",
+    "mechanism",
+    "flashnext",
+    "nll-causal",
+    "ruler-deep",
+    "nll-fresh"
+   ]
+  },
+  "model": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "commit"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "name": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9.-]*$"
+    },
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    }
+   }
+  },
+  "swiftkv_model": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "id",
+    "name",
+    "commit"
+   ],
+   "properties": {
+    "id": {
+     "type": "string",
+     "pattern": "^[A-Za-z0-9_.-]+/[A-Za-z0-9_.-]+$"
+    },
+    "name": {
+     "type": "string",
+     "pattern": "^[a-z0-9][a-z0-9.-]*$"
+    },
+    "commit": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{40}$"
+    }
+   }
+  },
+  "tail": {
+   "type": "integer"
+  },
+  "runs": {
+   "type": "array",
+   "minItems": 1,
+   "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+     "id",
+     "set",
+     "split",
+     "role",
+     "arms"
+    ],
+    "properties": {
+     "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9][a-z0-9-]*$"
+     },
+     "set": {
+      "enum": [
+       "ruler",
+       "longbench",
+       "longppl",
+       "decode",
+       "multiturn",
+       "ttft"
+      ]
+     },
+     "split": {
+      "enum": [
+       "1/4",
+       "3/8",
+       "1/2",
+       "5/8"
+      ]
+     },
+     "role": {
+      "enum": [
+       "primary",
+       "curve",
+       "appendix",
+       "swiftkv",
+       "mechanism"
+      ]
+     },
+     "model": {
+      "enum": [
+       "swiftkv"
+      ]
+     },
+     "variant": {
+      "enum": [
+       "qfirst"
+      ]
+     },
+     "arms": {
+      "type": "array",
+      "minItems": 2,
+      "uniqueItems": true,
+      "items": {
+       "enum": [
+        "exact",
+        "nofill",
+        "identity",
+        "pop-native",
+        "ridgefill",
+        "identity+rows",
+        "ridgefill+rows",
+        "identity+qblind",
+        "ridgefill+qblind",
+        "identity+random",
+        "ridgefill+random",
+        "identity+tailmatch",
+        "ridgefill+tailmatch",
+        "nofill+tailbudget",
+        "ridgefill+kexact",
+        "ridgefill+vexact",
+        "kvexact",
+        "ridgefill+ktail",
+        "ridgefill+vtail",
+        "swiftkv",
+        "swiftkv-native"
+       ]
+      }
+     },
+     "tasks": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+       "enum": [
+        "niah_single_1",
+        "niah_multikey_1",
+        "niah_multivalue",
+        "niah_multiquery",
+        "vt",
+        "cwe",
+        "fwe",
+        "qa_1"
+       ]
+      }
+     },
+     "lengths": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+       "enum": [
+        8192,
+        16384,
+        32768,
+        65536
+       ]
+      }
+     }
+    }
+   }
+  },
+  "caps": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "ruler_max_len": {
+     "type": "integer"
+    },
+    "longbench_max_len": {
+     "type": "integer"
+    },
+    "longppl_max_len": {
+     "type": "integer"
+    },
+    "ruler_max_new": {
+     "type": "object",
+     "additionalProperties": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 128
+     }
+    }
+   }
+  },
+  "skipped": {
+   "type": "array",
+   "uniqueItems": true,
+   "items": {
+    "type": "string",
+    "pattern": "^(ruler|long-prompts)/[A-Za-z0-9_.-]+$"
+   }
+  },
+  "keytoken": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "tail",
+    "threshold"
+   ],
+   "properties": {
+    "tail": {
+     "const": 4096
+    },
+    "threshold": {
+     "const": 2.0
+    }
+   }
+  },
+  "tailbudget": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "b",
+    "basis"
+   ],
+   "properties": {
+    "b": {
+     "type": "number"
+    },
+    "basis": {
+     "type": "string"
+    }
+   }
+  },
+  "decode": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "from",
+    "steps",
+    "only"
+   ],
+   "properties": {
+    "from": {
+     "const": "longppl"
+    },
+    "steps": {
+     "const": 512
+    },
+    "only": {
+     "type": "array",
+     "minItems": 20,
+     "uniqueItems": true,
+     "items": {
+      "type": "string",
+      "pattern": "^lp-[A-Za-z0-9_.-]+$"
+     }
+    }
+   }
+  },
+  "secondq": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "from",
+    "turns"
+   ],
+   "properties": {
+    "from": {
+     "const": "ruler"
+    },
+    "turns": {
+     "const": 2
+    }
+   }
+  },
+  "projector": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "provenance",
+    "files"
+   ],
+   "properties": {
+    "provenance": {
+     "type": "object",
+     "additionalProperties": false,
+     "required": [
+      "calib_rows",
+      "calib_docs",
+      "calib_exclude_sha256",
+      "fitted_after"
+     ],
+     "properties": {
+      "calib_rows": {
+       "type": "integer"
+      },
+      "calib_docs": {
+       "type": "integer"
+      },
+      "calib_exclude_sha256": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{64}$"
+      },
+      "fitted_after": {
+       "type": "string",
+       "pattern": "^[0-9a-f]{7,40}$"
+      }
+     }
+    },
+    "files": {
+     "type": "array",
+     "minItems": 1,
+     "items": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+       "layer",
+       "file"
+      ],
+      "properties": {
+       "layer": {
+        "type": "integer"
+       },
+       "file": {
+        "type": "string",
+        "pattern": "^[a-z0-9.-]+-sweep-s[0-9]+\\.safetensors$"
+       },
+       "sha256": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+       }
+      }
+     }
+    }
+   }
+  },
+  "derived": {
+   "type": "object",
+   "additionalProperties": false,
+   "properties": {
+    "ruler-twokey": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    },
+    "ruler-qfirst": {
+     "type": "string",
+     "pattern": "^[0-9a-f]{64}$"
+    }
+   }
+  },
+  "dataset_manifest_sha256": {
+   "type": "string",
+   "pattern": "^[0-9a-f]{64}$"
+  },
+  "dataset": {
+   "$comment": "optional: absent = the locked set (datasets/test-set-locked). A named frozen set replaces it (longppl only; on the box the directory of that name beside KVA_LOCKED_DIR); dataset_manifest_sha256 is then that set's MANIFEST.tsv sha256",
+   "enum": [
+    "fresh-long-20261008"
+   ]
+  },
+  "deterministic": {
+   "const": true
+  },
+  "registration": {
+   "type": "string",
+   "pattern": "^FINAL-[A-Z0-9-]+$"
+  },
+  "code_tag": {
+   "type": "string",
+   "pattern": "^protocol-v[0-9]+\\.[0-9]+(\\.[0-9]+)?$"
+  },
+  "note": {
+   "type": "string"
+  },
+  "split": {
+   "enum": [
+    "1/4",
+    "3/8",
+    "1/2",
+    "5/8",
+    "-"
+   ]
+  },
+  "split_layer": {
+   "type": "integer"
+  },
+  "arms": {
+   "type": "array",
+   "minItems": 2,
+   "uniqueItems": true,
+   "items": {
+    "type": "string",
+    "pattern": "^(exact|exact-rerun|identity|ridgefill)(\\+[a-z0-9]+)*$"
+   }
+  },
+  "sets": {
+   "type": "array",
+   "minItems": 1,
+   "uniqueItems": true,
+   "items": {
+    "enum": [
+     "pg19",
+     "ruler",
+     "decode",
+     "ttft"
+    ]
+   }
+  },
+  "declared_share": {
+   "type": "integer"
+  },
+  "positive_control": {
+   "type": "string"
+  },
+  "max_len": {
+   "type": "integer"
+  },
+  "margins": {
+   "type": "object",
+   "additionalProperties": false,
+   "required": [
+    "ppl_ratio_upper_pct",
+    "ruler_points_lower"
+   ],
+   "properties": {
+    "ppl_ratio_upper_pct": {
+     "type": "number"
+    },
+    "ruler_points_lower": {
+     "type": "number"
+    },
+    "ttft_min_speedup": {
+     "type": "number"
+    },
+    "ttft_length": {
+     "type": "integer"
+    }
+   }
+  }
+ },
+ "$semantic": {
+  "$comment": "cross-field rules checked by cellcheck.semantic (not expressible in the schema subset)",
+  "exact_in_every_run": "every run lists 'exact' (the harness runs it in every config; it is every contrast's reference)",
+  "run_ids_unique": "run ids are unique within a cell (they name the harness configs)",
+  "primary_run": "a reference cell has a run with role 'primary' at its split (3/8); split is '3/8' and tail 4096 for reference cells",
+  "swiftkv_runs": "arms 'swiftkv' / 'swiftkv-native' only in runs with model 'swiftkv', which list nothing else but 'exact', and need 'swiftkv_model' and a llama model",
+  "controls_need_their_rows_arm": "identity+random / identity+tailmatch need identity+rows in the same run; ridgefill+random / ridgefill+tailmatch need ridgefill+rows",
+  "qblind_at_the_blind_split": "the qblind arms run at 3/8 only (protocol.json blind_splits)",
+  "tailbudget_declared": "arm 'nofill+tailbudget' needs 'tailbudget' (b, and how it was computed)",
+  "ridgefill_requires_projector": "any ridgefill arm (and kvexact) needs 'projector' with its provenance",
+  "set_blocks": "a longppl run needs 'keytoken'; a decode run 'decode'; a multiturn run 'secondq' and derived 'ruler-twokey'; a qfirst run (set ruler) derived 'ruler-qfirst'",
+  "dataset_longppl_only": "a cell with 'dataset' is an nll or nll-causal cell whose runs are all set longppl (the other sets exist on the locked set only)",
+  "final_tbd_flagged": "registration 'FINAL-TBD' is a warning: not registered yet, run_final.sh refuses it",
+  "flashnext_cell": "kind flashnext: no runs; split '-', split_layer, arms, sets, declared_share, positive_control and margins with all four keys; reference cells declare none of these",
+  "row_selection": "tasks / lengths only on ruler runs (lengths also on multiturn runs); no length over max_len",
+  "projector_unpinned": "a projector file without sha256 is a WARNING: the cell cannot be registered or run until the clean refit's sha256 is declared (make_cells.py reads it from the clean fit report)"
+ }
+}

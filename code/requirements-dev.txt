@@ -1,0 +1,6 @@
+# Development-only packages: NOT needed to run the harness or the table generator.
+# scipy is the independent oracle for finals/stats.py (tests/test_finals_stats.py compares its BCa bootstrap with
+# scipy.stats.bootstrap(method="BCa")); without it those oracle tests SKIP by name. Install into the repo venv with
+#   .venv/bin/python -m pip install --no-deps -r requirements-dev.txt
+# (--no-deps keeps the pinned numpy of requirements.txt; scipy 1.18.1 was verified with numpy 2.5.3 on 2026-10-04).
+scipy==1.18.1

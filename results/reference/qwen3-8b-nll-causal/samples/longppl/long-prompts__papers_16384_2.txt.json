@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.3879426377952755,
+    "key_nll": 4.7295982,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.4413294876033058
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.4804695059055117,
+    "key_nll": 5.766911599999999,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.5280576756198347
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.4788421318897638,
+    "key_nll": 5.7289501000000005,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.5237687086776859
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.4248614783464566,
+    "key_nll": 5.4383553,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.4785728533057851
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.4469523287401576,
+    "key_nll": 5.4577855,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.4954232892561983
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.4761601811023621,
+    "key_nll": 5.8208321000000005,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.524012665289256
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.5208358622047244,
+    "key_nll": 5.8449454,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.5673468760330578
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.4526242834645668,
+    "key_nll": 5.8823712,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.4997914752066117
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.4149743090551181,
+    "key_nll": 5.624242199999999,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.4667276694214877
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.4331292460629923,
+    "key_nll": 5.5331318,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.480043435950413
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.4527517814960629,
+    "key_nll": 5.9670941,
+    "n_key": 10,
+    "n_novel": 484,
+    "novel_nll": 1.500356276859504
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "papers_16384_2",
+ "domain": "papers",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_16384_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16454
+}

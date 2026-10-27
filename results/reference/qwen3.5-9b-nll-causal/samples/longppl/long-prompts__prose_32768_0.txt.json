@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.35637190234375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.35637190234375
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.359644662109375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.359644662109375
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.358748275390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.358748275390625
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.3562349472656248,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.3562349472656248
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.358576900390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.358576900390625
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.3581736875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.3581736875
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.358479482421875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.358479482421875
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.3561103359375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.3561103359375
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.357093767578125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.357093767578125
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.358325462890625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.358325462890625
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.35728394921875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.35728394921875
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "prose_32768_0",
+ "domain": "prose",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/prose_32768_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33280
+}

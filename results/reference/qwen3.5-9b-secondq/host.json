@@ -1,0 +1,11 @@
+{
+ "fingerprint": "44bb4ffca6174826db7f61b0db7a25fc90ac8cfadba7d08b72b2510c584d099b",
+ "host": {
+  "commit": "42028dfc3e04cd1b46bcf231d37b35f200b8bd64",
+  "driver": "595.91.07",
+  "gpu_name": "NVIDIA A100-PCIE-40GB",
+  "host": "0ca9f396574f",
+  "machine": "x86_64",
+  "torch": "2.11.0+cu128"
+ }
+}

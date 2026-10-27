@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.10603238671875,
+    "key_nll": 6.42678,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1251639980119283
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.1086910859375,
+    "key_nll": 6.552933,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1279132087475148
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.105417068359375,
+    "key_nll": 6.560968,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1245827137176938
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.107781033203125,
+    "key_nll": 6.139703,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1268767793240557
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.10186812890625,
+    "key_nll": 6.366277,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1207757355864811
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.108829986328125,
+    "key_nll": 6.548937,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1280165646123261
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.1061084609375,
+    "key_nll": 6.464487,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.125277500994036
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.108581083984375,
+    "key_nll": 6.253845,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1278084135188868
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.1073062109375,
+    "key_nll": 6.128068,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.126448554671968
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.10094706640625,
+    "key_nll": 6.321613,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1198685546719682
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.11005205859375,
+    "key_nll": 6.466145,
+    "n_key": 1,
+    "n_novel": 503,
+    "novel_nll": 1.1292553598409543
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "chat_8192_4",
+ "domain": "chat",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/chat_8192_4.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8704
+}

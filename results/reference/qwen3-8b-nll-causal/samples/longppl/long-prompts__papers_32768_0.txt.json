@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.9518087386138614,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 1.999116881147541
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.9708535148514852,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.0229094897540985
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.967115213861386,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.0184722622950817
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.9503910514851486,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 1.9998905840163934
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.9511704613861387,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.001286454918033
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.9665440574257425,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.019944694672131
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.9907380455445545,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.042313879098361
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.9802619623762376,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.0352867459016393
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.9619850732673267,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.012858725409836
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.9600477722772276,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.013807262295082
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.9792271663366336,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 488,
+    "novel_nll": 2.0336329241803277
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "papers_32768_0",
+ "domain": "papers",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_32768_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 32881
+}

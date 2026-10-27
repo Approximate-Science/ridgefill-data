@@ -1,0 +1,222 @@
+{
+ "version": "1.1.6",
+ "adopted": "2026-10-10",
+ "phase": "development",
+ "doc": "paper/PROTOCOL.md",
+ "ledger": "ledger/paper/ledger.jsonl",
+ "models": {
+  "llama-3.1-8b-instruct": {
+   "layers": 32,
+   "kind": "dense",
+   "engine": "reference",
+   "precision": "bf16",
+   "niah_format": "chat",
+   "splits": [
+    8,
+    12,
+    16,
+    20
+   ],
+   "pop_split": 22
+  },
+  "llama-3.1-swiftkv-8b-instruct": {
+   "layers": 32,
+   "kind": "dense",
+   "engine": "reference",
+   "precision": "bf16",
+   "niah_format": "chat",
+   "baseline_only": true,
+   "splits": [
+    16
+   ]
+  },
+  "qwen3.5-9b": {
+   "layers": 32,
+   "kind": "hybrid",
+   "engine": "reference",
+   "precision": "bf16",
+   "niah_format": "raw",
+   "splits": [
+    8,
+    12,
+    16,
+    20
+   ],
+   "pop_split": 22
+  },
+  "qwen3-8b": {
+   "layers": 36,
+   "kind": "dense",
+   "engine": "reference",
+   "precision": "bf16",
+   "niah_format": "raw",
+   "splits": [
+    9,
+    13,
+    18,
+    22
+   ],
+   "pop_split": 24,
+   "max_len": 32768,
+   "note": "dense with per-head q/k RMSNorm (QK-norm), no GDN; native window 40,960 (max_position_embeddings, no RoPE scaling): runs at <= 32K only, no YaRN (decided 2026-10-04), so the 64K RULER cell and the long-prompt documents over 32K are not run; niah_format raw (its chat template thinks by default)"
+  },
+  "qwen3.8-27b": {
+   "layers": 64,
+   "kind": "hybrid",
+   "engine": "tcclaviger-vllm",
+   "precision": "fp8",
+   "splits": [
+    16,
+    24,
+    32
+   ]
+  },
+  "qwen3.8-flash-next": {
+   "layers": 48,
+   "kind": "hybrid-moe",
+   "engine": "tcclaviger-vllm",
+   "precision": "mxfp4",
+   "optional": true,
+   "splits": [
+    12,
+    16,
+    24
+   ],
+   "niah_format": "chat",
+   "niah_prefix": "instruct"
+  }
+ },
+ "depths": [
+  0.25,
+  0.375,
+  0.5,
+  0.625
+ ],
+ "tails": [
+  1024,
+  4096
+ ],
+ "banned_model_substrings": [
+  "censored",
+  "abliterat",
+  "heretic"
+ ],
+ "banned_engine_builds": [
+  "29.06"
+ ],
+ "engine_image": "sha256:2703275702ab6316ee91502df75486b421d0d661a99b04000c08859d91a42585",
+ "engine_tail": "engine runs: tail start = (N - max(T, 512)) // block * block (his planner); the block size is read at server boot, the real tail is recorded per request, and the reference side of any comparison uses the same rounding (arm option tail_round, base >= 512). tail_round is refused with a select (rows would be picked against the unrounded boundary) and with tail_from",
+ "engine_tier": {
+  "rule": "v1.1.1 clarification of 'no non-deterministic runs' (not an exemption): engine-tier results are reported only with their tier label and the same-boot exact-vs-exact noise floor; an engine FINAL- run requires the deterministic top-k fix; pre-fix engine numbers appear only in the negative-results and lever tables, under prefix_label, never in a claim",
+  "final_requires": "deterministic top-k (QSA indexer selection) in the engine build",
+  "prefix_label": "engine, pre-deterministic-fix, run noise about +-0.01 nats/doc",
+  "c5_image": {
+   "image": "tcclaviger/vllm:29.08.10",
+   "id": "sha256:809657ddb1533db10a0c08267c3ee6fde180b839e379713414efa121415914a3",
+   "scope": "v1.1.4: the C5 Flash-Next final tier only (FINAL-FLASHNEXT-C5); RidgeFill is built into this build (vllm/v1/ced.py, vllm/models/qwen4_exp/amd/ced.py). engine_image stays the image of all earlier engine work (27B, the 2026-10-04 Flash-Next development runs). v1.1.6: the C5 engine build is this image plus the overlay below, which meets final_requires; C5 results from the image alone (2026-10-08 to 2026-10-10) are pre-fix and carry prefix_label",
+   "overlay": {
+    "files": {
+     "models/qwen4_exp/amd/ops/qsa.py": "eaf0dd1975799f4c8897cbea62791de44fd28322758fb9891cbe7ff0ef52db99"
+    },
+    "sha256sums_sha256": "37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac",
+    "mount": "each file read-only over /opt/vllm/lib/python3.14/site-packages/vllm/<path>; the C5 kit checks the sums before boot and inside the running container (C5_ENGINE_OVERLAY)",
+    "fix": "the deterministic top-k fix for 29.08.10: libr4d's fused QSA block select returns its blocks in a run-dependent order and breaks exact score ties run-dependently once it scores more than 2048 block columns (context above 8192 tokens; decode always); the overlay sorts the fused select's output ascending and, above 2048 columns, takes the block top-k in torch with exact ties to the lower block index, expanded by the engine's own Triton kernel, plus a NaN guard",
+    "verified": "2026-10-10, ridgefill-determinism-20261010 ledger D1-D9c: identical requests bitwise equal 3x on one boot and across two boots, exact and graded paths, prompt logprobs 8K-32K and greedy generation 16K-64K, and A-B-A on one boot; cost vs the image alone: prefill +0.0 to +1.5% (16K-64K), decode -5 to -7%"
+   }
+  }
+ },
+ "arms": {
+  "exact": "the full model",
+  "noproj": "fill identity: late layers' K/V and GDN updates from the layer-S state (POP-style; not POP itself). Paper: identity (POP's fill at our split and tail)",
+  "kva": "fill proj with the standard full-rank sweep projector of this split. Paper: ridgefill",
+  "skip": "fill none: prefix rows never reach the late layers (plain layer skip). Paper: nofill (the exact tail alone; POP's 'w/o Indep. KV' ablation, checks/T0.1)",
+  "noproj+qattn5": "noproj + exact rows: top 5% by question-window attention (legacy rows; the paper's rows arms are qattn10)",
+  "kva+qattn5": "kva + exact rows: top 5% by question-window attention (legacy rows; the paper's rows arms are qattn10)",
+  "noproj+qblind5": "noproj + exact rows chosen from the 64 rows before P only (question-blind)",
+  "kva+qblind5": "kva + exact rows chosen from the 64 rows before P only (question-blind)",
+  "kva+st": "kva + GDN terminal-state correction (hybrids only)",
+  "swiftkv": "SwiftKV maps + exact tail: the SwiftKV checkpoint's trained maps fill the prefix rows' late K/V at its split; the exact tail and decode run the base model (Llama baseline; compare only at matched compute). SwiftKV as released is its own kind, swiftkv-native",
+  "noproj+qattn10": "noproj + exact rows: top 10% by question-window attention. Paper: identity+rows",
+  "kva+qattn10": "kva + exact rows: top 10% by question-window attention. Paper: ridgefill+rows",
+  "noproj+qblind10": "noproj + exact rows: top 10% chosen from the 64 rows before P only (question-blind: the selector reads the document only), at the blind split (T1.4)",
+  "kva+qblind10": "kva + exact rows: top 10% chosen from the 64 rows before P only (question-blind: the selector reads the document only), at the blind split (T1.4)",
+  "pop-native": "POP as published (arXiv:2602.03295; checks/T0.1): fill identity at the model's pop_split = L - floor(L/3), the exact tail = the scored rows, set per prompt (\"tail_from\": \"continuation\", no \"tail\"): grade 513, longppl the continuation + 1, generation sets 1 (POP's last prompt token run as the first decode step). Hybrids: GDN layers filled as ours (labelled)",
+  "swiftkv-native": "SwiftKV as released (fill swiftkv_native, no exact tail): every row's late K/V from SwiftKV's maps, queries through q_proj_swiftkv, prefill and decode; the baseline model at its split (R6; scripts/swiftkv_report.py pairs it with both exacts)",
+  "kva+kexact": "splice (T2.1, interventional; diagnostic: reads the true late inputs): kva with the late attention layers' prefix K from their true inputs (exact_part k), V filled",
+  "kva+vexact": "splice (T2.1): kva with the late attention layers' prefix V from their true inputs (exact_part v), K filled",
+  "kvexact": "splice (T2.1): K and V of every late attention layer from the true inputs; dense models: fill oracle (= exact prefill, a sanity row); hybrids: fill_by_type attention oracle, gdn proj with the sweep projector (the GDN-only error of kva)",
+  "kva+ktail": "kva with the filled prefix K of the late attention layers rescaled per KV head by the tail-measured norm ratio (rescale ktail; T2.2: a test on dense models, a demonstration on QK-normed ones)",
+  "kva+vtail": "kva with the filled prefix V rescaled by the tail-measured norm ratio (rescale vtail; appendix)",
+  "noproj+random": "random-rows control (T1.5): noproj + uniformly random exact prefix rows, as many as the rows arm named in select.match (same fill, split and tail, same config) picked on the same prompt",
+  "kva+random": "random-rows control (T1.5): kva + uniformly random exact prefix rows, as many as the rows arm named in select.match (same fill, split and tail, same config) picked on the same prompt",
+  "noproj+tailmatch": "tail-budget control for rows (T1.5): noproj, no exact rows; the exact tail grows by the row count of the rows arm named in select.match (same fill, split and tail, same config)",
+  "kva+tailmatch": "tail-budget control for rows (T1.5): kva, no exact rows; the exact tail grows by the row count of the rows arm named in select.match (same fill, split and tail, same config)",
+  "skip+tailbudget": "tail-budget control for the fill (T1.5): nofill with round(b x N) more exact tail rows (select start_recent, start 0, budget b; b declared in the FINAL record from the fill's measured or modelled cost)"
+ },
+ "arm_aliases": {
+  "nofill": "skip",
+  "identity": "noproj",
+  "ridgefill": "kva",
+  "identity+rows": "noproj+qattn10",
+  "ridgefill+rows": "kva+qattn10"
+ },
+ "outside_battery": [
+  "kva+kexact",
+  "kva+vexact",
+  "kvexact",
+  "kva+ktail",
+  "kva+vtail",
+  "noproj+random",
+  "kva+random",
+  "noproj+tailmatch",
+  "kva+tailmatch",
+  "skip+tailbudget"
+ ],
+ "contrasts": [
+  [
+   "kva",
+   "noproj"
+  ],
+  [
+   "kva+qattn10",
+   "noproj+qattn10"
+  ]
+ ],
+ "sets": {
+  "dev": [
+   "grade",
+   "niah",
+   "niah-mk4"
+  ],
+  "labelled": [
+   "grade-chat",
+   "niahg"
+  ],
+  "locked": [
+   "ruler",
+   "longbench",
+   "long-prompts"
+  ],
+  "derived": [
+   "decode",
+   "multiturn"
+  ]
+ },
+ "max_primary_contrasts": 2,
+ "keytoken_threshold": 2.0,
+ "depths_note": "splits at 1/4, 3/8, 1/2 and 5/8 of the layers on the reference models (the engine models keep 1/4, 3/8, 1/2), on the boundary below for a non-integer depth (Qwen3-8B: 3/8 x 36 = 13.5 -> 13, 5/8 -> 22) and on a block boundary for hybrids (Flash-Next: 16 = 1/3, the boundary below 3/8, kept for continuity); pop-native runs at each model's pop_split",
+ "blind_splits": {
+  "llama-3.1-8b-instruct": 12,
+  "qwen3.5-9b": 12,
+  "qwen3-8b": 13,
+  "qwen3.8-27b": 24,
+  "qwen3.8-flash-next": 16
+ },
+ "ruler_max_new": {
+  "tasks": {
+   "niah_single_1": 32,
+   "niah_multikey_1": 32
+  },
+  "note": "v1.1.2 (Dylan, 2026-10-07): RULER cells registered from 1.1.2 cap generation for the two single-answer NIAH tasks at 32 tokens; every other task keeps RULER's tokens_to_generate (niah 128, vt 30, cwe 120, fwe 50, qa 32). Raw-format Qwen runs never emit end-of-turn, so these arms generated 128 tokens to score answers of 8-9. Basis: truncating the 3,556 NIAH arm-rows of FINAL-QWEN3-8B-RULER to these budgets changed 1 row and no arm's score (checks/ruler-gen-cap.md in the paper workspace). Cells registered before 1.1.2 ran at RULER's budgets and are not re-run."
+ }
+}

@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.2575266938775511,
+    "key_nll": 6.415185,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.4667169534313726
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.3329731918367347,
+    "key_nll": 7.516881,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.5577456568627452
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.3232846734693877,
+    "key_nll": 7.550735,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.5471763946078432
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.2762653612244899,
+    "key_nll": 7.249465,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.4875611789215688
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.3010655897959185,
+    "key_nll": 7.321801,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.5212899093137255
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.318291163265306,
+    "key_nll": 7.437218,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.5416099705882351
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.3604615836734693,
+    "key_nll": 7.801957,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.5934970980392156
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.2948314081632653,
+    "key_nll": 7.852935,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.508488806372549
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.2403753775510205,
+    "key_nll": 6.681685,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.4424903995098037
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.2766955040816326,
+    "key_nll": 8.350726,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.488774269607843
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.2799101469387755,
+    "key_nll": 7.761408,
+    "n_key": 1,
+    "n_novel": 408,
+    "novel_nll": 1.490104818627451
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "papers_8192_3",
+ "domain": "papers",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_8192_3.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8568
+}

@@ -1,0 +1,9 @@
+{
+ "cell": "qwen3-8b-decode",
+ "length": 65536,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/tech_doc_65536_2.txt",
+ "set": "decode",
+ "skipped": "over max_len 32768 (declared in the cell; no YaRN)",
+ "tier": "locked-final"
+}

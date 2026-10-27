@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.5511589488188977,
+    "key_nll": 1.5819999999999999,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 1.6218988371607517
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.9067910925196854,
+    "key_nll": 5.42480848,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.9431197745302717
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.3525366712598426,
+    "key_nll": 4.807706,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.400109478079332
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.7125721141732284,
+    "key_nll": 2.33666112,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 1.7886397453027139
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.8503829881889766,
+    "key_nll": 5.2415353200000006,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.8871660814196245
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.7854015826771654,
+    "key_nll": 3.1587296400000002,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 1.8692389519832986
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 3.1205414015748034,
+    "key_nll": 5.757684879999999,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 3.154307647181628
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.5067491417322834,
+    "key_nll": 4.82099036,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.554946465553236
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.2369090393700786,
+    "key_nll": 3.9093594,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.2859973674321505
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.446186248031496,
+    "key_nll": 4.5309226,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.4898487348643004
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.4015566732283467,
+    "key_nll": 4.45645196,
+    "n_key": 25,
+    "n_novel": 479,
+    "novel_nll": 2.444483772442589
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "legal_32768_1",
+ "domain": "legal",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/legal_32768_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 31512
+}

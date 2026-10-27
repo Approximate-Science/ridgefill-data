@@ -1,0 +1,36 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 1.0
+   }
+  },
+  "kva": {
+   "5/8": {
+    "score": 1.0
+   }
+  },
+  "noproj": {
+   "5/8": {
+    "score": 1.0
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 1.0
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-ruler-deep",
+ "configs": [
+  "llama-3.1-8b-instruct-ruler-niah-deep"
+ ],
+ "length": 16384,
+ "needle_filled": true,
+ "protocol": "1.1.3",
+ "sample": "ruler/niah_single_1_16384.jsonl#01",
+ "set": "ruler",
+ "task": "niah_single_1",
+ "tier": "locked-final",
+ "tokens": 15619
+}

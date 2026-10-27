@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.3783969780876495,
+    "key_nll": 4.3764035,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.3783969780876495
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.4896921972111556,
+    "key_nll": 4.407107,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.4896921972111556
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.402249344621514,
+    "key_nll": 4.5427634999999995,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.402249344621514
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.472878011952191,
+    "key_nll": 4.550275,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.472878011952191
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.488044266932271,
+    "key_nll": 4.403599,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.488044266932271
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.4876822888446215,
+    "key_nll": 4.4043265,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.4876822888446215
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.4421226314741036,
+    "key_nll": 4.545825,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.4421226314741036
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.5891568884462153,
+    "key_nll": 4.1387754999999995,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.5891568884462153
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.496176452191235,
+    "key_nll": 4.088112,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.496176452191235
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.5642521952191233,
+    "key_nll": 4.0200545,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.5642521952191233
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.5660280677290834,
+    "key_nll": 4.041403000000001,
+    "n_key": 2,
+    "n_novel": 502,
+    "novel_nll": 2.5660280677290834
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "prose_8192_2",
+ "domain": "prose",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/prose_8192_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8588
+}

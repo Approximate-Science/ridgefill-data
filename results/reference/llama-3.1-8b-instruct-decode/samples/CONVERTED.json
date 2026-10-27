@@ -1,0 +1,28 @@
+{
+ "cell": "llama-3.1-8b-instruct-decode",
+ "converter": "finals/convert.py",
+ "converter_sha256": "5207b8159b67f657c997acfcc8907e9320478c934b6fc2b3d9d7ec561d63a23d",
+ "samples": {
+  "decode/long-prompts__chat_16384_2.txt.json": "c09eab12b9061cdd559c42b4932d178702d5774d706770a57b2966e6af07c3e6",
+  "decode/long-prompts__chat_16384_4.txt.json": "871ec760ba80fc996f8eab7e5e97ce69aa6d12efa7850b584a538a4bf604a8e6",
+  "decode/long-prompts__chat_32768_1.txt.json": "ab8ae8847f4c8fafdad0a3ebebb2276977c762df86493937965aa3bce5e9e532",
+  "decode/long-prompts__papers_32768_0.txt.json": "b722bc240dd40169bbbe0dce62b5e6b474a835eeac7df12862b1312c5b8ec890",
+  "decode/long-prompts__papers_32768_1.txt.json": "36fcbf1ab398128db2003fc199a4e02e4e069715ac6486b37ed6bc968f24d60c",
+  "decode/long-prompts__papers_32768_3.txt.json": "fade2883c0894ec0fbedbe0898ed90f23bf87af0039f00094b4cfec5cfbe2eef",
+  "decode/long-prompts__papers_8192_0.txt.json": "73d2ef538fe147aedb44118162c8dbca706b2762964c29920c4ead7488b22d3f",
+  "decode/long-prompts__papers_8192_3.txt.json": "f47c6b988b540f0c8db3f4f0045dd0816fbd1b7cd95a9a0392823f172909e704",
+  "decode/long-prompts__prose_16384_0.txt.json": "48da6bcbd5dfe5fd1c7f6798e169c881b1064d0c06b7d36613ce85c1748e83d7",
+  "decode/long-prompts__prose_32768_4.txt.json": "8009cd6be3adaaa3b22dc03886c21a85475511a6b868e70782e52aca6b662b65",
+  "decode/long-prompts__prose_8192_1.txt.json": "b7884762782429a63c09f474179d1a1bab5ce32e4278c6f5b0faae3142310614",
+  "decode/long-prompts__prose_8192_4.txt.json": "80f90dcd2cbd93fd724f61db82687c40717b3f6e67423c7e87bfa93275c19d4e",
+  "decode/long-prompts__source_code_16384_0.txt.json": "b3e7071fc2b67310acbc643146543295b31c161c0542abe078a8cbe8b432f1f3",
+  "decode/long-prompts__tech_doc_16384_1.txt.json": "24f57fe01d5ae06f66f1f77d9500fbd106c818de56634f2e8aae548b18a6c76b",
+  "decode/long-prompts__tech_doc_16384_2.txt.json": "37eecb4ec01ee27249ff8605c048c5380bcaf9cd399030c9a4eba11f58a0d385",
+  "decode/long-prompts__tech_doc_16384_4.txt.json": "8d42fe582836cf5698344de5d1ed157dad20e5bf3d9c8dc9915a3506266f27f9",
+  "decode/long-prompts__tech_doc_32768_0.txt.json": "133f674b50e7b49413c659ac6993b1bbdc10f09f0e0692a5f8ca22b1f20f2c07",
+  "decode/long-prompts__tech_doc_8192_1.txt.json": "3cce0844c60edacfc186bb88baeb59c1bb40f54696c5569100e030d3c67aff7f",
+  "decode/long-prompts__tech_doc_8192_3.txt.json": "39d7287a53fdc5c26229dd39a7db5a692422b8e3254c6fc1fd8a0a8e29c2c3fe",
+  "decode/long-prompts__tech_doc_8192_4.txt.json": "dd3799daec1ef681ac754f74ff27aef80c7fce6703938e9e7a40ea99fa3fad55"
+ },
+ "work_results_treehash": "383c91c5352f3e4f84da4729c494d01dc0a5732c1077913d239cca79a0295900"
+}

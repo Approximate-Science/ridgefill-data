@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.897875927734375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.897875927734375
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.91629553125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.91629553125
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.91732717578125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.91732717578125
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.910362265625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.910362265625
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.915001759765625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.915001759765625
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.9110530625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.9110530625
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.915406138671875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.915406138671875
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.917075650390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.917075650390625
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.912393958984375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.912393958984375
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.91468578515625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.91468578515625
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.9122754140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.9122754140625
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "tech_doc_32768_0",
+ "domain": "encyclopedia",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_32768_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33280
+}

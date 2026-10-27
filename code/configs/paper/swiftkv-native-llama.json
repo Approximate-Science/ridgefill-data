@@ -1,0 +1,24 @@
+{
+ "name": "swiftkv-native-llama",
+ "protocol": "1.1",
+ "registration": [],
+ "model": "$KVA_DATA/models/llama-3.1-swiftkv-8b-instruct",
+ "tokenizer": "$KVA_DATA/models/llama-3.1-8b-instruct",
+ "niah_format": "chat",
+ "note": "TEMPLATE for protocol v1.1 (adopted 2026-10-04): evaluate.py refuses it until its FINAL- registration is in the ledger (registration is empty on purpose). Paper T1.6 / R6: Llama-3.1-SwiftKV-8B-Instruct as released (swiftkv-native: every row's late K/V from SwiftKV's maps, queries through q_proj_swiftkv, no exact tail; prefill and decode) and SwiftKV's maps with an exact tail (swiftkv-s16-t4096). This run's exact arm is SwiftKV's own exact (the checkpoint's base weights); scripts/swiftkv_report.py pairs each arm with it and with the Llama run's exact on the same prompts.",
+ "ruler_max_len": 65536,
+ "longbench_max_len": 31500,
+ "arms": [
+  {
+   "name": "swiftkv-native",
+   "split": 16,
+   "fill": "swiftkv_native"
+  },
+  {
+   "name": "swiftkv-s16-t4096",
+   "split": 16,
+   "tail": 4096,
+   "fill": "swiftkv"
+  }
+ ]
+}

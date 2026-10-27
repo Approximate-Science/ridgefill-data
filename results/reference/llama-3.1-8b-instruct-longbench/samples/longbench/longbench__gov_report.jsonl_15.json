@@ -1,0 +1,49 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 0.2950191525696922
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 0.3088803043937926
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 0.32755298201788685
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.3137254857780854
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.3126252461882483
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 0.33067728649386524
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.0
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-longbench",
+ "configs": [
+  "llama-3.1-8b-instruct-longbench"
+ ],
+ "length": 6229,
+ "protocol": "1.1.3",
+ "sample": "longbench/gov_report.jsonl#15",
+ "set": "longbench",
+ "task": "gov_report",
+ "tier": "locked-final"
+}

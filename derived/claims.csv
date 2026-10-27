@@ -1,0 +1,586 @@
+id,expected,claims_row,source_note
+LB1a.llama.rows,834541,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.llama.docs,71,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.llama.lambda.s8,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.llama.lambda.s12,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.llama.lambda.s16,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.llama.lambda.s20,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.rows,839652,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.docs,71,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.lambda.s8,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.lambda.s12,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.lambda.s16,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen35.lambda.s20,0.03,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.rows,845043,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.docs,71,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.lambda.s9,0.01,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.lambda.s13,0.01,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.lambda.s18,0.003,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.qwen3.lambda.s22,0.01,LB1a,CLAIMS LB1a rows / 71 documents; paper App. G lambda per split
+LB1a.projector_sha256_mismatches,0,LB1a,DATA-PLAN 6: projector_sha256 = cell.json values (0 mismatches)
+LB1a.qwen38-27b.rows,839652,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.docs,71,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.lambda.s16,0.03,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.lambda.s24,0.03,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.lambda.s32,0.03,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.maps_s16,48,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.qwen38-27b.fit_minutes,26,LB1a,"CLAIMS LB1a 27B 71 documents, 839,652 rows, lambda 0.03, 48 maps, 26 minutes (fit-q4.log); App. G lambda 0.03 at every split"
+LB1a.flashnext.rows,425789,LB1a,"CLAIMS LB1a Flash-Next 425,789 rows; App. G 497,846 weighted rows, lambda 0.03, ten held-out captures"
+LB1a.flashnext.weighted_rows,497846,LB1a,"CLAIMS LB1a Flash-Next 425,789 rows; App. G 497,846 weighted rows, lambda 0.03, ten held-out captures"
+LB1a.flashnext.lambda,0.03,LB1a,"CLAIMS LB1a Flash-Next 425,789 rows; App. G 497,846 weighted rows, lambda 0.03, ten held-out captures"
+LB1a.flashnext.held_captures,10,LB1a,"CLAIMS LB1a Flash-Next 425,789 rows; App. G 497,846 weighted rows, lambda 0.03, ten held-out captures"
+LB2.stock_s.16384,12.97,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident_s.16384,10.38,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident.16384,1.249,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.resident.16384,+1592,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed_s.16384,10.88,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed.16384,1.192,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.streamed.16384,+268,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.same_gpu.16384,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.flags_identical.16384,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.stock_s.32768,27.49,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident_s.32768,21.11,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident.32768,1.302,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.resident.32768,+1802,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed_s.32768,21.69,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed.32768,1.267,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.streamed.32768,+478,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.same_gpu.32768,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.flags_identical.32768,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.stock_s.65536,60.50,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident_s.65536,46.28,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident.65536,1.307,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.resident.65536,+2270,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed_s.65536,46.55,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed.65536,1.300,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.streamed.65536,+944,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.same_gpu.65536,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.flags_identical.65536,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.stock_s.120000,128.10,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident_s.120000,100.01,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.resident.120000,1.281,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.resident.120000,+3014,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed_s.120000,99.06,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.streamed.120000,1.293,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.vram_mib.streamed.120000,+1732,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.same_gpu.120000,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB2.flags_identical.120000,yes,LB2,"CLAIMS LB2; paper 4.4 table; VERIFY check 2 (same GPU, identical non-RidgeFill flags)"
+LB3.n_items,520,LB3,"CLAIMS LB3 (520 + 520 generations, official budgets, identical prompts)"
+LB3.max_tokens_official,yes,LB3,"CLAIMS LB3 (520 + 520 generations, official budgets, identical prompts)"
+LB3.prompts_identical,yes,LB3,"CLAIMS LB3 (520 + 520 generations, official budgets, identical prompts)"
+LB3.16384.cwe.stock,64.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.cwe.e3,54.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.cwe.delta,-10.0,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.16384.cwe.ci_lo,-32.0,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.16384.cwe.ci_hi,+12.0,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.16384.cwe.length_stops.stock,8,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.16384.cwe.length_stops.e3,12,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.16384.fwe.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.fwe.e3,98.33,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_1.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_1.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_2.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_2.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_3.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multikey_3.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multiquery.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multiquery.e3,98.75,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multivalue.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_multivalue.e3,97.50,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_1.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_1.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_2.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_2.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_3.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.niah_single_3.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.qa_1.stock,90.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.qa_1.e3,85.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.qa_2.stock,60.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.qa_2.e3,65.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.vt.stock,0.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.vt.e3,0.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.16384.vt.length_stops.stock,20,LB3,"CLAIMS LB3 vt: both arms hit the 30-token cap, 20/20"
+LB3.16384.vt.length_stops.e3,20,LB3,"CLAIMS LB3 vt: both arms hit the 30-token cap, 20/20"
+LB3.16384.delta,-1.19,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.ci_lo,-3.13,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.ci_hi,+0.79,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.stock,85.69,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.stock.ci_lo,83.15,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.stock.ci_hi,88.04,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.e3,84.51,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.e3.ci_lo,81.87,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.16384.e3.ci_hi,87.00,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.cwe.stock,82.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.cwe.e3,68.50,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.cwe.delta,-13.5,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.32768.cwe.ci_lo,-36.0,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.32768.cwe.ci_hi,+9.0,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.32768.cwe.length_stops.stock,4,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.32768.cwe.length_stops.e3,7,LB3,CLAIMS LB3 cwe; paper 4.5 (interval and length-cap counts)
+LB3.32768.fwe.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.fwe.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_1.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_1.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_2.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_2.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_3.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multikey_3.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multiquery.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multiquery.e3,98.75,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multivalue.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_multivalue.e3,96.25,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_1.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_1.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_2.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_2.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_3.stock,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.niah_single_3.e3,100.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.qa_1.stock,85.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.qa_1.e3,85.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.qa_2.stock,75.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.qa_2.e3,75.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.vt.stock,0.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.vt.e3,0.00,LB3,VERIFY check 3 task means; paper 4.5 per-task table
+LB3.32768.vt.length_stops.stock,20,LB3,"CLAIMS LB3 vt: both arms hit the 30-token cap, 20/20"
+LB3.32768.vt.length_stops.e3,20,LB3,"CLAIMS LB3 vt: both arms hit the 30-token cap, 20/20"
+LB3.32768.delta,-1.42,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.ci_lo,-3.21,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.ci_hi,+0.35,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.stock,87.85,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.stock.ci_lo,85.46,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.stock.ci_hi,90.04,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.e3,86.42,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.e3.ci_lo,83.88,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.32768.e3.ci_hi,88.81,LB3,CLAIMS LB3 overall; paper 4.5 overall table (per-arm intervals)
+LB3.niah_min,96.25,LB3,CLAIMS LB3: all niah tasks >= 96.25
+LB4.report_identical,yes,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.n,503,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.stock,38.57,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.e3,37.18,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.delta,-1.39,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.ci_lo,-4.97,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.ci_hi,+2.19,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.only_stock,48,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.only_e3,41,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.sign_test_p,0.525,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.no_answer.stock,189,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.pass1_cap.stock,301,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.no_answer.e3,181,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+LB4.pass1_cap.e3,302,LB4,VERIFY check 4: report_lb.py reproduces REPORT.txt byte for byte; CLAIMS LB4
+S4.workload_prefill_speedup,1.180,S4,CLAIMS S4 (SUPPORTING)
+LB4.easy.n,192,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.easy.stock,42.71,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.easy.e3,40.62,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.easy.delta,-2.08,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.easy.ci_lo,-8.85,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.easy.ci_hi,+4.69,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.n,311,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.stock,36.01,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.e3,35.05,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.delta,-0.96,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.ci_lo,-5.14,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.hard.ci_hi,+3.54,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.n,180,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.stock,46.11,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.e3,44.44,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.delta,-1.67,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.ci_lo,-7.22,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.short.ci_hi,+4.44,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.n,215,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.stock,38.14,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.e3,36.74,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.delta,-1.40,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.ci_lo,-7.44,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.medium.ci_hi,+4.65,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.n,108,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.stock,26.85,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.e3,25.93,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.delta,-0.93,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.ci_lo,-7.41,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long.ci_hi,+6.48,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.n,175,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.stock,44.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.e3,42.29,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.delta,-1.71,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.ci_lo,-8.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.single_doc_qa.ci_hi,+4.57,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.n,125,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.stock,30.40,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.e3,34.40,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.delta,+4.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.ci_lo,-2.40,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.multi_doc_qa.ci_hi,+10.40,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.n,81,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.stock,38.27,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.e3,30.86,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.delta,-7.41,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.ci_lo,-18.52,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_icl.ci_hi,+3.70,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.n,39,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.stock,48.72,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.e3,41.03,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.delta,-7.69,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.ci_lo,-23.08,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.long_dialogue.ci_hi,+7.69,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.n,50,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.stock,34.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.e3,34.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.delta,0.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.ci_lo,-10.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.code_repo.ci_hi,+12.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.n,33,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.stock,36.36,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.e3,36.36,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.delta,0.00,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.ci_lo,-12.12,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.structured.ci_hi,+12.12,LB4,CLAIMS LB4 groups; VERIFY check 4 group intervals (report method); paper 4.6 table
+LB4.scorecard.ci_lo,-5.17,LB4,"CLAIMS LB4: the scorecard's own bootstrap gives [-5.17, +2.19] (TODO X11)"
+LB4.scorecard.ci_hi,+2.19,LB4,"CLAIMS LB4: the scorecard's own bootstrap gives [-5.17, +2.19] (TODO X11)"
+LB5.16384.n_positions,51200,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.top1_pct,94.64,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.median_kl,0.0040,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.p99_kl,0.965,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.mean_kl,0.0894,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.mean_kl.ci_lo,0.0399,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.mean_kl.ci_hi,0.1556,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.dnll,-0.0330,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.dnll.ci_lo,-0.0875,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.dnll.ci_hi,+0.0059,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.16384.median_dnll,+0.0044,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+S1.16384.lt0.2.docs,86,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.lt0.2.mean_kl,0.0461,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.lt0.2.mean_dnll,-0.0055,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.0.2to0.5.docs,7,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.0.2to0.5.mean_kl,0.2949,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.0.2to0.5.mean_dnll,-0.1540,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.ge0.5.docs,7,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.ge0.5.mean_kl,0.4157,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.16384.ge0.5.mean_dnll,-0.2488,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+LB5.32768.n_positions,51200,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.top1_pct,93.60,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.median_kl,0.0042,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.p99_kl,12.77,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.mean_kl,0.2656,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.mean_kl.ci_lo,0.0599,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.mean_kl.ci_hi,0.6017,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.dnll,-0.2142,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.dnll.ci_lo,-0.5629,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.dnll.ci_hi,-0.0025,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+LB5.32768.median_dnll,+0.0071,LB5,CLAIMS LB5; VERIFY check 5; paper 4.7 table (median dNLL)
+S1.32768.lt0.2.docs,82,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.lt0.2.mean_kl,0.0352,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.lt0.2.mean_dnll,+0.0069,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.0.2to0.5.docs,13,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.0.2to0.5.mean_kl,0.3074,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.0.2to0.5.mean_dnll,-0.0849,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.ge0.5.docs,5,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.ge0.5.mean_kl,3.9351,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+S1.32768.ge0.5.mean_dnll,-4.1765,S1,"CLAIMS S1 (< 0.2, >= 0.5); paper 4.7 copyable-share table (0.2 to 0.5)"
+LB6.checkA.identical,7,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.checkA.comparisons,7,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.checkA.builds,2,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.checkB.identical,2,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.checkB.lengths,16384/65536,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.pure_vs_instrumented.identical,4,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.server_runtime_diff_empty,yes,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+LB6.archives_match_lock,yes,LB6,"CLAIMS LB6: CHECK-A 7 byte-identical comparisons naming both builds; CHECK-B 16K and 65K; pure vs instrumented (2 prompts x 2 arms, SCORECARD.md); VERIFY check 1"
+S2.docs,25,S2,CLAIMS S2; paper 4.7
+S2.stock_closer,22,S2,CLAIMS S2; paper 4.7
+S2.e3_lower_group.stock,3.935,S2,CLAIMS S2; paper 4.7
+S2.e3_lower_group.e3,1.668,S2,CLAIMS S2; paper 4.7
+S2.e3_lower_group.bf16,3.772,S2,CLAIMS S2; paper 4.7
+S2.e3_lower_group.docs,10,S2,CLAIMS S2; paper 4.7
+S2.doc_66ecf139.stock,14.373,S2,CLAIMS S2; paper 4.7
+S2.doc_66ecf139.e3,0.005,S2,CLAIMS S2; paper 4.7
+S2.doc_66ecf139.bf16,15.867,S2,CLAIMS S2; paper 4.7
+S3.unified.c1.ttft.stock,13.06,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c1.ttft.e3,11.11,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c2.ttft.stock,13.53,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c2.ttft.e3,11.70,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c2.p99_ms.stock,1606,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c2.p99_ms.e3,863,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c4.ttft.stock,14.18,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c4.ttft.e3,12.21,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV); paper prints 12.21 (12.2149; the earlier 12.22 rounded twice)"
+S3.unified.c4.p99_ms.stock,148,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c4.p99_ms.e3,669,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c8.ttft.stock,15.32,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c8.ttft.e3,13.53,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c8.p99_ms.stock,622,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.unified.c8.p99_ms.e3,775,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.separate.c2.ttft.stock,13.48,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.separate.c2.ttft.e3,11.34,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.separate.c8.ttft.stock,13.93,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.separate.c8.ttft.e3,11.86,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+S3.others_tps_gain_pct.min,+3.0,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV); paper prints +3.0 to +9.8 (the CLAIMS row was wrong)"
+S3.others_tps_gain_pct.max,+9.8,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV); paper prints +3.0 to +9.8 (the CLAIMS row was wrong)"
+S3.engine_errors,0,S3,"CLAIMS S3 new-request TTFT, p99 ITL, others' tok/s +1.6 % to +7.3 %, 0 engine errors; paper 4.8 table (separate KV)"
+LB7a.ridgefill.ttft_speedup.9k,1.50,LB7a,CLAIMS LB7a
+LB7a.ridgefill.ttft_speedup.16k,1.54,LB7a,CLAIMS LB7a
+LB7a.ridgefill.ttft_speedup.32k,1.60,LB7a,CLAIMS LB7a
+S5.quality.ttft_speedup.9k,1.25,S5,CLAIMS S5 TTFT 1.25/1.22/1.27x
+S5.quality.ttft_speedup.16k,1.22,S5,CLAIMS S5 TTFT 1.25/1.22/1.27x
+S5.quality.ttft_speedup.32k,1.27,S5,CLAIMS S5 TTFT 1.25/1.22/1.27x
+LB7b.exact_spread_pct,1.4,LB7b,"CLAIMS LB7b 82.6 s -> 47.5 s (1.74x), exact agrees across three starts within 1.4 %"
+LB7b.exact.wall_s,82.6,LB7b,"CLAIMS LB7b 82.6 s -> 47.5 s (1.74x), exact agrees across three starts within 1.4 %"
+LB7b.ridgefill.wall_s,47.5,LB7b,"CLAIMS LB7b 82.6 s -> 47.5 s (1.74x), exact agrees across three starts within 1.4 %"
+LB7b.ridgefill.speedup_64k,1.74,LB7b,"CLAIMS LB7b 82.6 s -> 47.5 s (1.74x), exact agrees across three starts within 1.4 %"
+S5.quality.wall_s,55.6,S5,CLAIMS S5 64K 1.49x (55.6 s)
+S5.quality.speedup_64k,1.49,S5,CLAIMS S5 64K 1.49x (55.6 s)
+LB7c.ridgefill.ppl_gap_pct.delta,+2.65,LB7c,CLAIMS LB7c perplexity gap
+LB7c.ridgefill.ppl_gap_pct.ci_lo,-0.02,LB7c,CLAIMS LB7c perplexity gap
+LB7c.ridgefill.ppl_gap_pct.ci_hi,+4.93,LB7c,CLAIMS LB7c perplexity gap
+S5.quality.ppl_gap_pct.delta,+1.60,S5,CLAIMS S5 perplexity gap
+S5.quality.ppl_gap_pct.ci_lo,-0.83,S5,CLAIMS S5 perplexity gap
+S5.quality.ppl_gap_pct.ci_hi,+4.32,S5,CLAIMS S5 perplexity gap
+LB7c.ruler.n,325,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.ruler.n_filled,221,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.exact.ruler_all,100.0,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.exact.ruler_filled,100.0,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.ridgefill.ruler_all,99.8,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.ridgefill.ruler_filled,99.8,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+LB7c.ridgefill.ruler_filled_below_exact,2,LB7c,CLAIMS LB7c RULER 99.8 vs 100.0 (325 samples; 221 filled-region); paper 5.3 table and two misses of 221
+S5.quality.ruler_all,99.9,S5,CLAIMS S5 RULER 99.9; paper 5.3 table
+S5.quality.ruler_filled,99.9,S5,CLAIMS S5 RULER 99.9; paper 5.3 table
+LB7d.posctl.ridgefill_vs_exact.novel.delta,+2.65,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.posctl.quality_vs_exact.novel.delta,+1.60,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.novel.delta,-1.02,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.novel.ci_lo,-2.87,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.novel.ci_hi,+0.80,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.all.delta,-0.86,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.all.ci_lo,-2.61,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+LB7d.quality_vs_ridgefill.all.ci_hi,+0.92,LB7d,CLAIMS LB7d; VERIFY check 8 (positive control: arm - exact +2.65 % and +1.60 %)
+S6.exact_ab.identical,90,S6,CLAIMS S6
+S6.exact_ab.docs,90,S6,CLAIMS S6
+S6.control.identical,6,S6,CLAIMS S6
+S6.control.docs,6,S6,CLAIMS S6
+R1.exact,99.6,R1,CLAIMS R1; VERIFY check 9
+R1.identity,11.6,R1,CLAIMS R1; VERIFY check 9
+R1.ridgefill,60.7,R1,CLAIMS R1; VERIFY check 9
+R1.ridgefill_rows,99.6,R1,CLAIMS R1; VERIFY check 9
+R1.identity_rows,98.3,R1,CLAIMS R1; VERIFY check 9
+R1.pop,93.4,R1,CLAIMS R1; VERIFY check 9
+R1.nofill,0.0,R1,CLAIMS R1; VERIFY check 9
+R1.nofill_longer_tail,13.2,R1,CLAIMS R1; VERIFY check 9
+R1.n,136,R1,CLAIMS R1; VERIFY check 9
+R1.ridgefill_vs_identity.delta,+49.1,R1,CLAIMS R1; VERIFY check 9
+R1.ridgefill_vs_identity.ci_lo,+39.3,R1,"CLAIMS R1; VERIFY check 9; paper prints the sorted-file-order interval +49.1 [+39.3, +57.5]"
+R1.ridgefill_vs_identity.ci_hi,+57.5,R1,"CLAIMS R1; VERIFY check 9; paper prints the sorted-file-order interval +49.1 [+39.3, +57.5]"
+R2.exact,99.8,R2,CLAIMS R2; VERIFY check 9
+R2.identity,80.4,R2,CLAIMS R2; VERIFY check 9
+R2.ridgefill,83.6,R2,CLAIMS R2; VERIFY check 9
+R2.ridgefill_rows,99.8,R2,CLAIMS R2; VERIFY check 9
+R2.identity_rows,100.0,R2,CLAIMS R2; VERIFY check 9
+R2.pop,100.0,R2,CLAIMS R2; VERIFY check 9
+R2.n,139,R2,CLAIMS R2; VERIFY check 9
+R3.ridgefill.novel_vs_exact,+0.085,R3,paper 6.3 arm table (novel tokens)
+R3.native.novel_vs_exact,+0.095,R3,paper 6.3 arm table (novel tokens)
+R3.maps_tail.novel_vs_exact,+0.061,R3,paper 6.3 arm table (novel tokens)
+R3.posctl.native_vs_ridgefill.n,126,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.native_vs_ridgefill.delta,+0.010,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.native_vs_ridgefill.ci_lo,-0.004,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.native_vs_ridgefill.ci_hi,+0.025,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.maps_tail_vs_ridgefill.n,126,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.maps_tail_vs_ridgefill.delta,-0.024,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.maps_tail_vs_ridgefill.ci_lo,-0.037,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.posctl.maps_tail_vs_ridgefill.ci_hi,-0.015,R3,"positive control = LB10 (+0.010 [-0.004, +0.025]; -0.024 [-0.037, -0.015]; 126 documents)"
+R3.ridgefill.key_vs_exact,+0.339,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.native.key_vs_exact,+0.568,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.maps_tail.key_vs_exact,+0.115,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.key.native_vs_ridgefill.n,80,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.key.native_vs_ridgefill.delta,+0.229,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.key.native_vs_ridgefill.ci_lo,-0.020,R3,"CLAIMS R3 (80 documents); paper 6.3 tables; paper prints the sorted-file-order interval +0.229 [-0.020, +0.485]"
+R3.key.native_vs_ridgefill.ci_hi,+0.485,R3,"CLAIMS R3 (80 documents); paper 6.3 tables; paper prints the sorted-file-order interval +0.229 [-0.020, +0.485]"
+R3.key.maps_tail_vs_ridgefill.n,80,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.key.maps_tail_vs_ridgefill.delta,-0.224,R3,CLAIMS R3 (80 documents); paper 6.3 tables
+R3.key.maps_tail_vs_ridgefill.ci_lo,-0.415,R3,"CLAIMS R3 (80 documents); paper 6.3 tables; paper prints the sorted-file-order interval -0.224 [-0.415, -0.057]"
+R3.key.maps_tail_vs_ridgefill.ci_hi,-0.057,R3,"CLAIMS R3 (80 documents); paper 6.3 tables; paper prints the sorted-file-order interval -0.224 [-0.415, -0.057]"
+R4.rows.n,138,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.rows.worse,24,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.rows.better,10,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.rows.worse_single_needle,0,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.random.n,138,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.random.worse,8,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R4.random.better,10,R4,CLAIMS R4 (all losses on multi-needle tasks); paper 6.5 (138 samples)
+R5.qwen3.s22_over_pop.8k,1.239,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.qwen3.s22_over_pop.16k,1.115,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.qwen3.s22_over_pop.32k,1.042,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.qwen3.s22_over_pop.64k,0.994,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.qwen3.s13_over_pop.32k,0.759,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.crossover_k.llama.s16,14,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.crossover_k.llama.s20,46,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R5.crossover_k.qwen3.s13,10.6,R5,"CLAIMS R5; VERIFY check 7 (crossovers about 14K, 46K, 10.6K; 0.759 at 32,768)"
+R6.worse.8k_32k,0,R6,CLAIMS R6
+R6.docs.8k_32k,90,R6,CLAIMS R6
+R6.worse.64k,20,R6,CLAIMS R6
+R6.docs.64k,24,R6,CLAIMS R6
+R6.worse.128k,12,R6,CLAIMS R6
+R6.docs.128k,12,R6,CLAIMS R6
+R6.worse.ge64k,32,R6,CLAIMS R6
+R6.docs.ge64k,36,R6,CLAIMS R6
+R6.worst.doc,source_code_128000_0,R6,CLAIMS R6
+R6.worst.ridgefill,+8.189,R6,CLAIMS R6
+R6.worst.nofill,+0.738,R6,CLAIMS R6
+LB8.llama.n,216,LB8,CLAIMS LB8; VERIFY check 6
+LB8.llama.delta,+39.7,LB8,CLAIMS LB8; VERIFY check 6
+LB8.llama.ci_lo,+32.6,LB8,CLAIMS LB8; VERIFY check 6
+LB8.llama.ci_hi,+46.5,LB8,CLAIMS LB8; VERIFY check 6
+LB8.llama.ridgefill,49.4,LB8,CLAIMS LB8; VERIFY check 6
+LB8.llama.identity,9.7,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.n,219,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.delta,+3.3,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.ci_lo,-1.3,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.ci_hi,+7.8,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.ridgefill,81.4,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen35.identity,78.1,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.n,138,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.delta,+49.6,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.ci_lo,+43.3,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.ci_hi,+56.2,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.ridgefill,93.7,LB8,CLAIMS LB8; VERIFY check 6
+LB8.qwen3.identity,44.0,LB8,CLAIMS LB8; VERIFY check 6
+LB9.llama.n,20,LB9,CLAIMS LB9 (20 documents)
+LB9.llama.kl.ridgefill,0.124,LB9,CLAIMS LB9 (20 documents)
+LB9.llama.kl.identity,0.334,LB9,CLAIMS LB9 (20 documents)
+LB9.llama.agree.delta,+6.3,LB9,CLAIMS LB9 (20 documents)
+LB9.llama.agree.ci_lo,+4.6,LB9,CLAIMS LB9 (20 documents)
+LB9.llama.agree.ci_hi,+8.5,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.n,20,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.kl.ridgefill,0.012,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.kl.identity,0.021,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.agree.delta,+0.5,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.agree.ci_lo,+0.1,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen35.agree.ci_hi,+1.0,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.n,20,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.kl.ridgefill,0.013,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.kl.identity,0.032,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.agree.delta,+1.2,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.agree.ci_lo,+0.6,LB9,CLAIMS LB9 (20 documents)
+LB9.qwen3.agree.ci_hi,+2.0,LB9,CLAIMS LB9 (20 documents)
+LB10.native.n,126,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.native.delta,+0.010,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.native.ci_lo,-0.004,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.native.ci_hi,+0.025,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.maps_tail.n,126,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.maps_tail.delta,-0.024,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.maps_tail.ci_lo,-0.037,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB10.maps_tail.ci_hi,-0.015,LB10,CLAIMS LB10; paper 6.3 (126 documents)
+LB11.llama.exact,99.8,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.pop,94.1,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.identity,95.0,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.ridgefill,98.7,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.n,136,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.vs_pop.delta,+4.6,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.vs_pop.ni_lower,-2.18,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.vs_identity.delta,+3.7,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.vs_identity.ci_lo,+2.0,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.llama.vs_identity.ci_hi,+6.2,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.exact,98.7,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.pop,98.7,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.identity,98.9,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.ridgefill,99.1,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.n,138,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.vs_pop.delta,+0.4,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.vs_pop.ni_lower,-2.15,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.vs_identity.delta,+0.2,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.vs_identity.ci_lo,0.0,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.qwen3.vs_identity.ci_hi,+0.9,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.fresh.n,30,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.fresh.vs_pop.delta,-0.268,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.fresh.vs_pop.ci_lo,-0.336,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+LB11.fresh.vs_pop.ci_hi,-0.200,LB11,"CLAIMS LB11; paper 6.4 table (arm values, RidgeFill - identity at 5/8, n = 136 / 138)"
+S7.llama.novel.delta,+0.501,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.llama.novel.ci_lo,+0.307,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.llama.novel.ci_hi,+0.748,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.llama.key.delta,+1.047,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.llama.key.ci_lo,+0.521,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.llama.key.ci_hi,+1.666,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.novel.delta,+0.001,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.novel.ci_lo,-0.003,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.novel.ci_hi,+0.005,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.key.delta,-0.347,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.key.ci_lo,-0.523,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen35.key.ci_hi,-0.196,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.novel.delta,+0.019,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.novel.ci_lo,+0.012,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.novel.ci_hi,+0.025,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.key.delta,-0.400,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.key.ci_lo,-0.634,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S7.qwen3.key.ci_hi,-0.159,S7,CLAIMS S7; paper 6.2 table (key-token intervals)
+S8.llama.ridgefill.s8,+0.804,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.identity.s8,+0.409,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.ridgefill.s12,+1.006,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.identity.s12,+0.505,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.ridgefill.s16,+0.085,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.identity.s16,+0.563,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.ridgefill.s20,+0.030,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.llama.identity.s20,+0.406,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s16.delta,-0.533,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s16.ci_lo,-0.658,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s16.ci_hi,-0.431,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s20.delta,-0.382,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s20.ci_lo,-0.484,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S8.fresh.s20.ci_hi,-0.312,S8,"CLAIMS S8 (Table 5 Llama row, fresh documents)"
+S9.llama.rows_vs_exact.delta,+0.2,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.rows_vs_exact.ni_lower,-1.38,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.rows_vs_random.delta,+29.6,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.rows_vs_random.ci_lo,+23.3,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.rows_vs_random.ci_hi,+36.9,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.qblind_vs_rows.delta,-16.0,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.qblind_vs_rows.ci_lo,-21.5,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.llama.qblind_vs_rows.ci_hi,-11.8,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.rows_vs_exact.delta,0.0,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.rows_vs_exact.ni_lower,-1.36,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.rows_vs_random.delta,+18.3,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.rows_vs_random.ci_lo,+13.1,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.rows_vs_random.ci_hi,+24.5,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.qblind_vs_rows.delta,-14.0,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.qblind_vs_rows.ci_lo,-19.2,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen35.qblind_vs_rows.ci_hi,-9.5,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_exact.delta,-8.9,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_exact.ci_lo,-13.6,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_exact.ci_hi,-5.4,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_random.delta,-4.0,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_random.ci_lo,-8.5,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S9.qwen3.rows_vs_random.ci_hi,+0.5,S9,CLAIMS S9; paper 6.5 table (estimates and intervals)
+S10.llama.keys.loss_removed,97.0,S10,CLAIMS S10; paper 6.6 table
+S10.llama.keys.loss_removed.ci_lo,96.0,S10,CLAIMS S10; paper 6.6 table
+S10.llama.keys.loss_removed.ci_hi,97.7,S10,CLAIMS S10; paper 6.6 table
+S10.llama.values.loss_removed,88.1,S10,CLAIMS S10; paper 6.6 table
+S10.llama.values.loss_removed.ci_lo,86.6,S10,CLAIMS S10; paper 6.6 table
+S10.llama.values.loss_removed.ci_hi,89.5,S10,CLAIMS S10; paper 6.6 table
+S10.llama.key_scale.loss_removed,50.1,S10,CLAIMS S10; paper 6.6 table
+S10.llama.key_scale.loss_removed.ci_lo,45.5,S10,CLAIMS S10; paper 6.6 table
+S10.llama.key_scale.loss_removed.ci_hi,54.5,S10,CLAIMS S10; paper 6.6 table
+S10.llama.keys.gap_closed,98.6,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.keys.loss_removed,25.8,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.keys.loss_removed.ci_lo,19.9,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.keys.loss_removed.ci_hi,31.6,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.values.loss_removed,52.0,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.values.loss_removed.ci_lo,43.4,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.values.loss_removed.ci_hi,57.6,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.both.loss_removed,91.5,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.both.loss_removed.ci_lo,87.8,S10,CLAIMS S10; paper 6.6 table
+S10.qwen35.both.loss_removed.ci_hi,94.7,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.keys.loss_removed,-222.4,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.keys.loss_removed.ci_lo,-271.4,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.keys.loss_removed.ci_hi,-180.7,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.both.loss_removed,98.8,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.both.loss_removed.ci_lo,97.9,S10,CLAIMS S10; paper 6.6 table
+S10.qwen3.both.loss_removed.ci_hi,99.8,S10,CLAIMS S10; paper 6.6 table
+S11.exact,49.7,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.nofill,21.3,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.identity,44.0,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.pop,42.8,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.ridgefill,46.4,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.identity_rows,48.1,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.ridgefill_rows,49.1,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.n,400,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.ridgefill_vs_identity.delta,+2.4,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.ridgefill_vs_identity.ci_lo,0.0,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S11.ridgefill_vs_identity.ci_hi,+4.7,S11,"CLAIMS S11 (8 tasks x 50); paper 6.2 (no fill, identity + rows)"
+S12.llama.rows,100.0,S12,CLAIMS S12
+S12.llama.exact,100.0,S12,CLAIMS S12
+S12.qwen35.rows,100.0,S12,CLAIMS S12
+S12.qwen35.exact,100.0,S12,CLAIMS S12
+S12.qwen3.rows,89.3,S12,CLAIMS S12
+S12.qwen3.exact,100.0,S12,CLAIMS S12

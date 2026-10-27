@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.0597481875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.0698406933638444
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 0.058220867187500004,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.06808350114416477
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 0.05731215625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.06702464988558353
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 0.061218625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.07151120823798628
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 0.0662421015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.07731249199084668
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 0.057111490234375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.06677546910755149
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 0.056848484375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.06647149885583524
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 0.06716369531250001,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.07852482608695652
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 0.060169185546875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.0703345171624714
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 0.063436619140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.07412351716247138
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 0.0642048828125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 437,
+    "novel_nll": 0.0750673295194508
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "source_code_65536_2",
+ "domain": "source_code",
+ "length": 65536,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_65536_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 66041
+}

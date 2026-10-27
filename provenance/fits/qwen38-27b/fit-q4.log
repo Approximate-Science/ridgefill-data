@@ -1,0 +1,39 @@
+02:19:42 integrity: qwen3.8-27b: 6 files (16.4 GiB) checked against SHA256SUMS in 11.7s
+02:19:44 splits [16, 24, 32]; to fit [16, 24, 32]
+02:19:45 host accumulators: 24.0 GiB fp64 for 120 pairs
+02:19:53 capture 1/71 rows 11915 (8s) peak 17.4 GiB
+02:21:18 capture 11/71 rows 134934 (94s) peak 19.4 GiB
+02:22:32 capture 21/71 rows 240365 (167s) peak 19.4 GiB
+02:24:06 capture 31/71 rows 372993 (262s) peak 19.5 GiB
+02:25:42 capture 41/71 rows 495085 (357s) peak 21.4 GiB
+02:27:09 capture 51/71 rows 617333 (444s) peak 21.4 GiB
+02:28:18 capture 61/71 rows 716696 (514s) peak 21.4 GiB
+02:29:54 capture 71/71 rows 839652 (610s) peak 21.4 GiB
+02:29:54 capture done: 839652 rows in 610s
+02:29:54 stats policy: {'dtype': 'float64', 'splits': [16, 24, 32], 'free_before': 212118986752, 'note': ''}
+02:29:59 S=32: stats saved /workspace/data/sums/qwen3.8-27b-s32.pt (6.45 GiB, float64)
+02:31:24 S=32: fitted 32 layers x 9 lambdas x 1 targets in 90s
+02:32:08 S=32: lambda* 0.03 read cos 0.8671 (identity 0.7118) -> /workspace/data/proj/qwen3.8-27b-sweep-s32.safetensors
+02:32:17 S=24: stats saved /workspace/data/sums/qwen3.8-27b-s24.pt (8.01 GiB, float64)
+02:34:05 S=24: fitted 40 layers x 9 lambdas x 1 targets in 116s
+02:34:56 S=24: lambda* 0.03 read cos 0.8388 (identity 0.6378) -> /workspace/data/proj/qwen3.8-27b-sweep-s24.safetensors
+02:35:07 S=16: stats saved /workspace/data/sums/qwen3.8-27b-s16.pt (9.57 GiB, float64)
+02:37:14 S=16: fitted 48 layers x 9 lambdas x 1 targets in 137s
+02:38:16 S=16: lambda* 0.03 read cos 0.8298 (identity 0.6532) -> /workspace/data/proj/qwen3.8-27b-sweep-s16.safetensors
+02:43:05 integrity: qwen3.8-27b: 6 files (16.4 GiB) checked against SHA256SUMS in 11.6s
+02:43:54 sterm0: 9316 tokens, 36 checkpoints per layer
+02:44:02 sterm1: 8928 tokens, 34 checkpoints per layer
+02:44:10 sterm2: 9437 tokens, 36 checkpoints per layer
+02:44:19 sterm3: 10016 tokens, 39 checkpoints per layer
+02:44:28 sterm5: 10189 tokens, 39 checkpoints per layer
+02:44:37 sterm6: 10274 tokens, 40 checkpoints per layer
+02:44:45 sterm7: 9223 tokens, 36 checkpoints per layer
+02:44:55 sterm8: 9907 tokens, 38 checkpoints per layer
+02:45:08 sterm9: 9793 tokens, 38 checkpoints per layer
+02:45:19 sterm10: 9954 tokens, 38 checkpoints per layer
+02:45:28 sterm11: 9892 tokens, 38 checkpoints per layer
+02:45:34 sterm12: 6672 tokens, 26 checkpoints per layer
+02:45:35 saved /workspace/data/sterm/qwen3.8-27b-sweep-s16.pt; |dS|/|S_true| 16:0.010 17:0.030 18:0.055 20:0.083 21:0.107 22:0.102 24:0.117 25:0.141 26:0.133 28:0.173 29:0.150 30:0.157 32:0.203 33:0.181 34:0.191 36:0.205 37:0.214 38:0.181 40:0.181 41:0.190 42:0.199 44:0.227 45:0.199 46:0.186 48:0.217 49:0.182 50:0.217 52:0.253 53:0.354 54:0.360 56:0.390 57:0.442 58:0.432 60:0.488 61:0.418 62:0.453
+02:45:35 saved /workspace/data/sterm/qwen3.8-27b-sweep-s24.pt; |dS|/|S_true| 24:0.012 25:0.057 26:0.078 28:0.128 29:0.121 30:0.128 32:0.174 33:0.157 34:0.163 36:0.172 37:0.175 38:0.153 40:0.144 41:0.164 42:0.176 44:0.203 45:0.182 46:0.172 48:0.203 49:0.170 50:0.204 52:0.247 53:0.341 54:0.335 56:0.363 57:0.412 58:0.411 60:0.479 61:0.409 62:0.482
+02:45:36 saved /workspace/data/sterm/qwen3.8-27b-sweep-s32.pt; |dS|/|S_true| 32:0.013 33:0.059 34:0.071 36:0.104 37:0.133 38:0.122 40:0.116 41:0.128 42:0.141 44:0.161 45:0.142 46:0.135 48:0.166 49:0.135 50:0.172 52:0.228 53:0.313 54:0.310 56:0.345 57:0.397 58:0.381 60:0.471 61:0.408 62:0.484
+fit: done 2026-10-09T02:45:54Z

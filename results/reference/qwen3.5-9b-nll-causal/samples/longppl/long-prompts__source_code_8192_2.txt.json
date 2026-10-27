@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.26604578125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39595234507042254
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 0.264321580078125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.394528338028169
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 0.26425957421875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39444214788732396
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 0.265882220703125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.3963873943661972
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 0.267411302734375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39853596126760565
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 0.265210345703125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.3960236971830986
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 0.264754740234375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.3956162394366197
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 0.265642119140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39655592957746477
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 0.266696384765625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39832171830985913
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 0.26732076171875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.3995907676056338
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 0.265755529296875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 284,
+    "novel_nll": 0.39618871126760563
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "source_code_8192_2",
+ "domain": "source_code",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_8192_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8697
+}

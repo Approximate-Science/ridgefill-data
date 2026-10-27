@@ -1,0 +1,24 @@
+RidgeFill data and code
+Copyright 2026 Dylan Johnston and tcclaviger
+
+Code (code/, recompute/, tools/) is licensed under the Apache License, Version 2.0 (LICENSE).
+Results, derived tables, provenance records, figures and documentation are licensed under the Creative Commons
+Attribution 4.0 International licence (LICENSE-DATA). README.md gives the licence of every path.
+
+Third-party material:
+
+- code/engine-fix/patch-qsa-v3.diff is a diff against one file of the serving engine image tcclaviger/vllm:29.08.10,
+  which is based on the vLLM project (Apache-2.0); that file carries the vLLM project's Apache-2.0 SPDX header.
+  The engine fork's source, including the full file, is not part of this repository.
+- code/kva/locked.py contains the LongBench task prompt templates (THUDM/LongBench, MIT licence).
+- code/qwen38-27b-kit/vendor/: official_extract.py, 0shot_cot_ans.txt and longbench_run_lb.py follow
+  THUDM/LongBench (MIT licence); score_ruler.py follows the metrics of NVIDIA/RULER (Apache-2.0). Each keeps its
+  upstream notice where it has one.
+- The model outputs stored in results/ (generations, log-probabilities) were produced with third-party models and
+  remain subject to those models' licences:
+    Llama 3.1 (unsloth/Llama-3.1-8B-Instruct; Snowflake/Llama-3.1-SwiftKV-8B-Instruct): Llama 3.1 Community License.
+    Built with Llama.
+    Qwen/Qwen3.5-9B, Qwen/Qwen3-8B, unsloth/Qwen3.8-27B-GGUF: Apache-2.0.
+    tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ: its model card lists apache-2.0 and qwen-community-1.0.
+- Benchmark and calibration texts are not included. Records identify prompts by sha256 only; the benchmarks keep
+  their own licences (RULER: Apache-2.0; LongBench and LongBench v2: see their repositories).

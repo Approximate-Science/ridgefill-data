@@ -1,0 +1,33 @@
+{
+ "name": "pop-native-qwen3-8b",
+ "protocol": "1.1",
+ "registration": [],
+ "model": "$KVA_DATA/models/qwen3-8b",
+ "tokenizer": "$KVA_DATA/models/qwen3-8b",
+ "niah_format": "raw",
+ "note": "TEMPLATE for protocol v1.1 (adopted 2026-10-04): evaluate.py refuses it until its FINAL- registration is in the ledger (registration is empty on purpose). Paper T1 baselines (checks/T0.1): nofill = the skip arm (late layers see only the exact tail; POP's 'w/o Indep. KV' ablation); identity = POP's fill at our split and tail; pop-native = POP as published: identity fill at S24 = 36 - floor(36/3), tail = the scored rows (generation sets 1, grade 513, longppl the continuation + 1). keytoken_tail 4096 records the tail-only exact reference for the key-token NLL (grade, longppl). Qwen3-8B runs at <= 32K only (no YaRN; decided 2026-10-04; protocol.json max_len): every locked-set cap is <= 32768.",
+ "keytoken_tail": 4096,
+ "ruler_max_len": 32768,
+ "longbench_max_len": 31500,
+ "longppl_max_len": 32768,
+ "arms": [
+  {
+   "name": "nofill-s13-t4096",
+   "split": 13,
+   "tail": 4096,
+   "fill": "none"
+  },
+  {
+   "name": "identity-s13-t4096",
+   "split": 13,
+   "tail": 4096,
+   "fill": "identity"
+  },
+  {
+   "name": "pop-native",
+   "split": 24,
+   "fill": "identity",
+   "tail_from": "continuation"
+  }
+ ]
+}

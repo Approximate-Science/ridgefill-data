@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.2224149140625,
+    "key_nll": 3.678416,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.2224149140625
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.284558158203125,
+    "key_nll": 6.285909666666666,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.284558158203125
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.284083705078125,
+    "key_nll": 6.333705999999999,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.284083705078125
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.269125013671875,
+    "key_nll": 5.886375666666666,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.269125013671875
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.279337275390625,
+    "key_nll": 6.1590066666666665,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.279337275390625
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.27495490625,
+    "key_nll": 5.988130666666667,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.27495490625
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.278344396484375,
+    "key_nll": 6.342002,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.278344396484375
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.27141343359375,
+    "key_nll": 7.0734829999999995,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.27141343359375
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.2701941484375,
+    "key_nll": 6.818295,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.2701941484375
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.275485634765625,
+    "key_nll": 6.898494666666667,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.275485634765625
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.262230984375,
+    "key_nll": 6.791557999999999,
+    "n_key": 3,
+    "n_novel": 512,
+    "novel_nll": 2.262230984375
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "prose_16384_0",
+ "domain": "prose",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/prose_16384_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16896
+}

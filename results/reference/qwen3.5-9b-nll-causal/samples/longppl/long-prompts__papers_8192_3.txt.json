@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.056989048828125,
+    "key_nll": 5.8460485,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2443622840095465
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.086132322265625,
+    "key_nll": 8.0957045,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2805568878281623
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.08493312109375,
+    "key_nll": 8.132380999999999,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2796372410501193
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.077195287109375,
+    "key_nll": 7.2975955,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2690450572792362
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.085544640625,
+    "key_nll": 7.993733,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2773164105011932
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.078169451171875,
+    "key_nll": 6.7943685,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2674032386634846
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.089965359375,
+    "key_nll": 7.984071,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2854568281622911
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.095190552734375,
+    "key_nll": 8.052202,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2903512840095466
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.082608755859375,
+    "key_nll": 7.156048,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2757445059665873
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.091522716796875,
+    "key_nll": 8.051210000000001,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2847590095465393
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.083869919921875,
+    "key_nll": 6.895872,
+    "n_key": 2,
+    "n_novel": 419,
+    "novel_nll": 1.2764798568019093
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "papers_8192_3",
+ "domain": "papers",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_8192_3.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8704
+}

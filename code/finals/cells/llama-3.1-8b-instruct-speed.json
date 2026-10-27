@@ -1,0 +1,105 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "deterministic": true,
+ "kind": "speed",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "id": "unsloth/Llama-3.1-8B-Instruct",
+  "name": "llama-3.1-8b-instruct"
+ },
+ "name": "llama-3.1-8b-instruct-speed",
+ "note": "T3.1 (Llama, measured TTFT at 8K-64K, all four splits): refused by name until the engine path exists (TODO-HARNESS-VLLM-TTFT); scripts/ttft.py is the runner",
+ "projector": {
+  "files": [
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s8.safetensors",
+    "layer": 8,
+    "sha256": "911b01565af665931c1e2cb01dd6fc6a7951f120117e1327281245c51a75b335"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s12.safetensors",
+    "layer": 12,
+    "sha256": "89bf425556ca2ab5455b2ab76b686e2a29b1bdf9716bb882cb902f2bd6c18008"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s16.safetensors",
+    "layer": 16,
+    "sha256": "b076e73dc8c852f7bb27b37bc1b13cbac2bf6e9db769d095cf046b88de80358e"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s20.safetensors",
+    "layer": 20,
+    "sha256": "086afd8767eaf4d207968ca9a4572151d21f710e02c7734b084c9c9eeeeb1212"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 834541,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-LLAMA-SPEED",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "ttft-1-4",
+   "role": "curve",
+   "set": "ttft",
+   "split": "1/4"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "pop-native",
+    "ridgefill"
+   ],
+   "id": "ttft-3-8",
+   "role": "primary",
+   "set": "ttft",
+   "split": "3/8"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "ttft-1-2",
+   "role": "curve",
+   "set": "ttft",
+   "split": "1/2"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "ttft-5-8",
+   "role": "curve",
+   "set": "ttft",
+   "split": "5/8"
+  }
+ ],
+ "split": "3/8",
+ "tail": 4096
+}

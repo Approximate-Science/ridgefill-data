@@ -1,0 +1,258 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.322767962809917,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.322767962809917
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 2.3827270785123966,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.3827270785123966
+   },
+   "1/4": {
+    "all_nll": 2.4273194276859504,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.4273194276859504
+   },
+   "3/8": {
+    "all_nll": 4.705892134297521,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 4.705892134297521
+   },
+   "5/8": {
+    "all_nll": 2.3532884462809918,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.3532884462809918
+   }
+  },
+  "kva+kexact": {
+   "3/8": {
+    "all_nll": 2.330203636363636,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.330203636363636
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 3.288076033057851,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.288076033057851
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.3775055661157025,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.3775055661157025
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 4.660772907024794,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 4.660772907024794
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 3.633994512396694,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.633994512396694
+   }
+  },
+  "kva+vexact": {
+   "3/8": {
+    "all_nll": 2.499214210743802,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.499214210743802
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 4.8426013140495865,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 4.8426013140495865
+   }
+  },
+  "kvexact": {
+   "3/8": {
+    "all_nll": 2.323500580578512,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.323500580578512
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 2.866873789256198,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.866873789256198
+   },
+   "1/4": {
+    "all_nll": 2.6174768140495868,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.6174768140495868
+   },
+   "3/8": {
+    "all_nll": 2.8071090495867765,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.8071090495867765
+   },
+   "5/8": {
+    "all_nll": 2.653491617768595,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.653491617768595
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.602807564049587,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.602807564049587
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.7967457252066117,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.7967457252066117
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.7230571652892563,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.7230571652892563
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 2.6028231694214874,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.6028231694214874
+   }
+  },
+  "skip": {
+   "1/2": {
+    "all_nll": 3.8686132809917355,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.8686132809917355
+   },
+   "1/4": {
+    "all_nll": 3.899355884297521,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.899355884297521
+   },
+   "3/8": {
+    "all_nll": 3.8205824752066118,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.8205824752066118
+   },
+   "5/8": {
+    "all_nll": 3.6986715371900827,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.6986715371900827
+   }
+  },
+  "skip+tailbudget": {
+   "3/8": {
+    "all_nll": 3.3252826095041326,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 3.3252826095041326
+   }
+  },
+  "swiftkv": {
+   "1/2": {
+    "all_nll": 2.3876382128099176,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.3876382128099176
+   }
+  },
+  "swiftkv-native": {
+   "1/2": {
+    "all_nll": 2.379167475206611,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 484,
+    "novel_nll": 2.379167475206611
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll",
+ "configs": [
+  "llama-3.1-8b-instruct-nll",
+  "llama-3.1-8b-instruct-nll-swiftkv"
+ ],
+ "doc": "tech_doc_65536_2",
+ "domain": "encyclopedia",
+ "exact_swiftkv": {
+  "all_nll": 2.322767962809917,
+  "key_nll": null,
+  "n_key": 0,
+  "n_novel": 484,
+  "novel_nll": 2.322767962809917
+ },
+ "length": 65536,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/tech_doc_65536_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 63098
+}

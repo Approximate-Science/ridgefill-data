@@ -1,0 +1,67 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.5970725711159737,
+    "key_nll": 0.7589846,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 1.9009914337016576
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 1.7552435864332603,
+    "key_nll": 1.0197789333333334,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 2.058692419889503
+   },
+   "5/8": {
+    "all_nll": 1.627730739606127,
+    "key_nll": 0.6808988,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 1.9321356187845304
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 2.905789805251641,
+    "key_nll": 2.2421798666666666,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 3.1516395
+   },
+   "5/8": {
+    "all_nll": 2.287202566739606,
+    "key_nll": 1.8226825333333332,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 2.6149641270718234
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 1.9790907746170678,
+    "key_nll": 1.3554312666666668,
+    "n_key": 15,
+    "n_novel": 362,
+    "novel_nll": 2.3124088508287293
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-fresh",
+ "configs": [
+  "llama-3.1-8b-instruct-nll-fresh"
+ ],
+ "dataset": "fresh-long-20261008",
+ "doc": "papers_128000_0",
+ "domain": "papers",
+ "length": 128000,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_128000_0.txt",
+ "set": "longppl",
+ "tier": "fresh-long-20261008",
+ "tokens": 117704
+}

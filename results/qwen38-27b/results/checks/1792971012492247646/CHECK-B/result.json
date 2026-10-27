@@ -1,0 +1,1 @@
+{"pass_gate": true, "comparisons": [{"length": 16384, "output128_identical": true, "logits128_byte_identical": true, "nll": 0.2637869231828215, "all512_logprobs_identical": true}, {"length": 65536, "output128_identical": true, "logits128_byte_identical": true, "nll": 0.5100554471296058, "all512_logprobs_identical": true}]}

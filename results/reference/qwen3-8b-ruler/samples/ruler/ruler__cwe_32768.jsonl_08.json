@@ -1,0 +1,50 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 0.8
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 0.7
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.0
+   }
+  }
+ },
+ "cell": "qwen3-8b-ruler",
+ "configs": [
+  "qwen3-8b-ruler-other"
+ ],
+ "length": 32768,
+ "protocol": "1.1.1",
+ "sample": "ruler/cwe_32768.jsonl#08",
+ "set": "ruler",
+ "task": "cwe",
+ "tier": "locked-final",
+ "tokens": 32583
+}

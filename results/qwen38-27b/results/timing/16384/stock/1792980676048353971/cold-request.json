@@ -1,0 +1,1 @@
+{"prompt": {"stripped": true, "sha256": "c7daff0d5418b73af99dc6a276d4497633b18a233cb338f96d4313fe1886386a", "n": 16384}, "n_predict": 1, "ignore_eos": true, "temperature": 0, "top_k": 1, "seed": 0, "cache_prompt": false, "return_tokens": true}

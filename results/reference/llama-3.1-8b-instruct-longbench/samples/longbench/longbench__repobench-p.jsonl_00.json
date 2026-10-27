@@ -1,0 +1,49 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 0.94
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 0.65
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 0.94
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.95
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.94
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 0.62
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.08
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-longbench",
+ "configs": [
+  "llama-3.1-8b-instruct-longbench"
+ ],
+ "length": 6425,
+ "protocol": "1.1.3",
+ "sample": "longbench/repobench-p.jsonl#00",
+ "set": "longbench",
+ "task": "repobench-p",
+ "tier": "locked-final"
+}

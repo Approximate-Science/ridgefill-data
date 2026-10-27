@@ -1,0 +1,67 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.2209279423459245,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.254754124744376
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 1.2354013141153082,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.270129435582822
+   },
+   "5/8": {
+    "all_nll": 1.2276273359840952,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.2619778159509203
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 1.3287786123260437,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.365626501022495
+   },
+   "5/8": {
+    "all_nll": 1.308986111332008,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.345546380368098
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 1.3333707514910536,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 489,
+    "novel_nll": 1.3706232822085889
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-fresh",
+ "configs": [
+  "llama-3.1-8b-instruct-nll-fresh"
+ ],
+ "dataset": "fresh-long-20261008",
+ "doc": "chat_16384_0",
+ "domain": "chat",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/chat_16384_0.txt",
+ "set": "longppl",
+ "tier": "fresh-long-20261008",
+ "tokens": 16555
+}

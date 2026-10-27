@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.162645798828125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4237354966887417
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 0.161299515625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.418353417218543
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 0.161179974609375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.41781359602649004
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 0.162531916015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.41797477483443707
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 0.1603514609375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4150317350993378
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 0.16349809375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4261791589403974
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 0.162573177734375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4241848079470199
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 0.160101587890625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4229021854304636
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 0.162958318359375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4245003443708609
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 0.162248447265625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.417329582781457
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 0.16053480078125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 151,
+    "novel_nll": 0.4238939735099338
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "source_code_32768_4",
+ "domain": "source_code",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_32768_4.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33268
+}

@@ -1,0 +1,142 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "deterministic": true,
+ "keytoken": {
+  "tail": 4096,
+  "threshold": 2.0
+ },
+ "kind": "nll",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "id": "unsloth/Llama-3.1-8B-Instruct",
+  "name": "llama-3.1-8b-instruct"
+ },
+ "name": "llama-3.1-8b-instruct-nll",
+ "note": "T1.3 (126 documents, novel + key-token NLL per length bin) with the split curve; T2.1 splices and T2.2 ktail/vtail at S12",
+ "projector": {
+  "files": [
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s8.safetensors",
+    "layer": 8,
+    "sha256": "911b01565af665931c1e2cb01dd6fc6a7951f120117e1327281245c51a75b335"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s12.safetensors",
+    "layer": 12,
+    "sha256": "89bf425556ca2ab5455b2ab76b686e2a29b1bdf9716bb882cb902f2bd6c18008"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s16.safetensors",
+    "layer": 16,
+    "sha256": "b076e73dc8c852f7bb27b37bc1b13cbac2bf6e9db769d095cf046b88de80358e"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s20.safetensors",
+    "layer": 20,
+    "sha256": "086afd8767eaf4d207968ca9a4572151d21f710e02c7734b084c9c9eeeeb1212"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 834541,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-LLAMA-NLL",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill",
+    "pop-native",
+    "identity+rows",
+    "ridgefill+rows",
+    "identity+random",
+    "ridgefill+random",
+    "identity+tailmatch",
+    "ridgefill+tailmatch",
+    "nofill+tailbudget",
+    "ridgefill+kexact",
+    "ridgefill+vexact",
+    "kvexact",
+    "ridgefill+ktail",
+    "ridgefill+vtail"
+   ],
+   "id": "nll",
+   "role": "primary",
+   "set": "longppl",
+   "split": "3/8"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-1-4",
+   "role": "curve",
+   "set": "longppl",
+   "split": "1/4"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-1-2",
+   "role": "curve",
+   "set": "longppl",
+   "split": "1/2"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-5-8",
+   "role": "curve",
+   "set": "longppl",
+   "split": "5/8"
+  },
+  {
+   "arms": [
+    "exact",
+    "swiftkv-native",
+    "swiftkv"
+   ],
+   "id": "nll-swiftkv",
+   "model": "swiftkv",
+   "role": "swiftkv",
+   "set": "longppl",
+   "split": "1/2"
+  }
+ ],
+ "split": "3/8",
+ "swiftkv_model": {
+  "commit": "22a50b8c022dd8f3c6800ae1c96b54d46d89b840",
+  "id": "Snowflake/Llama-3.1-SwiftKV-8B-Instruct",
+  "name": "llama-3.1-swiftkv-8b-instruct"
+ },
+ "tail": 4096,
+ "tailbudget": {
+  "b": 0.186,
+  "basis": "kva/compute.py tail_budget at the primary split, tail 4096: the fill's modelled cost as extra tail rows / N, max over the documents' nominal lengths (8K-128K), rounded up (finals/make_cells.py)"
+ }
+}

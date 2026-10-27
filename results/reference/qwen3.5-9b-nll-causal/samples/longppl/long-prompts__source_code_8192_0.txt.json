@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.1498568984375,
+    "key_nll": 1.039958,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.19623389375
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.16588790625,
+    "key_nll": 2.940981,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1994010083333333
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.165260857421875,
+    "key_nll": 2.931706,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.19911598125
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.158023697265625,
+    "key_nll": 2.1019308,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1993887833333334
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.159191689453125,
+    "key_nll": 2.3661472,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1977354104166666
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.149445205078125,
+    "key_nll": 1.0734676,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1959631895833334
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.163548703125,
+    "key_nll": 3.0850876,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1951993979166666
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.187377724609375,
+    "key_nll": 4.6442896,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1998742354166665
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.159402232421875,
+    "key_nll": 2.1910488,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.1997213770833333
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.168911208984375,
+    "key_nll": 2.6893996000000002,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.2020719729166667
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.153249009765625,
+    "key_nll": 1.0713388,
+    "n_key": 5,
+    "n_novel": 480,
+    "novel_nll": 1.201070975
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "source_code_8192_0",
+ "domain": "source_code",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_8192_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8700
+}

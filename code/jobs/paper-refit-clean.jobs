@@ -1,0 +1,22 @@
+# Clean refit of the reference projectors for the RidgeFill finals (protocol 1.1, T0.2 decision 2): one capture per
+# model on the clean calibration list (datasets/calibration-exclude.json, applied in kva.data.calib_docs since
+# cba2d91), ridge projectors at the splits the finals cells use: 8, 12, 16, 20 (1/4, 3/8 primary, 1/2 appendix, 5/8).
+# Qwen3-8B runs from jobs/paper-qwen3-8b.jobs (already on the clean list).
+# BEFORE launching: the pre-exclusion projectors of these splits sit at the same paths; fit_sweep.py refuses them by
+# name (StaleProjector: rows 1134593 Llama / 1147875 Qwen3.5 vs the clean 834541 / 839652) and never overwrites them.
+# Move them, their fit reports and their sums aside (no deletion):
+#   A=data/proj/pre-clean-20261004; mkdir -p $A
+#   for m in llama-3.1-8b-instruct qwen3.5-9b; do for s in 8 12 16 20; do
+#     mv data/proj/$m-sweep-s$s.safetensors $A/; mv data/sums/$m-s$s.pt $A/ 2>/dev/null || true
+#     git mv results/fit-sweep-$m-s$s.json results/pre-clean-20261004/ ; done; done      (mkdir it first)
+# Size (fp64 sums 10.2 GB per model if the disk keeps 15 GB free, else fp32 or none: fit_sweep's policy; projectors
+# 2.4 GB per model). Card time: about 0.5 h per model on one R9700, from the clean Qwen3-8B sweep (2026-10-04: capture of
+# 845,043 rows in 1054 s, then each split's fit + held-out lambda selection in ~100-130 s); the clean lists have
+# 834,541 (Llama) and 839,652 (Qwen3.5) rows.
+# The cells refuse any projector whose metadata rows differ from the clean count (finals/lib/kvabackend.py).
+# On the rented box (PLAN.md correction 10-04: the refits are the box's first job) finals/refit_clean.sh runs these
+# same lines in the finals image: models pulled at their pinned commits, the committed calibration inputs (their
+# clean rows equal the private copy's), nothing to move aside on a fresh volume; the move-aside step above is for
+# the development machine only.
+fit-clean-llama scripts/fit_sweep.py data/models/llama-3.1-8b-instruct 8,12,16,20
+fit-clean-qwen scripts/fit_sweep.py data/models/qwen3.5-9b 8,12,16,20

@@ -1,0 +1,18 @@
+{
+ "manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "generator_commits": {
+  "ruler": "c3f5e3b4f87f97e048793bb510a3a6b19a46bf3a"
+ },
+ "dataset_revisions": {
+  "longbench": "main",
+  "wikipedia": "20231101.en",
+  "pg19-test": "test",
+  "arxiv": "train",
+  "ultrachat": "train_sft",
+  "lex_glue": "scotus"
+ },
+ "builder_frozen_time": "2026-10-01T04:31:34Z",
+ "final_frozen_time": "2026-10-01T04:36:51Z",
+ "amendments": "Before any model touched the set: added long-prompts/SPLITS.tsv (prompt/continuation char split, continuation = last 512 Qwen3.8 tokens); corrected domain label tech_doc -> encyclopedia (Wikipedia); per-domain sources/licences; dev 50-gram overlap re-checked independently. Decoded-JSON overlap check found LongBench lcc/repobench-p rows sharing 50-grams with the projector/GDN-correction calibration data (plan-train, plan-sterm); those rows were replaced by clean rows from the same tasks (seed 20261001): {'lcc': {'dropped': 4, 'added': 4, 'final': 50}, 'repobench-p': {'dropped': 8, 'added': 8, 'final': 50}}.",
+ "dev_overlap_hits": {}
+}

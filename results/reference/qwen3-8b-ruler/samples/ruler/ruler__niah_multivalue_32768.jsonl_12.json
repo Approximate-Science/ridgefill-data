@@ -1,0 +1,86 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 1.0
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 1.0
+   }
+  },
+  "kva+kexact": {
+   "3/8": {
+    "score": 0.75
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 1.0
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "score": 0.75
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "score": 1.0
+   }
+  },
+  "kva+vexact": {
+   "3/8": {
+    "score": 0.75
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.25
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.5
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "score": 0.5
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 1.0
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.0
+   }
+  },
+  "skip+tailbudget": {
+   "3/8": {
+    "score": 0.25
+   }
+  }
+ },
+ "cell": "qwen3-8b-ruler",
+ "configs": [
+  "qwen3-8b-ruler-niah"
+ ],
+ "length": 32768,
+ "needle_filled": true,
+ "protocol": "1.1.1",
+ "sample": "ruler/niah_multivalue_32768.jsonl#12",
+ "set": "ruler",
+ "task": "niah_multivalue",
+ "tier": "locked-final",
+ "tokens": 32050
+}

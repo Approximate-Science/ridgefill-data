@@ -1,0 +1,43 @@
+{
+ "arms": {
+  "exact": {
+   "-": {}
+  },
+  "kva": {
+   "3/8": {
+    "first_divergence": 14,
+    "frac_identical": 0.035156,
+    "kl_mean": 0.00729493,
+    "top1_agree": 0.962891
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "first_divergence": 9,
+    "frac_identical": 0.039062,
+    "kl_mean": 0.02706886,
+    "top1_agree": 0.931641
+   }
+  },
+  "skip": {
+   "3/8": {
+    "first_divergence": 4,
+    "frac_identical": 0.033203,
+    "kl_mean": 0.15255931,
+    "top1_agree": 0.835938
+   }
+  }
+ },
+ "cell": "qwen3-8b-decode",
+ "configs": [
+  "qwen3-8b-decode"
+ ],
+ "doc": "prose_8192_1",
+ "domain": "prose",
+ "length": 8192,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/prose_8192_1.txt",
+ "set": "decode",
+ "tier": "locked-final",
+ "tokens": 8063
+}

@@ -1,0 +1,33 @@
+{
+ "e3_better": [
+  "66ecf139821e116aacb1e0e1",
+  "66ec088c821e116aacb194d9",
+  "66efa466821e116aacb23219",
+  "66ed0cb0821e116aacb1e6c1",
+  "66ef8aa3821e116aacb22db5",
+  "66f118e1821e116aacb26b79",
+  "66f19f04821e116aacb27bab",
+  "66ec0874821e116aacb194a4",
+  "66efa5ea821e116aacb23268",
+  "66ec052a5a08c7b9b35e29c7"
+ ],
+ "e3_worse": [
+  "66f17aab821e116aacb2772d",
+  "66ec1aef821e116aacb1aa1a",
+  "66ebeb5a5a08c7b9b35e1ba5",
+  "66eecc45821e116aacb225c3",
+  "66ec542b821e116aacb1cc87",
+  "66ec48f2821e116aacb1ca3f",
+  "66ed36ca821e116aacb1f505",
+  "66ebd55f5a08c7b9b35e0698",
+  "66f2616e821e116aacb28e0c",
+  "66ed875e821e116aacb2023e"
+ ],
+ "typical": [
+  "66f00f1a821e116aacb252cf",
+  "66ecfdbd821e116aacb1e3f7",
+  "66ec0c4c821e116aacb1994a",
+  "66ec17e4821e116aacb1a6a7",
+  "66ecfe1e821e116aacb1e41c"
+ ]
+}

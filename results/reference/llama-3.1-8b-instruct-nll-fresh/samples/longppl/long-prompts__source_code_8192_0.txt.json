@@ -1,0 +1,67 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.6936628977272727,
+    "key_nll": 1.7502621999999999,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 0.8715920237388725
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 0.7244031272727273,
+    "key_nll": 2.1839926,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 0.9118917181008902
+   },
+   "5/8": {
+    "all_nll": 0.7014203272727273,
+    "key_nll": 1.6690121999999998,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 0.8818914807121662
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 1.0614456295454544,
+    "key_nll": 1.9255597999999998,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 1.2778350682492583
+   },
+   "5/8": {
+    "all_nll": 0.9464455795454546,
+    "key_nll": 2.108813,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 1.1545019732937685
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 0.9100564636363636,
+    "key_nll": 2.2098508,
+    "n_key": 5,
+    "n_novel": 337,
+    "novel_nll": 1.1165808931750743
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-fresh",
+ "configs": [
+  "llama-3.1-8b-instruct-nll-fresh"
+ ],
+ "dataset": "fresh-long-20261008",
+ "doc": "source_code_8192_0",
+ "domain": "source_code",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_8192_0.txt",
+ "set": "longppl",
+ "tier": "fresh-long-20261008",
+ "tokens": 7862
+}

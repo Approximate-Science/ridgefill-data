@@ -1,0 +1,18 @@
+04:44:33 split 24: configs ['plain'], msfa (15, 19, 23), sums 6.2 GiB
+04:44:38 held rows 7479; HC identity at layer 24 reproduces block_input_24: cos 1.00000 (must be ~1)
+04:44:52 his file: {'bi': 0.7358895714084307, 'bi_gdn': 0.7353213330109915, 'bi_attn': 0.7375942866007487, 'kdir': 0.8821440438429514, 'ikdir': 0.9040015538533529, 'vrel': 0.16252484420935312}
+04:44:52 1 capture pass(es): [['plain']]
+04:44:52 add-stats WORKSTATION_PATH-1/models-boot/kva-bigcap-sums/acc-raw-s24.pt (raw): 248923 rows
+04:44:53 add-stats WORKSTATION_PATH-1/models-boot/kva-bigcap-sums/acc-chat-s24.pt (chat): 176866 rows
+04:47:59 wrote WORKSTATION_PATH-1/projects/research/kva-wt-flashnext/data/qfn/proj-big/kva-c0-s24.safetensors (share 0.0, lambda 0.1): {'bi': 0.7433554604649544, 'bi_gdn': 0.7431827220651839, 'bi_attn': 0.743873675664266, 'kdir': 0.8870926102002462, 'ikdir': 0.9081638157367706, 'vrel': 0.16029625882705054}
+04:50:18 S24 plain lam 0.001: {'bi': 0.7515791157881418, 'bi_gdn': 0.7513875398370955, 'bi_attn': 0.7521538436412811, 'kdir': 0.8897372980912527, 'ikdir': 0.9100118279457092, 'vrel': 0.15683713927865028}
+04:50:18 S24 plain lam 0.003: {'bi': 0.7517070174217224, 'bi_gdn': 0.7515185872713724, 'bi_attn': 0.7522723078727722, 'kdir': 0.8898082971572876, 'ikdir': 0.9100664158662161, 'vrel': 0.15673024083177248}
+04:50:18 S24 plain lam 0.01: {'bi': 0.7520556673407555, 'bi_gdn': 0.7518823047478994, 'bi_attn': 0.7525757551193237, 'kdir': 0.8899975617726644, 'ikdir': 0.9102121889591217, 'vrel': 0.1564370095729828}
+04:50:18 S24 plain lam 0.03: {'bi': 0.7524900312225024, 'bi_gdn': 0.7523756490813361, 'bi_attn': 0.7528331776460012, 'kdir': 0.8902096649010977, 'ikdir': 0.9103788733482361, 'vrel': 0.1560616431136926}
+04:50:18 S24 plain lam 0.1: {'bi': 0.7514896169304848, 'bi_gdn': 0.7515740825070275, 'bi_attn': 0.7512362202008566, 'kdir': 0.8895588219165802, 'ikdir': 0.9099060992399851, 'vrel': 0.15686063220103583}
+04:50:18 S24 plain lam 0.3: {'bi': 0.7450538625319799, 'bi_gdn': 0.745412164264255, 'bi_attn': 0.7439789573351542, 'kdir': 0.8858972489833832, 'ikdir': 0.9071821371714274, 'vrel': 0.16234747817118964}
+04:50:18 S24 plain: solved in 132s
+04:52:26 wrote WORKSTATION_PATH-1/projects/research/kva-wt-flashnext/data/qfn/proj-big/foldeq-s24.safetensors (lambdas {'gdn': 0.03, 'k': 0.03, 'v': 0.03, 'ik': 0.03})
+04:53:23 wrote WORKSTATION_PATH-1/projects/research/kva-wt-flashnext/data/qfn/proj-big/fold-s24.safetensors (lambdas {'gdn': 0.03, 'k': 0.03, 'v': 0.03, 'ik': 0.03})
+04:54:18 wrote WORKSTATION_PATH-1/projects/research/kva-wt-flashnext/data/qfn/proj-big/fold-attn-s24.safetensors (lambdas {'gdn': 0.03, 'k': 0.03, 'v': 0.03, 'ik': 0.03})
+04:54:31 report WORKSTATION_PATH-1/projects/research/kva-wt-flashnext/data/qfn/proj-big/report-s24.json

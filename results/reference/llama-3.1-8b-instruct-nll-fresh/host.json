@@ -1,0 +1,11 @@
+{
+ "fingerprint": "6d941e988f5652f1a2a55a103a903a7ddd01b18bbd58d2ddb850216c116fadb2",
+ "host": {
+  "commit": "019ae056229362276e0af4db62d1b2ba771f8860",
+  "driver": "595.71.05",
+  "gpu_name": "NVIDIA L40S",
+  "host": "0b05e4c6c8d2",
+  "machine": "x86_64",
+  "torch": "2.11.0+cu128"
+ }
+}

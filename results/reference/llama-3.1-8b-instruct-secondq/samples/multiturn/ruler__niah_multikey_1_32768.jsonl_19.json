@@ -1,0 +1,39 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "turn1": 1.0,
+    "turn2": 1.0
+   }
+  },
+  "kva": {
+   "3/8": {
+    "turn1": 0.0,
+    "turn2": 0.0
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "turn1": 1.0,
+    "turn2": 1.0
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "turn1": 1.0,
+    "turn2": 1.0
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-secondq",
+ "configs": [
+  "llama-3.1-8b-instruct-secondq"
+ ],
+ "length": 32768,
+ "protocol": "1.1.1",
+ "sample": "ruler/niah_multikey_1_32768.jsonl#19",
+ "set": "multiturn",
+ "task": "niah_multikey_1",
+ "tier": "locked-final",
+ "tokens": 32509
+}

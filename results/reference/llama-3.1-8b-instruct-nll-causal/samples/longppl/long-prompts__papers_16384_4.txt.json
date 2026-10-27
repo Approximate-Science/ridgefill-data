@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.5991398044806517,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.7224785649202734
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.6821895091649695,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.8043799612756264
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.6386890468431772,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.7660615284738042
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.631600368635438,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.757673396355353
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.682385099796334,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.8039850364464693
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.6738198207739308,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.7948129202733485
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.65623700203666,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.7759213507972664
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.1909227128309574,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 2.280709881548975
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.8422763482688391,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 1.955025972665148
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.1654446435845216,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 2.255212644646925
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.1573103217922607,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 439,
+    "novel_nll": 2.2489380774487473
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "papers_16384_4",
+ "domain": "papers",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_16384_4.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16317
+}

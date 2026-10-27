@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.590926885375494,
+    "key_nll": 4.605689666666667,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 1.590926885375494
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 6.998142128458498,
+    "key_nll": 11.078981,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 6.998142128458498
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 3.9362513675889326,
+    "key_nll": 8.23496,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 3.9362513675889326
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.7410371007905139,
+    "key_nll": 5.574856,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 1.7410371007905139
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 6.3826503201581035,
+    "key_nll": 10.804231999999999,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 6.3826503201581035
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 5.858295213438735,
+    "key_nll": 10.272530333333334,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 5.858295213438735
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 6.298657162055336,
+    "key_nll": 9.982072,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 6.298657162055336
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.760838851778656,
+    "key_nll": 4.8895349999999995,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 2.760838851778656
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.9513208458498024,
+    "key_nll": 4.086940333333334,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 1.9513208458498024
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.707466355731225,
+    "key_nll": 4.940701,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 2.707466355731225
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.642233041501976,
+    "key_nll": 4.887675000000001,
+    "n_key": 3,
+    "n_novel": 506,
+    "novel_nll": 2.642233041501976
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "tech_doc_128000_0",
+ "domain": "encyclopedia",
+ "length": 128000,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_128000_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 124164
+}

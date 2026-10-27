@@ -1,0 +1,2 @@
+dir WORKSTATION_PATH-3/AI-Work/ridgefill-c5-20261008/engine-overlay-det-v3
+sha256 37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac  SHA256SUMS

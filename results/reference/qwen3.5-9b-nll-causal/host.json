@@ -1,0 +1,11 @@
+{
+ "fingerprint": "ddf9066198cc70edcf47f7e04f882f8414537ba3c94462a3efb15a10601c4697",
+ "host": {
+  "commit": "253f845ae1684a62da3fa70c3c3804aa6c21f120",
+  "driver": "580.119.02",
+  "gpu_name": "NVIDIA RTX 6000 Ada Generation",
+  "host": "2f8411d4e4bd",
+  "machine": "x86_64",
+  "torch": "2.11.0+cu128"
+ }
+}

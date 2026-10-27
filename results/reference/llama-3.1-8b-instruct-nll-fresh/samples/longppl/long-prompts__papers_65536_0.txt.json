@@ -1,0 +1,67 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.6213682322175732,
+    "key_nll": 6.202009,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 1.6294337291666665
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 0.6617389121338911,
+    "key_nll": 7.7807405,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 1.7424054999999998
+   },
+   "5/8": {
+    "all_nll": 0.6368314330543933,
+    "key_nll": 6.4958085,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 1.6654120763888889
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 1.6320510502092052,
+    "key_nll": 6.45503,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 2.9201564791666668
+   },
+   "5/8": {
+    "all_nll": 1.2142819811715482,
+    "key_nll": 6.8773995,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 2.2344172777777778
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 0.9869661673640168,
+    "key_nll": 6.7009735,
+    "n_key": 2,
+    "n_novel": 144,
+    "novel_nll": 1.9651835347222222
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-fresh",
+ "configs": [
+  "llama-3.1-8b-instruct-nll-fresh"
+ ],
+ "dataset": "fresh-long-20261008",
+ "doc": "papers_65536_0",
+ "domain": "papers",
+ "length": 65536,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_65536_0.txt",
+ "set": "longppl",
+ "tier": "fresh-long-20261008",
+ "tokens": 62300
+}

@@ -1,0 +1,3020 @@
+[
+{
+"id": "66fcffd9bb02136c067c94c5",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f36490821e116aacb2cc22",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f94f9ebb02136c067c4fde",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6723a1ccbb02136c067d70b3",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebed525a08c7b9b35e1cb4",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670aac92bb02136c067d218a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b3cabbb02136c067d5252",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa208bbb02136c067c5fc1",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec0c4c821e116aacb1994a",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f920d8bb02136c067c4b81",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec56dd821e116aacb1cd0e",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725dc28bb02136c067d8555",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebd55f5a08c7b9b35e0698",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "670cf1c0bb02136c067d26e5",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec3fa7821e116aacb1c75d",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ed875e821e116aacb2023e",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f8c9febb02136c067c4511",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "67239fd9bb02136c067d6ff7",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f61d7dbb02136c067c1802",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f3f46f821e116aacb2ff5d",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f599ef821e116aacb34099",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f39aa7821e116aacb2da76",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2a414821e116aacb2a3af",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67286634bb02136c067d91f0",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f958b3bb02136c067c5219",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3c1ab821e116aacb2ead1",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f618f1bb02136c067c16f9",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fcf2f2bb02136c067c9169",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f40b9c821e116aacb30a99",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725d977bb02136c067d8373",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f8d4b3bb02136c067c45c2",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6724631ebb02136c067d7300",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f659a8bb02136c067c1d68",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f40e44821e116aacb30b45",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f50109821e116aacb31f16",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa3843bb02136c067c655d",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "670fb813bb02136c067d2bec",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f167c3821e116aacb274f4",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ecfe1e821e116aacb1e41c",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66eefe85821e116aacb228dc",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f78ecfbb02136c067c2f12",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6703a0ecbb02136c067cd11b",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67286698bb02136c067d9223",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebc4af5a08c7b9b35dede0",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67285e1dbb02136c067d901b",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ee4c55821e116aacb21596",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66faafd9bb02136c067c74a8",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6719bc01bb02136c067d43fa",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed3148821e116aacb1f2ce",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6704a83dbb02136c067cde1b",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3d738821e116aacb2f446",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebd5125a08c7b9b35e0616",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f95126bb02136c067c5070",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66fcf8dfbb02136c067c92cc",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6701cda0bb02136c067cb6eb",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f4cd2c821e116aacb316ef",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67062a63bb02136c067cf5ac",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67237d8ebb02136c067d6c06",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f1dac1821e116aacb27df1",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66fbab85bb02136c067c81dc",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6725e2febb02136c067d8717",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec3aff821e116aacb1c52e",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ecfdbd821e116aacb1e3f7",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "670fbae0bb02136c067d2c79",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67246903bb02136c067d74f2",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f2a4e3821e116aacb2a49b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fa7f1dbb02136c067c6e6b",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec3d1d821e116aacb1c622",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "672464aebb02136c067d73e6",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3e58c821e116aacb2fabc",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670cf52abb02136c067d2728",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6725d92bbb02136c067d833c",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa50acbb02136c067c6827",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "671b99e5bb02136c067d583d",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2a255821e116aacb2a20b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f55d66821e116aacb33734",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2adaf821e116aacb2aca9",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fe8eb3bb02136c067ca35f",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670fbf5abb02136c067d2d9c",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67040276bb02136c067cd8ae",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fb6d71bb02136c067c7c34",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6703933bbb02136c067ccd78",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6724c788bb02136c067d792d",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670fbb78bb02136c067d2cd3",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f40501821e116aacb307e8",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "670fbb1fbb02136c067d2ca4",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b1335bb02136c067d4e88",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f14c70821e116aacb271ee",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fea153bb02136c067ca3e7",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec2df6821e116aacb1bb7b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebee0a5a08c7b9b35e1d05",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed910a821e116aacb2033b",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed1556821e116aacb1ea14",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2cacb821e116aacb2ba50",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2c44e821e116aacb2b826",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66eae4de5a08c7b9b35dd12d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6703f73cbb02136c067cd74a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "671b3fa1bb02136c067d5353",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3d10b821e116aacb2f14f",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f016e6821e116aacb25497",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f97d7fbb02136c067c56b2",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3dd59821e116aacb2f6ba",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2a80d821e116aacb2a760",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ee3c6d821e116aacb20f6f",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6725d898bb02136c067d82d6",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f3c1c3821e116aacb2eaf6",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed364d821e116aacb1f47e",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66efc5e3821e116aacb23df1",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f2b546821e116aacb2b152",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f2b11c821e116aacb2aeb6",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b2c67bb02136c067d50f7",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa0d88bb02136c067c5a8a",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ec356a821e116aacb1c22b",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "672861afbb02136c067d90d8",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66eb873c5a08c7b9b35dd849",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebd2475a08c7b9b35e0155",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66fa8ccdbb02136c067c6fa7",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ee4287821e116aacb21258",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f19f04821e116aacb27bab",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec41d3821e116aacb1c874",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f55828821e116aacb3363e",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6725da56bb02136c067d841b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3918f821e116aacb2d8b7",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebd3ba5a08c7b9b35e0446",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa2734bb02136c067c627a",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f950acbb02136c067c5021",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "671a4444bb02136c067d4a40",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6703f57bbb02136c067cd714",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ed211f821e116aacb1ee0d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fcfd6fbb02136c067c9454",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ed4274821e116aacb1f8f1",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f299b3821e116aacb29cfa",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6724c83fbb02136c067d7962",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66faac15bb02136c067c73f3",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "671b530dbb02136c067d5454",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f53ab2821e116aacb33299",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670fb6a3bb02136c067d2b94",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f53892821e116aacb33225",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f1cd02821e116aacb27d3f",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f3d2fc821e116aacb2f269",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa542bbb02136c067c686d",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f6b623bb02136c067c2646",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "670765abbb02136c067d06b4",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f3df1e821e116aacb2f7be",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "672468b1bb02136c067d74bd",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fba2bcbb02136c067c8112",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f17aab821e116aacb2772d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebd34d5a08c7b9b35e035d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ead7bd5a08c7b9b35dca7a",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec0874821e116aacb194a4",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec4370821e116aacb1c905",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fcf725bb02136c067c924a",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f95c18bb02136c067c52e1",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2ad2b821e116aacb2ac0f",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6724c5febb02136c067d78e7",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec4e43821e116aacb1cb54",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6724c4aabb02136c067d78a6",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3fb96821e116aacb3043f",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f41108821e116aacb30c41",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ed5be2821e116aacb1fb57",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fcfb5fbb02136c067c93ae",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670bf6ddbb02136c067d2379",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f530ce821e116aacb32f09",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec1e3f821e116aacb1ae7d",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6723a0a7bb02136c067d7040",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec2e2a821e116aacb1bb9f",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ed2c87821e116aacb1f149",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec48f2821e116aacb1ca3f",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f00f1a821e116aacb252cf",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6723a770bb02136c067d7233",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebc0c95a08c7b9b35de7f3",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "671b17d5bb02136c067d4f7d",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ed168b821e116aacb1ea8c",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6725db01bb02136c067d847f",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2a46d821e116aacb2a41a",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6719c1febb02136c067d44db",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f91f2cbb02136c067c4b1e",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66efaf70821e116aacb234bd",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3f1a5821e116aacb2fdc7",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670c090bbb02136c067d2404",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f28ede821e116aacb29a27",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa6867bb02136c067c6b3b",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67249705bb02136c067d76d1",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66fab090bb02136c067c74e7",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fcfb1cbb02136c067c938b",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66fad00bbb02136c067c76ce",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67095b87bb02136c067d1bad",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f9625fbb02136c067c5456",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f56630821e116aacb3392b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "670fb882bb02136c067d2c1d",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67189156bb02136c067d3b8d",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2cb0f821e116aacb2ba6d",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "672494e5bb02136c067d7697",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66faa0f5bb02136c067c722c",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f52d48821e116aacb32cf4",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67239f49bb02136c067d6fc0",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f3ad93821e116aacb2e29f",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f95e11bb02136c067c5370",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f954a5bb02136c067c511a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6713066fbb02136c067d3214",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670fbfa4bb02136c067d2dcb",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f37635821e116aacb2d017",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebcc1e5a08c7b9b35df87d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670bf1c4bb02136c067d2341",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "67285f8ebb02136c067d905d",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f1ae08821e116aacb27c9c",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6724694fbb02136c067d752b",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebd0ea5a08c7b9b35dff57",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebe0fb5a08c7b9b35e14f5",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f41e45821e116aacb30ec3",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fd4f54bb02136c067c9987",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6719b96abb02136c067d4358",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebcc335a08c7b9b35df8b6",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "67078ecabb02136c067d0b89",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "67192e81bb02136c067d427f",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ec332a821e116aacb1c042",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f793f4bb02136c067c306e",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebeb5a5a08c7b9b35e1ba5",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ee981d821e116aacb22005",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67286533bb02136c067d919f",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fab4bfbb02136c067c754c",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6719bce5bb02136c067d4447",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670cb73fbb02136c067d2502",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66fa190bbb02136c067c5d32",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f3c806821e116aacb2ed77",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3e473821e116aacb2fa73",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebc95f5a08c7b9b35df497",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6704fe26bb02136c067ce670",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f7f963bb02136c067c3be1",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "671b1480bb02136c067d4f14",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec1aef821e116aacb1aa1a",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6725d7a9bb02136c067d822d",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "670493d4bb02136c067cdcd9",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67040983bb02136c067cd996",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725db8bbb02136c067d84eb",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66fe81dcbb02136c067ca2de",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f0ed5a821e116aacb265ab",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ee8bab821e116aacb21e44",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f37eb9821e116aacb2d295",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66fa7c81bb02136c067c6e09",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f97dc3bb02136c067c56c8",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6703fc69bb02136c067cd7c2",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f7a96cbb02136c067c3255",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f53f2b821e116aacb3335a",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec2374821e116aacb1b423",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b58e8bb02136c067d5525",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67192057bb02136c067d41b4",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670397b5bb02136c067ccec6",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66fcf36fbb02136c067c919e",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ecf139821e116aacb1e0e1",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6719b9f1bb02136c067d4389",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa1e4cbb02136c067c5edf",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f118e1821e116aacb26b79",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66efd10f821e116aacb2437c",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f39ac5821e116aacb2da81",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebd49a5a08c7b9b35e0550",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebb0e55a08c7b9b35ddd6a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6719185cbb02136c067d40ab",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "672864b4bb02136c067d916c",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f6909bbb02136c067c2380",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fb75adbb02136c067c7d73",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f2b5ec821e116aacb2b1ec",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6708ae87bb02136c067d1847",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f3fd3a821e116aacb30533",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ebc04a5a08c7b9b35de740",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f3cfa5821e116aacb2f096",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6724c1d4bb02136c067d77ec",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6725dbd1bb02136c067d8522",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2a557821e116aacb2a510",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f8d84cbb02136c067c465f",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2a59d821e116aacb2a553",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f67c18bb02136c067c21b8",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f2a98a821e116aacb2a8bf",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "671b3d1bbb02136c067d5283",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6725e351bb02136c067d8758",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f7aa19bb02136c067c327e",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2616e821e116aacb28e0c",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67246500bb02136c067d7423",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3fb15821e116aacb303dc",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6707b84cbb02136c067d10a5",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f26c5f821e116aacb2907c",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b56cfbb02136c067d54e9",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ece358821e116aacb1dc08",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed3960821e116aacb1f616",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ec1eb9821e116aacb1af36",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66eefa2f821e116aacb2284f",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6724645dbb02136c067d73ad",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ebe30a5a08c7b9b35e1693",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed3e90821e116aacb1f82f",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec1de5821e116aacb1adca",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec1054821e116aacb19f1a",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "671b3d9fbb02136c067d52b2",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebd22e5a08c7b9b35e0126",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebca1e5a08c7b9b35df5e8",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ee490e821e116aacb2149c",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6708a096bb02136c067d1789",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f3b843821e116aacb2e692",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f52f0f821e116aacb32ddb",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6719d65ebb02136c067d45dc",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f947abbb02136c067c4ea6",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67286036bb02136c067d9092",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ed0cb0821e116aacb1e6c1",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6728586bbb02136c067d8f4f",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "671b5d49bb02136c067d55fb",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ebe68d5a08c7b9b35e190b",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "671b3e0cbb02136c067d52e5",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "671b2c05bb02136c067d50c8",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f3a311821e116aacb2de19",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebd0825a08c7b9b35dfe9d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec3352821e116aacb1c085",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebc3165a08c7b9b35deb38",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ed1734821e116aacb1ead5",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f6a14dbb02136c067c2453",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f59d31821e116aacb340f6",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec5e39821e116aacb1cee1",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2b676821e116aacb2b27a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f52567821e116aacb329bc",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f7f382bb02136c067c3a6c",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6704a442bb02136c067cdd91",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec1db2821e116aacb1ad69",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebbe4f5a08c7b9b35de533",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa7269bb02136c067c6c73",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ece545821e116aacb1dd77",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebde0f5a08c7b9b35e1256",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fbe00fbb02136c067c84c8",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "671b2e2dbb02136c067d515b",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f6bcf3bb02136c067c2703",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f55729821e116aacb3358b",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f2a14b821e116aacb2a128",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f52926821e116aacb32b5e",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6704e10fbb02136c067ce1a0",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f43414821e116aacb310a1",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "671b13f5bb02136c067d4ee3",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec0f3c821e116aacb19d70",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f3abe6821e116aacb2e1d2",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6700d19dbb02136c067cb024",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f3ac0b821e116aacb2e203",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ec2fde821e116aacb1bd18",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebce825a08c7b9b35dfc75",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec0f7f821e116aacb19dde",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6725dabfbb02136c067d8450",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec6582821e116aacb1cf7a",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6725d8dbbb02136c067d8309",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3de02821e116aacb2f73b",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f535c5821e116aacb33168",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec21e6821e116aacb1b2d2",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ee3c7b821e116aacb20f80",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6709d44abb02136c067d1d5d",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa69a4bb02136c067c6b75",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ee496a821e116aacb214d5",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa6702bb02136c067c6abb",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f5605a821e116aacb3381f",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f52c6d821e116aacb32cb0",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebd9895a08c7b9b35e0c7c",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec25a5821e116aacb1b5d1",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "6725dcb2bb02136c067d85b7",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fc05b6bb02136c067c88e4",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6707f349bb02136c067d13b9",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec5af0821e116aacb1ce41",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6725dda1bb02136c067d8654",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ec088c821e116aacb194d9",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66fb8633bb02136c067c800b",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f578fa821e116aacb33c58",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f68b33bb02136c067c2303",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebd2975a08c7b9b35e01e3",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fc0152bb02136c067c8826",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "67039cfabb02136c067cd04e",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ece958821e116aacb1df04",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fb77e7bb02136c067c7db1",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fa5fbcbb02136c067c6959",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fa9ff6bb02136c067c71e0",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3e318821e116aacb2f9d1",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66fa1b54bb02136c067c5df7",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec542b821e116aacb1cc87",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2d224821e116aacb2bb8a",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ec7ba6821e116aacb1d114",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67041f08bb02136c067cdb52",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec0d4b821e116aacb19af8",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67286ab8bb02136c067d92e4",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f41348821e116aacb30c89",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f120a9821e116aacb26d02",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6707b3cabb02136c067d1021",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fa700bbb02136c067c6c06",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f55ddb821e116aacb33761",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fcfa1cbb02136c067c932e",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "67246413bb02136c067d7374",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f568dc821e116aacb33995",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "671b08c8bb02136c067d4e19",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f168d8821e116aacb27519",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f4f87b821e116aacb31d62",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2982b821e116aacb29c66",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725dd39bb02136c067d861b",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fcfbbcbb02136c067c93d3",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ebdadd5a08c7b9b35e0e5b",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f11349821e116aacb269e0",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f28794821e116aacb298ee",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f67c1bbb02136c067c21b9",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f53b9b821e116aacb332fc",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "67191791bb02136c067d406c",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670fb8dfbb02136c067d2c48",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67062fbfbb02136c067cf66a",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f2e0bc821e116aacb2bf37",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "671b080abb02136c067d4dde",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3c219821e116aacb2eb4e",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3cb88821e116aacb2eeb9",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3c5f2821e116aacb2eccf",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f38969821e116aacb2d6ec",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67066b87bb02136c067cfaa3",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f284ff821e116aacb29763",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f25a2f821e116aacb28b2f",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f24538821e116aacb2865e",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "67246a00bb02136c067d759f",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66eecc45821e116aacb225c3",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa415cbb02136c067c671c",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "671b170cbb02136c067d4f4a",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f57379821e116aacb33b7a",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f96115bb02136c067c541c",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f3f947821e116aacb3029b",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725dc6abb02136c067d8586",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f2e874821e116aacb2c0af",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f957e2bb02136c067c51c8",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66faa8efbb02136c067c7357",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ec18a7821e116aacb1a72e",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3e604821e116aacb2fadf",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "670fbd96bb02136c067d2d49",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ec052a5a08c7b9b35e29c7",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6723a63bbb02136c067d71a1",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6700eb6ebb02136c067cb152",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "671b2822bb02136c067d5020",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "67009bd8bb02136c067caba9",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f2d553821e116aacb2bc8f",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f3edfb821e116aacb2fc91",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66fb6527bb02136c067c7b4f",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ebd5675a08c7b9b35e06bf",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec3644821e116aacb1c312",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec3a46821e116aacb1c49f",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ebdfb65a08c7b9b35e140a",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f4ce9e821e116aacb31731",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ec17e4821e116aacb1a6a7",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ebd3075a08c7b9b35e02bd",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ebc7445a08c7b9b35df155",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ec09ec821e116aacb19620",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fa788abb02136c067c6d75",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6719ef50bb02136c067d4911",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ef1a4d821e116aacb229d5",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ece28e821e116aacb1db1f",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f3cca6821e116aacb2ef7c",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66fcf80dbb02136c067c928e",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ec0d51821e116aacb19b0f",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6724cae7bb02136c067d79be",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f590fa821e116aacb33f35",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6703bed0bb02136c067cd381",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ef8aa3821e116aacb22db5",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f40c5e821e116aacb30ad2",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f3f095821e116aacb2fd28",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f51ab2821e116aacb325fb",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "671b2b57bb02136c067d508b",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f8c6b4bb02136c067c4480",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670bffa2bb02136c067d23b5",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "6724699dbb02136c067d7564",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66fcfc9fbb02136c067c9411",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f245cc821e116aacb28698",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66f908e3bb02136c067c4992",
+"domain": "Code Repository Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ed3ae5821e116aacb1f729",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f2aac2821e116aacb2a9de",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "670fb637bb02136c067d2b65",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "670fbbd0bb02136c067d2d04",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2ef20821e116aacb2c278",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67246d0ebb02136c067d75f0",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ec31eb821e116aacb1bf28",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66ed24c5821e116aacb1eee6",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66ebdd1c5a08c7b9b35e113b",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ebd92d5a08c7b9b35e0bf0",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66ed23ce821e116aacb1ee84",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "6719167dbb02136c067d4025",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "67286795bb02136c067d92ab",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66efa5ea821e116aacb23268",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f56c9c821e116aacb33a45",
+"domain": "Long In-context Learning",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6724938fbb02136c067d7657",
+"domain": "Long Structured Data Understanding",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f58d6c821e116aacb33e76",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ed36ca821e116aacb1f505",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "670646aebb02136c067cf85a",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66efa466821e116aacb23219",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66fb5f73bb02136c067c7ae7",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "6719dc46bb02136c067d470b",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f4eff3821e116aacb31bc8",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66fa36c9bb02136c067c6517",
+"domain": "Code Repository Understanding",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66ebda775a08c7b9b35e0dcb",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "66ec2755821e116aacb1b6f2",
+"domain": "Single-Document QA",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "66f379e8821e116aacb2d161",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f8c783bb02136c067c44b8",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f519a6821e116aacb32579",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f10d67821e116aacb268d0",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66f3c081821e116aacb2e9fa",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "6718a43fbb02136c067d3ca8",
+"domain": "Long-dialogue History Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f2ad89821e116aacb2ac92",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "short"
+},
+{
+"id": "66fcf53fbb02136c067c91e7",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "long"
+},
+{
+"id": "6725db46bb02136c067d84b4",
+"domain": "Long In-context Learning",
+"difficulty": "easy",
+"length": "medium"
+},
+{
+"id": "66f2abc5821e116aacb2aab7",
+"domain": "Long Structured Data Understanding",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66ebf9bf5a08c7b9b35e1f85",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "short"
+},
+{
+"id": "670cf163bb02136c067d26b6",
+"domain": "Single-Document QA",
+"difficulty": "hard",
+"length": "medium"
+},
+{
+"id": "66f7c780bb02136c067c35e8",
+"domain": "Multi-Document QA",
+"difficulty": "hard",
+"length": "long"
+},
+{
+"id": "66f2a7a9821e116aacb2a721",
+"domain": "Multi-Document QA",
+"difficulty": "easy",
+"length": "medium"
+}
+]

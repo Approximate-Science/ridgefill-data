@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.298319020366599,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.298319020366599
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 3.5508027189409366,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 3.5508027189409366
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 3.0703596089613034,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 3.0703596089613034
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.343328606924644,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.343328606924644
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 3.5143072036659877,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 3.5143072036659877
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 3.4379920448065175,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 3.4379920448065175
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 3.8160257637474544,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 3.8160257637474544
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.730730458248473,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.730730458248473
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.443196071283096,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.443196071283096
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.712070883910387,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.712070883910387
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.688118896130346,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 491,
+    "novel_nll": 2.688118896130346
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "chat_65536_1",
+ "domain": "chat",
+ "length": 65536,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/chat_65536_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 64475
+}

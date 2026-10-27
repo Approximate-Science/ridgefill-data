@@ -1,0 +1,1 @@
+exact ppl-a vs ppl-b: 90 docs in both, 90 bitwise equal; worst max|d| 0 

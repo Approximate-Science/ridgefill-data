@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.1205850237623762,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.153190939271255
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.2008292653465347,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.230867204453441
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.13394520990099,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.166189777327935
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.1842097485148515,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.214135137651822
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.1932793267326733,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.224590979757085
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.19873721980198,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.229030137651822
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.1543553881188116,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.185843089068826
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.3290838732673267,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.3566223279352227
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.2172778930693067,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.2488802165991904
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.3035917782178217,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.3308626801619434
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.305461794059406,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 494,
+    "novel_nll": 2.3327785020242913
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "tech_doc_8192_2",
+ "domain": "encyclopedia",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_8192_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8635
+}

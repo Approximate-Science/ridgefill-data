@@ -1,0 +1,232 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.532846521484375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.532846521484375
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 1.534443833984375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.534443833984375
+   },
+   "1/4": {
+    "all_nll": 1.538093548828125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.538093548828125
+   },
+   "3/8": {
+    "all_nll": 1.53591443359375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.53591443359375
+   },
+   "5/8": {
+    "all_nll": 1.532154650390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.532154650390625
+   }
+  },
+  "kva+kexact": {
+   "3/8": {
+    "all_nll": 1.537283935546875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.537283935546875
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.533181150390625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.533181150390625
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.53213332421875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.53213332421875
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.535526982421875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.535526982421875
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.533188990234375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.533188990234375
+   }
+  },
+  "kva+vexact": {
+   "3/8": {
+    "all_nll": 1.534471583984375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.534471583984375
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.5295184765625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.5295184765625
+   }
+  },
+  "kvexact": {
+   "3/8": {
+    "all_nll": 1.53314141015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.53314141015625
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 1.5279232890625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.5279232890625
+   },
+   "1/4": {
+    "all_nll": 1.5386951015625001,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.5386951015625001
+   },
+   "3/8": {
+    "all_nll": 1.5373096328125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.5373096328125
+   },
+   "5/8": {
+    "all_nll": 1.529525037109375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.529525037109375
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.533992181640625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.533992181640625
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.534953890625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.534953890625
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.535647814453125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.535647814453125
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 1.536304771484375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.536304771484375
+   }
+  },
+  "skip": {
+   "1/2": {
+    "all_nll": 1.534599404296875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.534599404296875
+   },
+   "1/4": {
+    "all_nll": 1.55591239453125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.55591239453125
+   },
+   "3/8": {
+    "all_nll": 1.544763701171875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.544763701171875
+   },
+   "5/8": {
+    "all_nll": 1.52742003125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.52742003125
+   }
+  },
+  "skip+tailbudget": {
+   "3/8": {
+    "all_nll": 1.541496791015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 1.541496791015625
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "tech_doc_8192_3",
+ "domain": "encyclopedia",
+ "length": 8192,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/tech_doc_8192_3.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8704
+}

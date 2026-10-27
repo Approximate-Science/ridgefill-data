@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.8581531787819254,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8581531787819254
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.8934269292730845,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8934269292730845
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.891460913555992,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.891460913555992
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.859415424361493,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.859415424361493
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.886803518664047,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.886803518664047
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.8906316876227898,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8906316876227898
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.9226507524557956,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.9226507524557956
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.8420676227897839,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8420676227897839
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.8400914243614932,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8400914243614932
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.8321724793713163,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8321724793713163
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.8419528880157172,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 509,
+    "novel_nll": 1.8419528880157172
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "tech_doc_8192_1",
+ "domain": "encyclopedia",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_8192_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8599
+}

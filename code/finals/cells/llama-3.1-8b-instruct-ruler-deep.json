@@ -1,0 +1,68 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536,
+  "ruler_max_new": {
+   "niah_multikey_1": 32,
+   "niah_single_1": 32
+  }
+ },
+ "code_tag": "protocol-v1.1.3",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "deterministic": true,
+ "kind": "ruler-deep",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "id": "unsloth/Llama-3.1-8B-Instruct",
+  "name": "llama-3.1-8b-instruct"
+ },
+ "name": "llama-3.1-8b-instruct-ruler-deep",
+ "note": "follow-up (2026-10-08): NIAH filled-region retrieval at the 5/8 split S20 against POP as published (its own, shallower split): matched or deeper skipping; protocol 1.1.2 generation cap",
+ "projector": {
+  "files": [
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s20.safetensors",
+    "layer": 20,
+    "sha256": "086afd8767eaf4d207968ca9a4572151d21f710e02c7734b084c9c9eeeeb1212"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 834541,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-LLAMA-RULER-DEEP",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "identity",
+    "ridgefill",
+    "pop-native"
+   ],
+   "id": "ruler-niah-deep",
+   "lengths": [
+    8192,
+    16384,
+    32768
+   ],
+   "role": "primary",
+   "set": "ruler",
+   "split": "5/8",
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  }
+ ],
+ "split": "5/8",
+ "tail": 4096
+}

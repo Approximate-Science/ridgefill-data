@@ -1,0 +1,11 @@
+{
+ "fingerprint": "ddbb798daba26bfd0171fb16a219d49e6008e407f147672ad6a4fcad4bd2bc5a",
+ "host": {
+  "commit": "21ccd24402c29deeeb80de9a5a8828a6439cc016",
+  "driver": "580.142",
+  "gpu_name": "NVIDIA GeForce RTX 4090",
+  "host": "610c63ea90eb",
+  "machine": "x86_64",
+  "torch": "2.11.0+cu128"
+ }
+}

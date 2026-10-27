@@ -1,0 +1,125 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "deterministic": true,
+ "keytoken": {
+  "tail": 4096,
+  "threshold": 2.0
+ },
+ "kind": "nll",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "c202236235762e1c871ad0ccb60c8ee5ba337b9a",
+  "id": "Qwen/Qwen3.5-9B",
+  "name": "qwen3.5-9b"
+ },
+ "name": "qwen3.5-9b-nll",
+ "note": "T1.3 (126 documents, novel + key-token NLL per length bin) with the split curve; T2.1 splices and T2.2 ktail/vtail at S12",
+ "projector": {
+  "files": [
+   {
+    "file": "qwen3.5-9b-sweep-s8.safetensors",
+    "layer": 8,
+    "sha256": "39c6e75cb9da7304b494b9e93adba18c13b5cbbd4eea0092cb7ae74a178ee2f1"
+   },
+   {
+    "file": "qwen3.5-9b-sweep-s12.safetensors",
+    "layer": 12,
+    "sha256": "75bb7254fd6f655867928e37f0892c928960920a16dfa143945b0d74f801a311"
+   },
+   {
+    "file": "qwen3.5-9b-sweep-s16.safetensors",
+    "layer": 16,
+    "sha256": "3233973a9dee5efc716278f65099476181b42fbed4826696da85910d31f2b078"
+   },
+   {
+    "file": "qwen3.5-9b-sweep-s20.safetensors",
+    "layer": 20,
+    "sha256": "a40471edef1615ff22dbcd9791110207a3a52e734916d87a05a3fda41695f9fc"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 839652,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-QWEN35-NLL",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill",
+    "pop-native",
+    "identity+rows",
+    "ridgefill+rows",
+    "identity+random",
+    "ridgefill+random",
+    "identity+tailmatch",
+    "ridgefill+tailmatch",
+    "nofill+tailbudget",
+    "ridgefill+kexact",
+    "ridgefill+vexact",
+    "kvexact",
+    "ridgefill+ktail",
+    "ridgefill+vtail"
+   ],
+   "id": "nll",
+   "role": "primary",
+   "set": "longppl",
+   "split": "3/8"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-1-4",
+   "role": "curve",
+   "set": "longppl",
+   "split": "1/4"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-1-2",
+   "role": "curve",
+   "set": "longppl",
+   "split": "1/2"
+  },
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "nll-5-8",
+   "role": "curve",
+   "set": "longppl",
+   "split": "5/8"
+  }
+ ],
+ "split": "3/8",
+ "tail": 4096,
+ "tailbudget": {
+  "b": 0.211,
+  "basis": "kva/compute.py tail_budget at the primary split, tail 4096: the fill's modelled cost as extra tail rows / N, max over the documents' nominal lengths (8K-128K), rounded up (finals/make_cells.py)"
+ }
+}

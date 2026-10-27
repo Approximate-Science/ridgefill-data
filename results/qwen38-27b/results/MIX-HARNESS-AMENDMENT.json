@@ -1,0 +1,7 @@
+{
+ "time": "2026-10-25T22:30-05:00",
+ "reason": "unified-c8 runs failed the harness arrival check (all 7 backgrounds ~3.55 s late) because request files were written with fsync after the schedule clock started; fix writes all request files before the clock. Requests, schedules, servers and metrics unchanged. Runs completed before the fix used the old harness and passed the 0.1 s arrival check.",
+ "mix_py_sha_before": "3fa95d256e99e7df46bf4e869c1ebaa67a16d0e47d17ed4b6edab48698de489b",
+ "mix_py_sha_after": "c64dc353ad5015e5078013ae7bbf61d901f6373ace2deafa2a6291def4940b0a",
+ "rerun_scope": "unified-c8 only (completed runs are skipped)"
+}

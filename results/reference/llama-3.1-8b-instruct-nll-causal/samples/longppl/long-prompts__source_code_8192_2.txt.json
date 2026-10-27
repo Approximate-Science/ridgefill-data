@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.27180124947589096,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.35663194699646644
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 0.2748519895178197,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.3573009823321555
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 0.2858873312368973,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.38258963604240287
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 0.27433545073375265,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.35699002826855125
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 0.2753205450733753,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.35859379151943466
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 0.2751599559748427,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.359107925795053
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 0.27277622641509436,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.3555425689045937
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 0.3699635220125786,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.5081473957597173
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 0.3333812117400419,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.4522824840989399
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 0.35950045911949685,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.49353832155477034
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 0.3611543836477988,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 283,
+    "novel_nll": 0.4942649151943463
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "source_code_8192_2",
+ "domain": "source_code",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_8192_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 7939
+}

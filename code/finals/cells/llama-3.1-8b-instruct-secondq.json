@@ -1,0 +1,60 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "derived": {
+  "ruler-twokey": "0be363436f31414080faa9cc32c6d1a2cb24481bad63f29f6a50acd608aa1de2"
+ },
+ "deterministic": true,
+ "kind": "secondq",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "id": "unsloth/Llama-3.1-8B-Instruct",
+  "name": "llama-3.1-8b-instruct"
+ },
+ "name": "llama-3.1-8b-instruct-secondq",
+ "note": "T1.8: the locked two-key RULER set (datasets/derived/ruler-twokey.json)",
+ "projector": {
+  "files": [
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s12.safetensors",
+    "layer": 12,
+    "sha256": "89bf425556ca2ab5455b2ab76b686e2a29b1bdf9716bb882cb902f2bd6c18008"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 834541,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-LLAMA-SECONDQ",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "ridgefill",
+    "identity+rows",
+    "ridgefill+rows"
+   ],
+   "id": "secondq",
+   "role": "primary",
+   "set": "multiturn",
+   "split": "3/8"
+  }
+ ],
+ "secondq": {
+  "from": "ruler",
+  "turns": 2
+ },
+ "split": "3/8",
+ "tail": 4096
+}

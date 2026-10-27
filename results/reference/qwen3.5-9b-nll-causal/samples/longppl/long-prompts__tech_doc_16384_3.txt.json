@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.21132973046875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.21132973046875
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.216003494140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.216003494140625
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.215256185546875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.215256185546875
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.212002140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.212002140625
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.216205427734375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.216205427734375
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.214018796875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.214018796875
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.21137178125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.21137178125
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.20446898046875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.20446898046875
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.2118241328125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.2118241328125
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.209641572265625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.209641572265625
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.2076965,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 512,
+    "novel_nll": 2.2076965
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "tech_doc_16384_3",
+ "domain": "encyclopedia",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_16384_3.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16896
+}

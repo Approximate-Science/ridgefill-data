@@ -1,0 +1,9 @@
+{
+ "cell": "qwen3-8b-secondq",
+ "length": 65536,
+ "protocol": "1.1.1",
+ "sample": "ruler/niah_multikey_1_65536.jsonl",
+ "set": "multiturn",
+ "skipped": "over max_len 32768 (declared in the cell; no YaRN)",
+ "tier": "locked-final"
+}

@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.278573052734375,
+    "key_nll": 0.02635,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.278573052734375
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.287793685546875,
+    "key_nll": 0.005614,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.287793685546875
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.287064126953125,
+    "key_nll": 0.004406,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.287064126953125
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.283432830078125,
+    "key_nll": 0.012989,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.283432830078125
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.2851436171875,
+    "key_nll": 0.003815,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.2851436171875
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.287416623046875,
+    "key_nll": 0.004599,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.287416623046875
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.2830908984375,
+    "key_nll": 0.004144,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.2830908984375
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.27601573046875,
+    "key_nll": 0.001013,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.27601573046875
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.27857412890625,
+    "key_nll": 0.001994,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.27857412890625
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.279489107421875,
+    "key_nll": 0.001026,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.279489107421875
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.27723305859375,
+    "key_nll": 0.000973,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.27723305859375
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "tech_doc_32768_2",
+ "domain": "encyclopedia",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_32768_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33280
+}

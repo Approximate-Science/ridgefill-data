@@ -1,0 +1,6 @@
+llama-3.1-8b-instruct commit 4699cc75b550f9c6f3173fb80f4703b62d946aa5
+llama-3.1-swiftkv-8b-instruct commit 22a50b8c022dd8f3c6800ae1c96b54d46d89b840
+qwen3.5-9b commit c202236235762e1c871ad0ccb60c8ee5ba337b9a
+qwen3.8-27b-fp8 commit 017b9c7af6b5689d5dd426a76e0bc077eb5ca20a
+qwen3-8b commit b968826d9c46dd6066d109eabc6255188de91218
+# llama-3.1-8b-instruct: repo unsloth/Llama-3.1-8B-Instruct at that commit; its 4 safetensors shards are byte-identical (LFS sha256) to meta-llama/Llama-3.1-8B-Instruct@0e9e39f2 (checked 2026-10-06)

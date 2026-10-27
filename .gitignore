@@ -1,0 +1,4 @@
+# Keep every data file, whatever a global ignore file says; only Python caches are left out.
+!*
+__pycache__/
+*.pyc

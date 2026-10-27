@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.064699763671875,
+    "key_nll": 4.990549,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1016016182902586
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.074301669921875,
+    "key_nll": 7.7651695,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.111379856858847
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.072533517578125,
+    "key_nll": 7.77107,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1095802007952287
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.064959283203125,
+    "key_nll": 5.7859695,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1018636282306167
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.07119798828125,
+    "key_nll": 6.0864795,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1082125626242543
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.062764703125,
+    "key_nll": 5.0494325,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.099634467196819
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.069059830078125,
+    "key_nll": 7.530087,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1060441431411534
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.0823803359375,
+    "key_nll": 7.291544,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1196061709741554
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.069077578125,
+    "key_nll": 5.7224485000000005,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.106057099403578
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.079237015625,
+    "key_nll": 6.1447845,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.116395463220676
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.069410677734375,
+    "key_nll": 5.05812,
+    "n_key": 2,
+    "n_novel": 503,
+    "novel_nll": 2.1064036262425447
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "tech_doc_32768_4",
+ "domain": "encyclopedia",
+ "length": 32768,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/tech_doc_32768_4.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33280
+}

@@ -1,0 +1,65 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "longppl_max_len": 32768,
+  "ruler_max_len": 32768
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "derived": {
+  "ruler-twokey": "0be363436f31414080faa9cc32c6d1a2cb24481bad63f29f6a50acd608aa1de2"
+ },
+ "deterministic": true,
+ "kind": "secondq",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "max_len": 32768,
+ "model": {
+  "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+  "id": "Qwen/Qwen3-8B",
+  "name": "qwen3-8b"
+ },
+ "name": "qwen3-8b-secondq",
+ "note": "T1.8: the locked two-key RULER set (datasets/derived/ruler-twokey.json)",
+ "projector": {
+  "files": [
+   {
+    "file": "qwen3-8b-sweep-s13.safetensors",
+    "layer": 13,
+    "sha256": "945bb43c3def1349c3ddffcc29d6806898ef70fe3936ac0bbb484377bfeb8728"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 845043,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-QWEN3-8B-SECONDQ",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "ridgefill",
+    "identity+rows",
+    "ridgefill+rows"
+   ],
+   "id": "secondq",
+   "role": "primary",
+   "set": "multiturn",
+   "split": "3/8"
+  }
+ ],
+ "secondq": {
+  "from": "ruler",
+  "turns": 2
+ },
+ "skipped": [
+  "ruler/niah_multikey_1_65536.jsonl"
+ ],
+ "split": "3/8",
+ "tail": 4096
+}

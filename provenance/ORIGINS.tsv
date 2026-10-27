@@ -1,0 +1,37 @@
+prefix	alias	transform	description
+results/reference/	finals-tree/	copy	The 19 final reference-study cells (snapshot of 2026-10-08), without the runner's dot-files. Files under the LongBench cell whose refs were hashed are in STRIPPED.tsv.
+results/reference/ABANDONED.md	release/	written	Written for this release.
+results/flashnext/final-det-20261010/	c5-final/final-det-20261010/	copy	The final Flash-Next run on the deterministic engine build (2026-10-10), without the run's operator state folder and dot-files.
+results/qwen38-27b/longbench/	e3-longbench/full/	copy	LongBench v2 per-item records of the four-A100 run (2026-10-25).
+results/qwen38-27b/	e3-cloud/	copy	The four-A100 Qwen3.8-27B run (2026-10-25), without the 24 logit dumps (*.f32, hashes in external.tsv), nvidia-smi dumps and the failed mix attempt.
+derived/per-document-nll.csv	derived:tools/make_per_document_csv.py	derived	Built from results/reference by tools/make_per_document_csv.py.
+derived/claims.csv	release/	written	Expected values of the recompute gate, from CLAIMS.md.
+provenance/fits/reference/	kva@8f2ef1c:results/	copy	Fit records of the reference maps from the reference implementation's release branch.
+provenance/fits/qwen38-27b/fit-q4.log	q27-projector/q4/logs/fit-q4.log	copy	27B map fit log.
+provenance/fits/qwen38-27b/	q27-projector/q4/fit-results/	copy	27B map fit records.
+provenance/fits/flashnext/report-big-s24.json	kva-workdir/qfn/proj/report-big-s24.json	copy	Flash-Next map fit report.
+provenance/fits/flashnext/	kva-workdir/runs/qfn/logs/	copy	Flash-Next capture and fit logs.
+provenance/inputs/test-set-locked/	kva@8f2ef1c:datasets/test-set-locked/	copy	Locked evaluation set: manifest, freeze record and README (no texts).
+provenance/inputs/fresh-long-20261008/	kva@8f2ef1c:datasets/fresh-long-20261008/	copy	Fresh documents: manifest, source pointers and provenance (no texts).
+provenance/inputs/calibration-exclude.json	kva@8f2ef1c:datasets/calibration-exclude.json	copy	Calibration documents excluded from every fit.
+provenance/inputs/calibration-docs.tsv	derived:tools/overlap_lbv2.py	derived	Per-document sha256 of the calibration texts (no texts, no sources).
+provenance/inputs/qwen38-27b/data-SHA256SUMS	e3-kit/data/SHA256SUMS	copy	Hashes of the 27B kit's input files (renamed to keep both checksum lists in one folder).
+provenance/inputs/qwen38-27b/sources-SHA256SUMS	e3-kit/sources/SHA256SUMS	copy	Hashes of the 27B source archives.
+provenance/inputs/qwen38-27b/LOCK.json	e3-kit/sources/LOCK.json	copy	Source lock: stock and fork commits, archive hashes, runtime-diff check.
+provenance/inputs/qwen38-27b/ruler-index.json	derived:e3-kit/data/ruler.jsonl	derived	RULER item ids, tasks, lengths and answer budgets from the 27B kit inputs (no prompts, no answers).
+provenance/inputs/qwen38-27b/longbench-index.json	derived:e3-cloud/results/SCORECARD.json	derived	LongBench v2 item ids with domain, difficulty and length, in the scorecard order (no texts, no answers).
+provenance/inputs/qwen38-27b/kld-index.json	e3-kit/data/kld-index.json	copy	KL document index of the 27B kit (ids and token counts).
+provenance/inputs/qwen38-27b/	e3-kit/data/	copy	27B kit input provenance and baseline hashes.
+provenance/checks/	derived:tools/overlap_lbv2.py	derived	Calibration-overlap results (counts and hashes only).
+provenance/ledger/	derived:kva@8f2ef1c:ledger/paper/ledger.jsonl	derived	Chain index of the pre-registration ledger and the full lines of the cited entries.
+provenance/	release/	written	Written for this release.
+code/qwen38-27b-kit/longbench/run_lb.py	e3-longbench/run_lb.py	copy	LongBench v2 runner.
+code/qwen38-27b-kit/longbench/	e3-longbench/	copy	LongBench v2 report script and driver.
+code/qwen38-27b-kit/	e3-kit/	copy	27B measurement kit (code, tests, vendored scorers), without inputs, models, sources, local logs and internal notes.
+code/run-commit-diffs/	derived:git-diff	derived	git diff <run commit> ridgefill-v1.0 over the exported paths, with old literals redacted on removed lines.
+code/RUN-COMMITS.md	release/	written	Written for this release.
+code/	kva@ridgefill-v1.0:	export:ridgefill-v1.0	git archive of the reference implementation's tag ridgefill-v1.0, over release/PUBLIC-PATHS.txt.
+recompute/	release/	written	Recompute scripts (some adapted from the 2026-10-26 checks).
+tools/	release/	written	Build and check tools of this release.
+figures/	paper-draft/figures/	copy	The paper's 15 figures as printed (rev3 files).
+	release/	written	Repository documentation.

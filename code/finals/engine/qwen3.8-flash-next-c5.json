@@ -1,0 +1,119 @@
+{
+ "amendments": {
+  "amend-FINAL-FLASHNEXT-C5-10": "deterministic engine build of protocol 1.1.6",
+  "amend-FINAL-FLASHNEXT-C5-11": "is at most log(1.025) (+2.5%)",
+  "det-read-FINAL-FLASHNEXT-C5": "90/90 bitwise-equal"
+ },
+ "arms": {
+  "exact": {
+   "dir": "exact",
+   "policy": null,
+   "ppl": "ppl-a",
+   "ruler": "ruler-a"
+  },
+  "exact-rerun": {
+   "dir": "exact",
+   "policy": null,
+   "ppl": "ppl-b"
+  },
+  "ridgefill": {
+   "dir": "ridgefill",
+   "policy": "CED on (plain)",
+   "ppl": "ppl-a",
+   "ruler": "ruler-a",
+   "speed": "speed"
+  },
+  "ridgefill+corr+prot25": {
+   "control": "control",
+   "dir": "graded",
+   "policy": "CED on (quality)",
+   "ppl": "ppl-a",
+   "ruler": "ruler-a",
+   "speed": "speed"
+  }
+ },
+ "code_tag": "c5-final-det",
+ "criteria": {
+  "ppl_gap_upper_pct": 2.5
+ },
+ "data": {
+  "control": {
+   "docs": 6,
+   "what": "the first 6 documents of the perplexity set on quality mode's exact path"
+  },
+  "longppl": {
+   "docs": 90,
+   "domains": 6,
+   "max_nominal": 32768,
+   "scored": 512
+  },
+  "ruler": {
+   "lengths": [
+    8192,
+    16384,
+    32768
+   ],
+   "long": {
+    "length": 65536,
+    "rows": 25,
+    "task": "niah_single_1"
+   },
+   "rows": 300,
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  },
+  "ttft": {
+   "lengths": [
+    9216,
+    16384,
+    32768
+   ],
+   "prompt": "long-prompts/chat_32768_0.txt",
+   "timed": 5,
+   "warmup": 1
+  }
+ },
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "declared_share": 25,
+ "deterministic": true,
+ "driver": "c5-kit",
+ "engine": {
+  "id": "sha256:809657ddb1533db10a0c08267c3ee6fde180b839e379713414efa121415914a3",
+  "image": "tcclaviger/vllm:29.08.10",
+  "kit": "c5-kit d1164746aa21b3f339db6d8bd2919601db450d7f",
+  "overlay": {
+   "models/qwen4_exp/amd/ops/qsa.py": "eaf0dd1975799f4c8897cbea62791de44fd28322758fb9891cbe7ff0ef52db99"
+  },
+  "overlay_sums_sha256": "37bd46ff34c4e3ab940aa50e912a4e63416ddde29c3122f0d74ae3347d63baac",
+  "run": "final-det-20261010"
+ },
+ "kind": "flashnext",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0,
+  "ttft_length": 16384,
+  "ttft_min_speedup": 1.25
+ },
+ "model": {
+  "commit": "6fe3e7464c18",
+  "id": "tcclaviger/Qwen3.8-Flash-Next-MXFP4-FP8-GPTQ",
+  "name": "qwen3.8-flash-next"
+ },
+ "name": "qwen3.8-flash-next-c5",
+ "note": "C5, the Flash-Next engine tier as run (protocol 1.1.6): exact (with its same-boot second perplexity pass), quality mode (RidgeFill + GDN terminal-state correction + class56 exact rows at 25%) and plain RidgeFill; perplexity on the 90 locked long-prompt documents <= 32K, RULER NIAH 8K-32K + niah_single_1 64K (instruct format), TTFT against the same boot's exact path",
+ "protocol": "1.1.6",
+ "registration": "FINAL-FLASHNEXT-C5",
+ "sets": [
+  "longppl",
+  "ruler",
+  "ttft"
+ ],
+ "split": "-",
+ "split_layer": 24,
+ "tail": 2048,
+ "tier": "engine-final"
+}

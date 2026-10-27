@@ -1,0 +1,39 @@
+{
+ "version": 1,
+ "adopted": "2026-10-04",
+ "reason": "T0.2 (checks/t02/RESULT.md): these calibration documents share 50-word shingles with the raw LongBench pool copy under datasets/test-set-locked/data/ (not part of the frozen manifest; the frozen set itself has 0 shared 50-grams). Excluded from every fit under protocol 1.1 so that calibration is disjoint from the locked set AND from the raw pool.",
+ "train": [
+  "trainc0",
+  "trainc3",
+  "trainc7",
+  "trainc12",
+  "trainc20",
+  "trainc31",
+  "trainc34",
+  "trainc35",
+  "trainc40",
+  "trainc41",
+  "trainc45",
+  "trainc49",
+  "trainc52",
+  "trainc54",
+  "trainc56",
+  "trainc57",
+  "trainc59",
+  "trainc68",
+  "trainc69",
+  "trainc73",
+  "trainc78",
+  "trainc79",
+  "trainc82",
+  "trainc83",
+  "trainc86",
+  "trainc93",
+  "trainc96",
+  "trainc97"
+ ],
+ "sterm": [
+  "sterm4"
+ ],
+ "held": []
+}

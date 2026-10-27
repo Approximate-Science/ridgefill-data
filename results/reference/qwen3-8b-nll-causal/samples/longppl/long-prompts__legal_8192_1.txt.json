@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.293322235528942,
+    "key_nll": 1.637606,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.506264184729064
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.2975161776447106,
+    "key_nll": 1.826978,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.5096431995073891
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.2987011996007984,
+    "key_nll": 1.832466,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.5105949236453202
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.2884742994011975,
+    "key_nll": 1.785374,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.4995861379310345
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.2871563193612774,
+    "key_nll": 1.662689,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.4984203793103448
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.2941852175648703,
+    "key_nll": 1.734331,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.5066988719211822
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.3107550758483035,
+    "key_nll": 1.5957,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.5267429655172415
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.2918472115768465,
+    "key_nll": 2.467709,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.504586433497537
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.2825082794411178,
+    "key_nll": 2.293342,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.49385928817734
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.28445199001996,
+    "key_nll": 2.290761,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.4976172610837437
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.287760025948104,
+    "key_nll": 2.400142,
+    "n_key": 1,
+    "n_novel": 406,
+    "novel_nll": 1.4993685862068966
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "legal_8192_1",
+ "domain": "legal",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/legal_8192_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8553
+}

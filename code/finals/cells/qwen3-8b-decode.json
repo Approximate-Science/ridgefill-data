@@ -1,0 +1,119 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "longppl_max_len": 32768,
+  "ruler_max_len": 32768
+ },
+ "code_tag": "protocol-v1.1",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "decode": {
+  "from": "longppl",
+  "only": [
+   "lp-prose_8192_4",
+   "lp-chat_16384_2",
+   "lp-tech_doc_32768_0",
+   "lp-tech_doc_8192_4",
+   "lp-source_code_16384_0",
+   "lp-prose_32768_4",
+   "lp-tech_doc_8192_3",
+   "lp-chat_16384_4",
+   "lp-papers_32768_3",
+   "lp-prose_8192_1",
+   "lp-tech_doc_16384_1",
+   "lp-papers_32768_1",
+   "lp-papers_8192_0",
+   "lp-prose_16384_0",
+   "lp-papers_32768_0",
+   "lp-tech_doc_8192_1",
+   "lp-tech_doc_16384_4",
+   "lp-chat_32768_1",
+   "lp-papers_8192_3",
+   "lp-tech_doc_16384_2"
+  ],
+  "steps": 512
+ },
+ "deterministic": true,
+ "kind": "decode",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "max_len": 32768,
+ "model": {
+  "commit": "b968826d9c46dd6066d109eabc6255188de91218",
+  "id": "Qwen/Qwen3-8B",
+  "name": "qwen3-8b"
+ },
+ "name": "qwen3-8b-decode",
+ "note": "T1.7: 512 greedy tokens after the 20 documents in 'decode.only'",
+ "projector": {
+  "files": [
+   {
+    "file": "qwen3-8b-sweep-s13.safetensors",
+    "layer": 13,
+    "sha256": "945bb43c3def1349c3ddffcc29d6806898ef70fe3936ac0bbb484377bfeb8728"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 845043,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-QWEN3-8B-DECODE",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "ridgefill"
+   ],
+   "id": "decode",
+   "role": "primary",
+   "set": "decode",
+   "split": "3/8"
+  }
+ ],
+ "skipped": [
+  "long-prompts/chat_128000_0.txt",
+  "long-prompts/chat_128000_1.txt",
+  "long-prompts/chat_65536_0.txt",
+  "long-prompts/chat_65536_1.txt",
+  "long-prompts/chat_65536_2.txt",
+  "long-prompts/chat_65536_3.txt",
+  "long-prompts/legal_128000_0.txt",
+  "long-prompts/legal_128000_1.txt",
+  "long-prompts/legal_65536_0.txt",
+  "long-prompts/legal_65536_1.txt",
+  "long-prompts/legal_65536_2.txt",
+  "long-prompts/legal_65536_3.txt",
+  "long-prompts/papers_128000_0.txt",
+  "long-prompts/papers_128000_1.txt",
+  "long-prompts/papers_65536_0.txt",
+  "long-prompts/papers_65536_1.txt",
+  "long-prompts/papers_65536_2.txt",
+  "long-prompts/papers_65536_3.txt",
+  "long-prompts/prose_128000_0.txt",
+  "long-prompts/prose_128000_1.txt",
+  "long-prompts/prose_65536_0.txt",
+  "long-prompts/prose_65536_1.txt",
+  "long-prompts/prose_65536_2.txt",
+  "long-prompts/prose_65536_3.txt",
+  "long-prompts/source_code_128000_0.txt",
+  "long-prompts/source_code_128000_1.txt",
+  "long-prompts/source_code_65536_0.txt",
+  "long-prompts/source_code_65536_1.txt",
+  "long-prompts/source_code_65536_2.txt",
+  "long-prompts/source_code_65536_3.txt",
+  "long-prompts/tech_doc_128000_0.txt",
+  "long-prompts/tech_doc_128000_1.txt",
+  "long-prompts/tech_doc_65536_0.txt",
+  "long-prompts/tech_doc_65536_1.txt",
+  "long-prompts/tech_doc_65536_2.txt",
+  "long-prompts/tech_doc_65536_3.txt"
+ ],
+ "split": "3/8",
+ "tail": 4096
+}

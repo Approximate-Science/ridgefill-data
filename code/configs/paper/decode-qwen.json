@@ -1,0 +1,32 @@
+{
+ "name": "decode-qwen",
+ "protocol": "1.1",
+ "registration": [],
+ "model": "$KVA_DATA/models/qwen3.5-9b",
+ "tokenizer": "$KVA_DATA/models/qwen3.5-9b",
+ "niah_format": "raw",
+ "note": "TEMPLATE for protocol v1.1 (adopted 2026-10-04): evaluate.py refuses it until its FINAL- registration is in the ledger (registration is empty on purpose). Paper T1.7 (set decode, kva/agree.py): 512 greedy tokens after each long-prompt document's prompt part (the continuation removed), exact vs each arm: forced per-step KL(exact || arm) and top-1 agreement, free first divergence and identical share. The 20 documents per model are named in the FINAL record ('only').",
+ "decode_from": "longppl",
+ "decode_steps": 512,
+ "arms": [
+  {
+   "name": "ridgefill-s12-t4096",
+   "split": 12,
+   "tail": 4096,
+   "fill": "proj",
+   "projector": "$KVA_DATA/proj/qwen3.5-9b-sweep-s12.safetensors"
+  },
+  {
+   "name": "identity-s12-t4096",
+   "split": 12,
+   "tail": 4096,
+   "fill": "identity"
+  },
+  {
+   "name": "nofill-s12-t4096",
+   "split": 12,
+   "tail": 4096,
+   "fill": "none"
+  }
+ ]
+}

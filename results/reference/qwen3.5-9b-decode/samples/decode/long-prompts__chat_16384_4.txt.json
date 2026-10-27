@@ -1,0 +1,43 @@
+{
+ "arms": {
+  "exact": {
+   "-": {}
+  },
+  "kva": {
+   "3/8": {
+    "first_divergence": 47,
+    "frac_identical": 0.111328,
+    "kl_mean": 0.00507418,
+    "top1_agree": 0.980469
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "first_divergence": 8,
+    "frac_identical": 0.023438,
+    "kl_mean": 0.0139283,
+    "top1_agree": 0.972656
+   }
+  },
+  "skip": {
+   "3/8": {
+    "first_divergence": 25,
+    "frac_identical": 0.060547,
+    "kl_mean": 0.02777738,
+    "top1_agree": 0.951172
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-decode",
+ "configs": [
+  "qwen3.5-9b-decode"
+ ],
+ "doc": "chat_16384_4",
+ "domain": "chat",
+ "length": 16384,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/chat_16384_4.txt",
+ "set": "decode",
+ "tier": "locked-final",
+ "tokens": 16384
+}

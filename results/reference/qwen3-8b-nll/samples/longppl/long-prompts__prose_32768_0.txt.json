@@ -1,0 +1,232 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.60887740917782,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.60887740917782
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 2.6180839942638627,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6180839942638627
+   },
+   "1/4": {
+    "all_nll": 2.6368526175908222,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6368526175908222
+   },
+   "3/8": {
+    "all_nll": 2.6420522160611855,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6420522160611855
+   },
+   "5/8": {
+    "all_nll": 2.6214608910133843,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6214608910133843
+   }
+  },
+  "kva+kexact": {
+   "3/8": {
+    "all_nll": 2.931137403441683,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.931137403441683
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.644584108986616,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.644584108986616
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.616511518164436,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.616511518164436
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.6198517017208416,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6198517017208416
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.6391105258126197,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6391105258126197
+   }
+  },
+  "kva+vexact": {
+   "3/8": {
+    "all_nll": 2.646174933078394,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.646174933078394
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.6636690095602296,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6636690095602296
+   }
+  },
+  "kvexact": {
+   "3/8": {
+    "all_nll": 2.6111228546845124,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6111228546845124
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 2.6006072543021035,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6006072543021035
+   },
+   "1/4": {
+    "all_nll": 2.608652242829828,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.608652242829828
+   },
+   "3/8": {
+    "all_nll": 2.617811745697897,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.617811745697897
+   },
+   "5/8": {
+    "all_nll": 2.592127640535373,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.592127640535373
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.593394087954111,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.593394087954111
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.6086632791587,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6086632791587
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.6092574703632887,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6092574703632887
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 2.6007356481835564,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.6007356481835564
+   }
+  },
+  "skip": {
+   "1/2": {
+    "all_nll": 2.7084945372848948,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.7084945372848948
+   },
+   "1/4": {
+    "all_nll": 3.7615033919694074,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 3.7615033919694074
+   },
+   "3/8": {
+    "all_nll": 2.8275045946462716,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.8275045946462716
+   },
+   "5/8": {
+    "all_nll": 2.715985021032505,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.715985021032505
+   }
+  },
+  "skip+tailbudget": {
+   "3/8": {
+    "all_nll": 2.7431594741873804,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 523,
+    "novel_nll": 2.7431594741873804
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "prose_32768_0",
+ "domain": "prose",
+ "length": 32768,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/prose_32768_0.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 33084
+}

@@ -1,0 +1,155 @@
+{
+ "caps": {
+  "longbench_max_len": 31500,
+  "ruler_max_len": 65536,
+  "ruler_max_new": {
+   "niah_multikey_1": 32,
+   "niah_single_1": 32
+  }
+ },
+ "code_tag": "protocol-v1.1.3",
+ "dataset_manifest_sha256": "21d4fa8ca15c8c8e02cbb92a0bda1d1a03609bb526c8d407c401b31c4abcaea5",
+ "deterministic": true,
+ "kind": "ruler",
+ "margins": {
+  "ppl_ratio_upper_pct": 1.0,
+  "ruler_points_lower": -2.0
+ },
+ "model": {
+  "commit": "4699cc75b550f9c6f3173fb80f4703b62d946aa5",
+  "id": "unsloth/Llama-3.1-8B-Instruct",
+  "name": "llama-3.1-8b-instruct"
+ },
+ "name": "llama-3.1-8b-instruct-ruler",
+ "note": "T1.1 trimmed to the NIAH tasks (filled-region needles primary) at S12, T1.5 controls and the question-blind rows pair; protocol 1.1.2 generation cap",
+ "projector": {
+  "files": [
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s12.safetensors",
+    "layer": 12,
+    "sha256": "89bf425556ca2ab5455b2ab76b686e2a29b1bdf9716bb882cb902f2bd6c18008"
+   },
+   {
+    "file": "llama-3.1-8b-instruct-sweep-s16.safetensors",
+    "layer": 16,
+    "sha256": "b076e73dc8c852f7bb27b37bc1b13cbac2bf6e9db769d095cf046b88de80358e"
+   }
+  ],
+  "provenance": {
+   "calib_docs": 71,
+   "calib_exclude_sha256": "23061425b4739691892815d4a905feb0ee768b4b76067df64de2df8f31ebc027",
+   "calib_rows": 834541,
+   "fitted_after": "cba2d91"
+  }
+ },
+ "registration": "FINAL-LLAMA-RULER-2",
+ "runs": [
+  {
+   "arms": [
+    "exact",
+    "nofill",
+    "identity",
+    "pop-native",
+    "ridgefill",
+    "identity+rows",
+    "ridgefill+rows",
+    "identity+random",
+    "ridgefill+random",
+    "identity+tailmatch",
+    "ridgefill+tailmatch",
+    "nofill+tailbudget",
+    "identity+qblind",
+    "ridgefill+qblind"
+   ],
+   "id": "ruler-niah",
+   "lengths": [
+    8192,
+    16384,
+    32768
+   ],
+   "role": "primary",
+   "set": "ruler",
+   "split": "3/8",
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  },
+  {
+   "arms": [
+    "exact",
+    "ridgefill+kexact",
+    "ridgefill+vexact"
+   ],
+   "id": "ruler-niah-splices",
+   "lengths": [
+    8192,
+    16384,
+    32768
+   ],
+   "role": "mechanism",
+   "set": "ruler",
+   "split": "3/8",
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  },
+  {
+   "arms": [
+    "exact",
+    "identity",
+    "ridgefill",
+    "identity+rows",
+    "ridgefill+rows"
+   ],
+   "id": "ruler-niah-1-2",
+   "lengths": [
+    8192,
+    16384,
+    32768
+   ],
+   "role": "appendix",
+   "set": "ruler",
+   "split": "1/2",
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  },
+  {
+   "arms": [
+    "exact",
+    "identity",
+    "ridgefill",
+    "identity+rows",
+    "ridgefill+rows"
+   ],
+   "id": "ruler-64k",
+   "lengths": [
+    65536
+   ],
+   "role": "primary",
+   "set": "ruler",
+   "split": "3/8",
+   "tasks": [
+    "niah_single_1",
+    "niah_multikey_1",
+    "niah_multivalue",
+    "niah_multiquery"
+   ]
+  }
+ ],
+ "split": "3/8",
+ "tail": 4096,
+ "tailbudget": {
+  "b": 0.186,
+  "basis": "kva/compute.py tail_budget at the primary split, tail 4096: the fill's modelled cost as extra tail rows / N, max over the controls' lengths (8K-32K), rounded up (finals/make_cells.py)"
+ }
+}

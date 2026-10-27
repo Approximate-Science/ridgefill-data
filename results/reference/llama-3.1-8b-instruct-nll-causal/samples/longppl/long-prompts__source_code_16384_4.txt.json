@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.7428430316455696,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.8822105794871794
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 0.8067184789029537,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.9584919307692308
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 0.7503281729957806,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.8898684282051282
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 0.7905389092827004,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.9385383487179488
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 0.8043714725738397,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.95484
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 0.8058090421940928,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.9576938179487179
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 0.7731100843881856,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 0.9182252230769231
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 0.9754504367088608,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 1.1263298974358975
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 0.8846065611814347,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 1.0330583717948718
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 0.9609454767932489,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 1.1114363512820513
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 0.9443109936708861,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 390,
+    "novel_nll": 1.095153058974359
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "source_code_16384_4",
+ "domain": "source_code",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_16384_4.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 15328
+}

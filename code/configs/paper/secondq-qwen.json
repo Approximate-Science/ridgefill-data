@@ -1,0 +1,41 @@
+{
+ "name": "secondq-qwen",
+ "protocol": "1.1",
+ "registration": [],
+ "model": "$KVA_DATA/models/qwen3.5-9b",
+ "tokenizer": "$KVA_DATA/models/qwen3.5-9b",
+ "niah_format": "raw",
+ "note": "TEMPLATE for protocol v1.1 (adopted 2026-10-04): evaluate.py refuses it until its FINAL- registration is in the ledger (registration is empty on purpose). Paper T1.8 (set multiturn, multiturn_turns 2): the mk4 multi-key prompts; turn 1 asks the target key and fills the prefix once (rows: qattn 10% chosen for turn 1's question), turn 2 asks the first distractor key against the same cache, never refilled. Exact runs as always.",
+ "niah_variant": "mk4",
+ "multiturn_turns": 2,
+ "arms": [
+  {
+   "name": "ridgefill-s12-t4096",
+   "split": 12,
+   "tail": 4096,
+   "fill": "proj",
+   "projector": "$KVA_DATA/proj/qwen3.5-9b-sweep-s12.safetensors"
+  },
+  {
+   "name": "ridgefill-s12-t4096-rows10",
+   "split": 12,
+   "tail": 4096,
+   "fill": "proj",
+   "projector": "$KVA_DATA/proj/qwen3.5-9b-sweep-s12.safetensors",
+   "select": {
+    "kind": "qattn",
+    "budget": 0.1
+   }
+  },
+  {
+   "name": "identity-s12-t4096-rows10",
+   "split": 12,
+   "tail": 4096,
+   "fill": "identity",
+   "select": {
+    "kind": "qattn",
+    "budget": 0.1
+   }
+  }
+ ]
+}

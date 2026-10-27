@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.622463956,
+    "key_nll": 7.161633,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8491357505827506
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.627838698,
+    "key_nll": 10.307972,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8526531095571095
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.618999794,
+    "key_nll": 10.450259,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8430263916083915
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.6120087799999998,
+    "key_nll": 8.385247,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8362735151515153
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.6086565599999998,
+    "key_nll": 9.598244,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8318216247086248
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.62517673,
+    "key_nll": 9.907778,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8499665710955713
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.645487084,
+    "key_nll": 10.715621,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8780043193473195
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.6403382919999998,
+    "key_nll": 7.774198,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.858396585081585
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.5922988,
+    "key_nll": 5.966508,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.812590372960373
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.58843098,
+    "key_nll": 6.913399,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8051702773892775
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.632314942,
+    "key_nll": 7.818913,
+    "n_key": 1,
+    "n_novel": 429,
+    "novel_nll": 1.8500688438228439
+   }
+  }
+ },
+ "cell": "qwen3-8b-nll-causal",
+ "configs": [
+  "qwen3-8b-nll"
+ ],
+ "doc": "chat_16384_1",
+ "domain": "chat",
+ "length": 16384,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/chat_16384_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 16523
+}

@@ -1,0 +1,9 @@
+{
+ "cell": "qwen3-8b-nll",
+ "length": 65536,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/papers_65536_1.txt",
+ "set": "longppl",
+ "skipped": "over max_len 32768 (declared in the cell; no YaRN)",
+ "tier": "locked-final"
+}

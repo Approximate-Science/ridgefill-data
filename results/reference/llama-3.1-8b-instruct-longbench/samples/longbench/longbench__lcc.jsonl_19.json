@@ -1,0 +1,49 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 0.39
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 0.39
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 0.39
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.39
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.39
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 0.28
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.39
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-longbench",
+ "configs": [
+  "llama-3.1-8b-instruct-longbench"
+ ],
+ "length": 538,
+ "protocol": "1.1.3",
+ "sample": "longbench/lcc.jsonl#19",
+ "set": "longbench",
+ "task": "lcc",
+ "tier": "locked-final"
+}

@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 3.0039623146292582,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.0039623146292582
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 3.083244741482966,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.083244741482966
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 3.017506100200401,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.017506100200401
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 3.0909188016032068,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.0909188016032068
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 3.0771980100200405,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.0771980100200405
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 3.08173272745491,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.08173272745491
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 3.056705108216433,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.056705108216433
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 3.330064905811623,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.330064905811623
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 3.1721103026052107,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.1721103026052107
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 3.263388104208417,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.263388104208417
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 3.2789244529058115,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 499,
+    "novel_nll": 3.2789244529058115
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "prose_8192_1",
+ "domain": "prose",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/prose_8192_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8558
+}

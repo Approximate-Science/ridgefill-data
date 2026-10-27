@@ -1,0 +1,49 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "score": 0.9767441860465117
+   }
+  },
+  "kva": {
+   "3/8": {
+    "score": 0.8108108108108109
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "score": 0.761904761904762
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "score": 0.5333333333333333
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "score": 0.6976744186046512
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "score": 0.9767441860465117
+   }
+  },
+  "skip": {
+   "3/8": {
+    "score": 0.0
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-longbench",
+ "configs": [
+  "llama-3.1-8b-instruct-longbench"
+ ],
+ "length": 3604,
+ "protocol": "1.1.3",
+ "sample": "longbench/qasper.jsonl#18",
+ "set": "longbench",
+ "task": "qasper",
+ "tier": "locked-final"
+}

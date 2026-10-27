@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.48846061328125,
+    "key_nll": 4.161814,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.48846061328125
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 2.48612340625,
+    "key_nll": 4.313498,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.48612340625
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 2.4869795234375,
+    "key_nll": 4.244274,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.4869795234375
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.485780787109375,
+    "key_nll": 4.314864,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.485780787109375
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 2.486190099609375,
+    "key_nll": 4.282678,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.486190099609375
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 2.485032244140625,
+    "key_nll": 4.20319,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.485032244140625
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 2.485315162109375,
+    "key_nll": 4.240724,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.485315162109375
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.49923096875,
+    "key_nll": 4.125484,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.49923096875
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.493900142578125,
+    "key_nll": 4.113285,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.493900142578125
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.49600860546875,
+    "key_nll": 4.153783,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.49600860546875
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.498354873046875,
+    "key_nll": 4.075585,
+    "n_key": 1,
+    "n_novel": 512,
+    "novel_nll": 2.498354873046875
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "prose_65536_1",
+ "domain": "prose",
+ "length": 65536,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/prose_65536_1.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 66048
+}

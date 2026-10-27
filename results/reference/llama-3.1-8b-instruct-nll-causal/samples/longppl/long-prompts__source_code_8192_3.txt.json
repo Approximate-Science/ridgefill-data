@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 0.9929433053763441,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.132107123115578
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.0268439376344087,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.172620743718593
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.001605806451613,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.1412689597989951
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.0161170344086021,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.1587436658291457
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.0209484666666666,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.1654246180904522
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.0257285010752688,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.1712536557788944
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.0144427956989246,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.1567486180904523
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.1394802150537635,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.290067645728643
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.0539972,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.2030133592964825
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.100578430107527,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.2497922110552764
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.1154420193548387,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 398,
+    "novel_nll": 1.2656847336683417
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "source_code_8192_3",
+ "domain": "source_code",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/source_code_8192_3.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 7907
+}

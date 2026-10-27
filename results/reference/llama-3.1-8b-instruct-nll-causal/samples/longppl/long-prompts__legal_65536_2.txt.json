@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.0070568757637473,
+    "key_nll": 1.3432603333333333,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.068250776371308
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 3.9428311507128306,
+    "key_nll": 7.431973333333333,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 4.033084276371308
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 3.1045869063136458,
+    "key_nll": 4.626497,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 3.2046972827004216
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 2.124322403258656,
+    "key_nll": 3.511557666666667,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.1933675253164555
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 3.8350352057026473,
+    "key_nll": 5.9154116666666665,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 3.925887860759494
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 3.810362653767821,
+    "key_nll": 7.25219,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 3.9021899451476796
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 4.278502124236252,
+    "key_nll": 6.618882333333333,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 4.363739537974684
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 2.6816129877800408,
+    "key_nll": 5.069110666666667,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.7495321160337554
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 2.450426199592668,
+    "key_nll": 4.864312666666667,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.514863267932489
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 2.628873024439918,
+    "key_nll": 3.613418,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.6962300632911393
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 2.619510148676171,
+    "key_nll": 4.844133,
+    "n_key": 3,
+    "n_novel": 474,
+    "novel_nll": 2.6860101983122364
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-causal",
+ "configs": [
+  "llama-3.1-8b-instruct-nll"
+ ],
+ "doc": "legal_65536_2",
+ "domain": "legal",
+ "length": 65536,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/legal_65536_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 62364
+}

@@ -1,0 +1,19 @@
+paired items 503 (stock 503, e3 503)
+
+| Group | n | Stock % | E3 % | Delta pp |
+|---|---:|---:|---:|---:|
+| overall | 503 | 38.6 | 37.2 | -1.4 |
+| easy | 192 | 42.7 | 40.6 | -2.1 |
+| hard | 311 | 36.0 | 35.0 | -1.0 |
+| short | 180 | 46.1 | 44.4 | -1.7 |
+| medium | 215 | 38.1 | 36.7 | -1.4 |
+| long | 108 | 26.9 | 25.9 | -0.9 |
+
+paired E3 - stock: -1.39 pp, 95% bootstrap CI [-4.97, +2.19] (10,000 resamples)
+only stock correct 48, only E3 correct 41, exact sign test p = 0.525
+stock: no extracted answer 189, pass-1 length stops 301, pass-2 length stops 189, empty pass 1 0
+e3: no extracted answer 181, pass-1 length stops 302, pass-2 length stops 181, empty pass 1 0
+prefill all: n 503, stock 43049 s total, E3 36477 s total, speedup 1.180x
+prefill <32K: n 111, stock 1976 s total, E3 1656 s total, speedup 1.193x
+prefill 32-100K: n 130, stock 7824 s total, E3 6486 s total, speedup 1.206x
+prefill >=100K: n 262, stock 33249 s total, E3 28335 s total, speedup 1.173x

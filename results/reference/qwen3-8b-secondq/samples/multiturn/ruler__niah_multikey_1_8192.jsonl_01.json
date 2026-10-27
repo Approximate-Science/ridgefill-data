@@ -1,0 +1,39 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "turn1": 1.0,
+    "turn2": 1.0
+   }
+  },
+  "kva": {
+   "3/8": {
+    "turn1": 1.0,
+    "turn2": 0.0
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "turn1": 1.0,
+    "turn2": 1.0
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "turn1": 1.0,
+    "turn2": 0.0
+   }
+  }
+ },
+ "cell": "qwen3-8b-secondq",
+ "configs": [
+  "qwen3-8b-secondq"
+ ],
+ "length": 8192,
+ "protocol": "1.1.1",
+ "sample": "ruler/niah_multikey_1_8192.jsonl#01",
+ "set": "multiturn",
+ "task": "niah_multikey_1",
+ "tier": "locked-final",
+ "tokens": 7498
+}

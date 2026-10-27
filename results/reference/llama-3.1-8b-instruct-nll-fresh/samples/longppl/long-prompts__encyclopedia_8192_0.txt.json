@@ -1,0 +1,67 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 2.5938646805555554,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.5938646805555554
+   }
+  },
+  "kva": {
+   "1/2": {
+    "all_nll": 2.6492101071428573,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.6492101071428573
+   },
+   "5/8": {
+    "all_nll": 2.6158520496031747,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.6158520496031747
+   }
+  },
+  "noproj": {
+   "1/2": {
+    "all_nll": 2.925421375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.925421375
+   },
+   "5/8": {
+    "all_nll": 2.8542809246031746,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.8542809246031746
+   }
+  },
+  "pop-native": {
+   "pop": {
+    "all_nll": 2.8167155912698414,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 504,
+    "novel_nll": 2.8167155912698414
+   }
+  }
+ },
+ "cell": "llama-3.1-8b-instruct-nll-fresh",
+ "configs": [
+  "llama-3.1-8b-instruct-nll-fresh"
+ ],
+ "dataset": "fresh-long-20261008",
+ "doc": "encyclopedia_8192_0",
+ "domain": "encyclopedia",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/encyclopedia_8192_0.txt",
+ "set": "longppl",
+ "tier": "fresh-long-20261008",
+ "tokens": 8078
+}

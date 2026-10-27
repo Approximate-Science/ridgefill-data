@@ -1,0 +1,3122 @@
+[
+{
+"id": "ruler-16384-cwe-000",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-001",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-002",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-003",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-004",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-005",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-006",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-007",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-008",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-009",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-010",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-011",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-012",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-013",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-014",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-015",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-016",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-017",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-018",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-cwe-019",
+"task": "cwe",
+"length": 16384,
+"max_tokens": 120
+},
+{
+"id": "ruler-16384-fwe-000",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-001",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-002",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-003",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-004",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-005",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-006",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-007",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-008",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-009",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-010",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-011",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-012",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-013",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-014",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-015",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-016",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-017",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-018",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-fwe-019",
+"task": "fwe",
+"length": 16384,
+"max_tokens": 50
+},
+{
+"id": "ruler-16384-niah_multikey_1-000",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-001",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-002",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-003",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-004",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-005",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-006",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-007",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-008",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-009",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-010",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-011",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-012",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-013",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-014",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-015",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-016",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-017",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-018",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_1-019",
+"task": "niah_multikey_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-000",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-001",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-002",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-003",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-004",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-005",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-006",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-007",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-008",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-009",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-010",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-011",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-012",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-013",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-014",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-015",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-016",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-017",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-018",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_2-019",
+"task": "niah_multikey_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-000",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-001",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-002",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-003",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-004",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-005",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-006",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-007",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-008",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-009",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-010",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-011",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-012",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-013",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-014",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-015",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-016",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-017",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-018",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multikey_3-019",
+"task": "niah_multikey_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-000",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-001",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-002",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-003",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-004",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-005",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-006",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-007",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-008",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-009",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-010",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-011",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-012",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-013",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-014",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-015",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-016",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-017",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-018",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multiquery-019",
+"task": "niah_multiquery",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-000",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-001",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-002",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-003",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-004",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-005",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-006",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-007",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-008",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-009",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-010",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-011",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-012",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-013",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-014",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-015",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-016",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-017",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-018",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_multivalue-019",
+"task": "niah_multivalue",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-000",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-001",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-002",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-003",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-004",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-005",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-006",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-007",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-008",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-009",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-010",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-011",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-012",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-013",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-014",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-015",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-016",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-017",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-018",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_1-019",
+"task": "niah_single_1",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-000",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-001",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-002",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-003",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-004",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-005",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-006",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-007",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-008",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-009",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-010",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-011",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-012",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-013",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-014",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-015",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-016",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-017",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-018",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_2-019",
+"task": "niah_single_2",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-000",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-001",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-002",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-003",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-004",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-005",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-006",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-007",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-008",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-009",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-010",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-011",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-012",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-013",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-014",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-015",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-016",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-017",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-018",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-niah_single_3-019",
+"task": "niah_single_3",
+"length": 16384,
+"max_tokens": 128
+},
+{
+"id": "ruler-16384-qa_1-000",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-001",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-002",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-003",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-004",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-005",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-006",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-007",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-008",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-009",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-010",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-011",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-012",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-013",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-014",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-015",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-016",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-017",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-018",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_1-019",
+"task": "qa_1",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-000",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-001",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-002",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-003",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-004",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-005",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-006",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-007",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-008",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-009",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-010",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-011",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-012",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-013",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-014",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-015",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-016",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-017",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-018",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-qa_2-019",
+"task": "qa_2",
+"length": 16384,
+"max_tokens": 32
+},
+{
+"id": "ruler-16384-vt-000",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-001",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-002",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-003",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-004",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-005",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-006",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-007",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-008",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-009",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-010",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-011",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-012",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-013",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-014",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-015",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-016",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-017",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-018",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-16384-vt-019",
+"task": "vt",
+"length": 16384,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-cwe-000",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-001",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-002",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-003",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-004",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-005",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-006",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-007",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-008",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-009",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-010",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-011",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-012",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-013",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-014",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-015",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-016",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-017",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-018",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-cwe-019",
+"task": "cwe",
+"length": 32768,
+"max_tokens": 120
+},
+{
+"id": "ruler-32768-fwe-000",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-001",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-002",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-003",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-004",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-005",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-006",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-007",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-008",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-009",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-010",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-011",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-012",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-013",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-014",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-015",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-016",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-017",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-018",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-fwe-019",
+"task": "fwe",
+"length": 32768,
+"max_tokens": 50
+},
+{
+"id": "ruler-32768-niah_multikey_1-000",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-001",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-002",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-003",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-004",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-005",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-006",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-007",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-008",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-009",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-010",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-011",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-012",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-013",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-014",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-015",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-016",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-017",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-018",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_1-019",
+"task": "niah_multikey_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-000",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-001",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-002",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-003",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-004",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-005",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-006",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-007",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-008",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-009",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-010",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-011",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-012",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-013",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-014",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-015",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-016",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-017",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-018",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_2-019",
+"task": "niah_multikey_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-000",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-001",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-002",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-003",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-004",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-005",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-006",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-007",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-008",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-009",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-010",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-011",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-012",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-013",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-014",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-015",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-016",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-017",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-018",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multikey_3-019",
+"task": "niah_multikey_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-000",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-001",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-002",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-003",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-004",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-005",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-006",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-007",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-008",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-009",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-010",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-011",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-012",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-013",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-014",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-015",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-016",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-017",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-018",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multiquery-019",
+"task": "niah_multiquery",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-000",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-001",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-002",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-003",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-004",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-005",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-006",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-007",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-008",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-009",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-010",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-011",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-012",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-013",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-014",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-015",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-016",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-017",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-018",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_multivalue-019",
+"task": "niah_multivalue",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-000",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-001",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-002",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-003",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-004",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-005",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-006",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-007",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-008",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-009",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-010",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-011",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-012",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-013",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-014",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-015",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-016",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-017",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-018",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_1-019",
+"task": "niah_single_1",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-000",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-001",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-002",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-003",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-004",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-005",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-006",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-007",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-008",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-009",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-010",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-011",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-012",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-013",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-014",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-015",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-016",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-017",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-018",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_2-019",
+"task": "niah_single_2",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-000",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-001",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-002",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-003",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-004",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-005",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-006",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-007",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-008",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-009",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-010",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-011",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-012",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-013",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-014",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-015",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-016",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-017",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-018",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-niah_single_3-019",
+"task": "niah_single_3",
+"length": 32768,
+"max_tokens": 128
+},
+{
+"id": "ruler-32768-qa_1-000",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-001",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-002",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-003",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-004",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-005",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-006",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-007",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-008",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-009",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-010",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-011",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-012",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-013",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-014",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-015",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-016",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-017",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-018",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_1-019",
+"task": "qa_1",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-000",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-001",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-002",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-003",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-004",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-005",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-006",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-007",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-008",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-009",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-010",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-011",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-012",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-013",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-014",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-015",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-016",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-017",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-018",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-qa_2-019",
+"task": "qa_2",
+"length": 32768,
+"max_tokens": 32
+},
+{
+"id": "ruler-32768-vt-000",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-001",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-002",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-003",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-004",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-005",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-006",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-007",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-008",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-009",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-010",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-011",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-012",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-013",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-014",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-015",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-016",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-017",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-018",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+},
+{
+"id": "ruler-32768-vt-019",
+"task": "vt",
+"length": 32768,
+"max_tokens": 30
+}
+]

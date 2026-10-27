@@ -1,0 +1,11 @@
+{
+ "fingerprint": "8fb47ada48a1546fc07545292308bec11dd2771e22cd27729816350e0f45b6f4",
+ "host": {
+  "commit": "42028dfc3e04cd1b46bcf231d37b35f200b8bd64",
+  "driver": "580.173.02",
+  "gpu_name": "NVIDIA A100-SXM4-40GB",
+  "host": "d9e4a8e68814",
+  "machine": "x86_64",
+  "torch": "2.11.0+cu128"
+ }
+}

@@ -1,0 +1,43 @@
+{
+ "arms": {
+  "exact": {
+   "-": {}
+  },
+  "kva": {
+   "3/8": {
+    "first_divergence": 30,
+    "frac_identical": 0.240234,
+    "kl_mean": 0.01370701,
+    "top1_agree": 0.990234
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "first_divergence": 12,
+    "frac_identical": 0.080078,
+    "kl_mean": 0.03272502,
+    "top1_agree": 0.972656
+   }
+  },
+  "skip": {
+   "3/8": {
+    "first_divergence": 12,
+    "frac_identical": 0.080078,
+    "kl_mean": 0.05870696,
+    "top1_agree": 0.974609
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-decode",
+ "configs": [
+  "qwen3.5-9b-decode"
+ ],
+ "doc": "tech_doc_32768_0",
+ "domain": "encyclopedia",
+ "length": 32768,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/tech_doc_32768_0.txt",
+ "set": "decode",
+ "tier": "locked-final",
+ "tokens": 32768
+}

@@ -1,0 +1,43 @@
+{
+ "arms": {
+  "exact": {
+   "-": {}
+  },
+  "kva": {
+   "3/8": {
+    "first_divergence": 61,
+    "frac_identical": 0.123047,
+    "kl_mean": 0.03700031,
+    "top1_agree": 0.945312
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "first_divergence": 12,
+    "frac_identical": 0.033203,
+    "kl_mean": 0.05355737,
+    "top1_agree": 0.927734
+   }
+  },
+  "skip": {
+   "3/8": {
+    "first_divergence": 8,
+    "frac_identical": 0.044922,
+    "kl_mean": 0.14881256,
+    "top1_agree": 0.871094
+   }
+  }
+ },
+ "cell": "qwen3-8b-decode",
+ "configs": [
+  "qwen3-8b-decode"
+ ],
+ "doc": "papers_8192_0",
+ "domain": "papers",
+ "length": 8192,
+ "protocol": "1.1.1",
+ "sample": "long-prompts/papers_8192_0.txt",
+ "set": "decode",
+ "tier": "locked-final",
+ "tokens": 8017
+}

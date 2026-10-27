@@ -1,0 +1,115 @@
+{
+ "arms": {
+  "exact": {
+   "-": {
+    "all_nll": 1.081415794921875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3214654900497511
+   }
+  },
+  "kva": {
+   "3/8": {
+    "all_nll": 1.082633845703125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3243661368159203
+   }
+  },
+  "kva+ktail": {
+   "3/8": {
+    "all_nll": 1.08173215625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.323150447761194
+   }
+  },
+  "kva+qattn10": {
+   "3/8": {
+    "all_nll": 1.088612828125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3308917686567165
+   }
+  },
+  "kva+random": {
+   "3/8": {
+    "all_nll": 1.0817699609375,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3227981094527363
+   }
+  },
+  "kva+tailmatch": {
+   "3/8": {
+    "all_nll": 1.0814724140625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.322682024875622
+   }
+  },
+  "kva+vtail": {
+   "3/8": {
+    "all_nll": 1.084217861328125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3257610223880596
+   }
+  },
+  "noproj": {
+   "3/8": {
+    "all_nll": 1.090665236328125,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3338009179104477
+   }
+  },
+  "noproj+qattn10": {
+   "3/8": {
+    "all_nll": 1.090276166015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3321087189054726
+   }
+  },
+  "noproj+random": {
+   "3/8": {
+    "all_nll": 1.08903141015625,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.3319832437810946
+   }
+  },
+  "noproj+tailmatch": {
+   "3/8": {
+    "all_nll": 1.08410766796875,
+    "key_nll": null,
+    "n_key": 0,
+    "n_novel": 402,
+    "novel_nll": 1.326195
+   }
+  }
+ },
+ "cell": "qwen3.5-9b-nll-causal",
+ "configs": [
+  "qwen3.5-9b-nll"
+ ],
+ "doc": "papers_8192_2",
+ "domain": "papers",
+ "length": 8192,
+ "protocol": "1.1.3",
+ "sample": "long-prompts/papers_8192_2.txt",
+ "set": "longppl",
+ "tier": "locked-final",
+ "tokens": 8704
+}
