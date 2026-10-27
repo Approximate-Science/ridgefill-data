@@ -5,9 +5,10 @@ CLAIMS.md	6334	bf866d983aebd07a669503fdb7a998bd1cf3b5a3fcdff35df25795a3b0f0ada8	
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
 NOTICE	1742	35a0e01b021379dffc2a809dac4646fae6172c5f23cbd12b8468ca4765b8f557	CC-BY-4.0	documentation	n/a		release/NOTICE		written
-README.md	11333	09d08b299e2b0edc683ee571f49635fd8c7cd222959bab92e058e9fe885d1a0f	CC-BY-4.0	documentation	n/a		release/README.md		written
+README.md	14400	8e9614f25fd7d46e343c6d6f9c1c59b9eee81fa69f6098321be79f14624fad0d	CC-BY-4.0	documentation	n/a		release/README.md		written
 REPRODUCE.md	5232	355146603381897ee4d1b9b200f205e94a174e7e4083e490d59df5d168a78b25	CC-BY-4.0	documentation	n/a		release/REPRODUCE.md		written
 SUPERSEDED.md	1902	a521d85cb0b05b443d285c31238406368ff081e5965e6fed6b8915a3ec0b677e	CC-BY-4.0	documentation	n/a		release/SUPERSEDED.md		written
+assets/ridgefill-banner.webp	63040	c39308ef507cbd571c6fb9c1d51dd8a6e2a4bfd07cc0f550ac50ccc0652ffda5	CC-BY-4.0	documentation	n/a		release/assets/ridgefill-banner.webp		written
 code/LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	Apache-2.0	code	n/a		kva@ridgefill-v1.0:LICENSE		export:ridgefill-v1.0
 code/RUN-COMMITS.md	2993	33e9e965aaa8de528552d6d0be3e3d4c6e9ad47f2effb7974e49b20e78c9947c	Apache-2.0	code	n/a		release/		written
 code/c5/PLAN.md	11095	8770c9ce538f1bc4d3ae48f7eda86698eb125e9d00030260a3d5522255d90d73	Apache-2.0	code	n/a		kva@ridgefill-v1.0:c5/PLAN.md		export:ridgefill-v1.0
