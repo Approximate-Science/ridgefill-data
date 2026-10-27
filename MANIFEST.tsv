@@ -1,11 +1,11 @@
 path	bytes	sha256	licence	kind	status	claims	origin	origin_sha256	transform
 .gitignore	115	1bcb10427a5e155ef45d2a180eb7daf7eba2301b8da242a6d12688642c3e898c	CC-BY-4.0	documentation	n/a		release/.gitignore		written
-CITATION.cff	781	3de576d7916867759f43537eab3e17b8bc746c4557dfc7be148bc3f1ba667f0a	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
+CITATION.cff	781	8653250c91df9dc005372936a934a29dc9b63f0db587473acf8e512de14c1819	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
 CLAIMS.md	6334	bf866d983aebd07a669503fdb7a998bd1cf3b5a3fcdff35df25795a3b0f0ada8	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
 NOTICE	1742	35a0e01b021379dffc2a809dac4646fae6172c5f23cbd12b8468ca4765b8f557	CC-BY-4.0	documentation	n/a		release/NOTICE		written
-README.md	11215	b988ff1e115714bc8adb6ed2ff5327c82d24110ace597c340bdca43cc5ba25a4	CC-BY-4.0	documentation	n/a		release/README.md		written
+README.md	11333	09d08b299e2b0edc683ee571f49635fd8c7cd222959bab92e058e9fe885d1a0f	CC-BY-4.0	documentation	n/a		release/README.md		written
 REPRODUCE.md	5232	355146603381897ee4d1b9b200f205e94a174e7e4083e490d59df5d168a78b25	CC-BY-4.0	documentation	n/a		release/REPRODUCE.md		written
 SUPERSEDED.md	1902	a521d85cb0b05b443d285c31238406368ff081e5965e6fed6b8915a3ec0b677e	CC-BY-4.0	documentation	n/a		release/SUPERSEDED.md		written
 code/LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	Apache-2.0	code	n/a		kva@ridgefill-v1.0:LICENSE		export:ridgefill-v1.0
@@ -261,7 +261,7 @@ figures/fig_wrong_stick.svg	19804	ee91848ff6602c676820f7d0afc103e9cc6a5d0ed7294d
 provenance/ORIGINS.tsv	4494	40146b24f4b6cf6eecfab533a2eaf61dc219bb63e43d99c036e35af35ce2918c	CC-BY-4.0	provenance	n/a		release/ORIGINS.tsv		written
 provenance/STRIPPED.tsv	1362949	9660daa56b85905b3e256c8427edcf58be19323a8be0773c72806cc2a7d5a1fb	CC-BY-4.0	provenance	n/a		release/STRIPPED.tsv		written
 provenance/checks/calib-vs-longbench-v2.json	69998	66d195e9d2fe7c6b8ff757774e9b70b749fc094908c806d379bcd13547ec5879	CC-BY-4.0	provenance	n/a		derived:tools/overlap_lbv2.pycalib-vs-longbench-v2.json		derived
-provenance/external.tsv	41918	a55d07cb7565ac05ee98aa0c3fd4153dd2b808a9c3bf683ae7cbdb5b9e290cd6	CC-BY-4.0	provenance	n/a		release/external.tsv		written
+provenance/external.tsv	42258	11bb6eb15ef7ad29eaec7afd7c2548103122eeb198b09bbcf098c542df54509f	CC-BY-4.0	provenance	n/a		release/external.tsv		written
 provenance/fits/flashnext/QFN-capture.log	10029	cc62a7158d765b6090200cf80b9a80928196d6a94b79046a44e17daecccba890	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/runs/qfn/logs/QFN-capture.log	cc62a7158d765b6090200cf80b9a80928196d6a94b79046a44e17daecccba890	copy
 provenance/fits/flashnext/fit-big-s24.log	2774	c4804208c2e2b55bcd10425b2d4337cc2698c6ee024a9db26fb4405d7b8df916	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/runs/qfn/logs/fit-big-s24.log	b1807e2a4747cf7b8746d164564bb500594719165d1bbc413d1f1ed8e9bdfee3	redact:WORKSTATION_PATH
 provenance/fits/flashnext/report-big-s24.json	37502	2ce9a08a76c10ad7efb261576f9797526675f718fa9aefbe37ab8e41374c38d0	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/qfn/proj/report-big-s24.json	34c46e5ea6118ddf84baac9fb6a5b64f1889b32b886c312f3cff502bde9647de	redact:WORKSTATION_PATH

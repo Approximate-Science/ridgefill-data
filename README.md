@@ -118,20 +118,18 @@ Every map file a run loaded is listed in `provenance/external.tsv` with its repo
 each cell's `cell.json` names the sha256 of the maps it loaded. Identify a map by its sha256; file names alone are
 not enough (`SUPERSEDED.md`).
 
-Public now (organization TheCacheIsALie on Hugging Face):
+Public (organization TheCacheIsALie on Hugging Face):
 
 | Repository | Revision | Files |
 |---|---|---|
-| `RidgeFill-Projector-Qwen3.8-27B-i8` | `07eb31cd28b4f1cf06e9ed055e2eb9f8cb3cefac` | the split-16 maps as one GGUF (Q8_0) file, the file the 27B runs loaded |
+| `RidgeFill-Projector-Qwen3.8-27B-i8` | `d24ace6c3b176681b7075568134b150118a8b566` | the split-16 maps as one GGUF (Q8_0) file, the file the 27B runs loaded (unchanged since `07eb31cd`), and in `ridgefill-projector-qwen3.8-27b-i8/` the int8 release it was converted from |
 | `RidgeFill-Projector-Qwen3.8-Flash-Next-i8` | `0b6f2ce017fe912198c697bcc813a1578bc67ce1` | the split-24 int8 maps, correction and row table the Flash-Next runs loaded |
-| `Llama-3.1-8B-Instruct-RidgeFill-Projector` | `fbfc53245fdeee03edb6014cb1a1e3fab5e61e62` | split 12 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
-| `RidgeFill-Projector-Qwen3-8B` | `202283880b546cde02ee9968f1772e371d6fc0c4` | split 13 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
+| `Llama-3.1-8B-Instruct-RidgeFill-Projector` | `6649dc3621ab11e9c2c5553343147bffe6800a85` | the bf16 safetensors maps the reference cells loaded, splits 8, 12, 16 and 20, in `safetensors/`; split 12 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
+| `RidgeFill-Projector-Qwen3-8B` | `fb663bb44f20c46fbb63bf6ba6a0d6e5dcc3f711` | the bf16 safetensors maps the reference cells loaded, splits 9, 13, 18 and 22, in `safetensors/`; split 13 converted to GGUF (bf16, Q8_0) for the llama.cpp fork |
+| `RidgeFill-Projector-Qwen3.5-9B` | `59d77e33cef73c6e387973f9e6926bd956867873` | the bf16 safetensors maps the reference cells loaded, splits 8, 12, 16 and 20 |
 
-Not yet on Hugging Face: the safetensors maps that the reference cells loaded (Qwen3.5-9B at splits 8, 12, 16, 20;
-Llama-3.1-8B at 8, 12, 16, 20; Qwen3-8B at 9, 13, 18, 22) and the 27B int8 safetensors release that its GGUF was
-converted from. `provenance/external.tsv` lists each of them, by sha256 and bytes, at the repository and path where it
-will be published (rows marked `not yet on Hugging Face`). Until then the reference study can be recomputed from the
-records here, but not rerun with the paper's maps.
+Every file in these repositories that a run loaded has its sha256 and bytes in `provenance/external.tsv`, so the
+reference study can be rerun with the paper's maps.
 
 ## Licences
 

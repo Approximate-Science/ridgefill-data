@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use these data or this code, please cite them as below."
 title: "RidgeFill: data and code for 'Training-Free Late-Layer Cache Fill for Faster Prefill'"
 type: dataset
-version: "1.0"
+version: "1.1"
 date-released: "2026-10-27"
 authors:
   - family-names: Johnston
