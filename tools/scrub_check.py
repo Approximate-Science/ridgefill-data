@@ -8,7 +8,8 @@ and derived/, forbidden file kinds and files over the size limit. A hit is ALLOW
 its path glob and rule with a reason; allowed hits are still listed. An allowlist row that matches no hit is stale
 and fails the scan, so exemptions cannot outlive their reason.
 
-Allowlist rows (markdown table): | path glob | RULE | reason |
+Allowlist rows (markdown table): | path glob | RULE | reason |. A row whose RULE is a private rule applies only when
+that rule is loaded; without --private-patterns such rows are skipped, so the public scan (CI) still runs.
 
 Machine-specific patterns (host names, home paths, internal project names) are not published. Maintainers keep them
 in a local file and pass it with --private-patterns FILE; each line is RULE<TAB>REGEX (lines starting with # are
@@ -70,7 +71,7 @@ def load_private(paths):
     return added
 
 
-def load_allowlist(path):
+def load_allowlist(path, private_loaded):
     rows = []
     for number, line in enumerate(path.read_text(encoding="utf-8").splitlines(), 1):
         cells = [c.strip() for c in line.strip().strip("|").split("|")]
@@ -79,6 +80,8 @@ def load_allowlist(path):
         glob, rule, reason = cells
         glob = glob.strip("`")
         if rule not in RULES and rule not in ("UNSTRIPPED_PROMPT", "FORBIDDEN_FILE", "BIG_FILE"):
+            if not private_loaded:      # a private rule's exemption; inactive in the public scan
+                continue
             sys.exit(f"allowlist line {number}: unknown rule {rule!r}")
         if len(reason) < 10:
             sys.exit(f"allowlist line {number}: reason too short for {glob} {rule}")
@@ -128,7 +131,7 @@ def main(argv):
     if not args.root.is_dir():
         print(f"root {args.root} is not a directory", file=sys.stderr)
         return 2
-    allow = load_allowlist(args.allowlist)
+    allow = load_allowlist(args.allowlist, private_rules > 0)
     allow_file = args.allowlist.resolve()
     files = sorted(f for f in args.root.rglob("*") if f.is_file() and ".git" not in f.relative_to(args.root).parts)
     if not files:

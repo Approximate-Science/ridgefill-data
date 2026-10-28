@@ -1,0 +1,53 @@
+name: data
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  schedule:
+    - cron: "41 6 * * 1"   # weekly
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Install numpy
+        run: pip install numpy==2.5.3
+
+      - name: Every file matches the manifest
+        if: success() || failure()
+        run: sha256sum -c MANIFEST.sha256 --quiet
+
+      - name: The manifest is up to date
+        if: success() || failure()
+        run: |
+          python3 tools/make_manifest.py .
+          git diff --exit-code -- MANIFEST.tsv MANIFEST.sha256
+
+      - name: Recompute every claim and compare with derived/claims.csv
+        if: success() || failure()
+        run: |
+          bash recompute/run_all.sh > recompute.out
+          python3 recompute/gate.py recompute.out
+
+      - name: Ledger chain
+        if: success() || failure()
+        run: python3 tools/verify_ledger.py provenance/ledger
+
+      - name: Tool controls
+        if: success() || failure()
+        run: python3 tools/selftest.py
+
+      - name: Secret and privacy scan (public rules)
+        if: success() || failure()
+        run: python3 tools/scrub_check.py . --allowlist tools/ALLOWLIST.md

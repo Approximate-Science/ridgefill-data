@@ -23,10 +23,10 @@ SKIP = {"MANIFEST.sha256", "MANIFEST.tsv"}
 
 LICENCES = [  # first match wins
     ("code/qwen38-27b-kit/vendor/", "upstream (MIT: LongBench pieces; Apache-2.0: RULER metrics)"),
-    ("code/", "Apache-2.0"), ("recompute/", "Apache-2.0"), ("tools/", "Apache-2.0"),
+    ("code/", "Apache-2.0"), ("recompute/", "Apache-2.0"), ("tools/", "Apache-2.0"), (".github/", "Apache-2.0"),
     ("LICENSE", "licence text"), ("", "CC-BY-4.0"),
 ]
-KINDS = [("results/", "result"), ("derived/", "derived"), ("provenance/", "provenance"), ("code/", "code"),
+KINDS = [("results/", "result"), ("derived/", "derived"), ("provenance/", "provenance"), ("code/", "code"), (".github/", "code"),
          ("recompute/", "code"), ("tools/", "code"), ("figures/", "figure"), ("", "documentation")]
 CLAIMS = [  # path prefix -> claim ids (CLAIMS.md); first match wins
     ("results/reference/llama-3.1-8b-instruct-ruler-deep/", "LB11"),
