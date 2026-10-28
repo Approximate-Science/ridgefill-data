@@ -1,0 +1,43 @@
+seq	type	label	published
+624	hypothesis	FINAL-QWEN3-8B-DECODE	full
+627	hypothesis	FINAL-QWEN3-8B-SECONDQ	full
+628	hypothesis	FINAL-QWEN3-8B-NLL-2	full
+629	hypothesis	FINAL-QWEN3-8B-RULER	full
+630	record	superseded-FINAL-QWEN3-8B-NLL	full
+631	hypothesis	FINAL-LLAMA-DECODE	full
+633	hypothesis	FINAL-LLAMA-NLL	full
+635	hypothesis	FINAL-LLAMA-SECONDQ	full
+636	hypothesis	FINAL-QWEN35-DECODE	full
+638	hypothesis	FINAL-QWEN35-NLL	full
+640	hypothesis	FINAL-QWEN35-SECONDQ	full
+641	record	protocol-change-1.1.2	full
+642	hypothesis	FINAL-LLAMA-NLL-CAUSAL	full
+643	hypothesis	FINAL-LLAMA-RULER-2	full
+644	hypothesis	FINAL-QWEN35-NLL-CAUSAL	full
+645	hypothesis	FINAL-QWEN35-RULER-2	full
+646	hypothesis	FINAL-QWEN3-8B-NLL-CAUSAL	full
+647	record	superseded-FINAL-LLAMA-RULER	full
+648	record	superseded-FINAL-QWEN35-RULER	full
+652	record	protocol-change-1.1.3	hash only
+653	hypothesis	FINAL-LLAMA-LONGBENCH-2	full
+654	hypothesis	FINAL-LLAMA-RULER-DEEP	full
+655	hypothesis	FINAL-QWEN3-8B-RULER-DEEP	full
+656	record	superseded-FINAL-LLAMA-LONGBENCH	full
+657	hypothesis	FINAL-LLAMA-NLL-FRESH	full
+659	record	protocol-change-1.1.4	hash only
+660	hypothesis	FINAL-FLASHNEXT-C5	hash only
+661	record	amend-FINAL-FLASHNEXT-C5-1	full
+662	record	amend-FINAL-FLASHNEXT-C5-2	full
+663	record	amend-FINAL-FLASHNEXT-C5-3	hash only
+664	record	amend-FINAL-FLASHNEXT-C5-4	hash only
+665	record	amend-FINAL-FLASHNEXT-C5-5	hash only
+666	record	smoke-FINAL-FLASHNEXT-C5	hash only
+669	record	amend-FINAL-FLASHNEXT-C5-6	hash only
+670	record	ridgefill-swapfix	hash only
+671	record	ridgefill-swapfix-retracted	hash only
+672	record	amend-FINAL-FLASHNEXT-C5-9	hash only
+674	record	amend-FINAL-FLASHNEXT-C5-10	hash only
+675	record	smoke-det-FINAL-FLASHNEXT-C5	hash only
+676	record	det-read-FINAL-FLASHNEXT-C5	hash only
+677	record	amend-FINAL-FLASHNEXT-C5-11	hash only
+678	hypothesis	FINAL-FLASHNEXT-C5-CHAT	full

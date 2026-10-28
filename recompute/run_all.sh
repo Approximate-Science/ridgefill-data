@@ -59,3 +59,6 @@ run c_ruler_by_task_length.py
 run z_misc_counts.py
 run z_release_provenance.py
 run z_second_question.py
+run x_found.py
+run x_token_classes.py
+run x_calibration_timing.py

@@ -191,7 +191,7 @@ The paper is in preparation. Until it is out, cite this data release (`CITATION.
   author  = {Johnston, Dylan and {tcclaviger}},
   title   = {{RidgeFill}: data and code for ``Training-Free Late-Layer Cache Fill for Faster Prefill''},
   year    = {2026},
-  version = {1.3},
+  version = {1.4},
   url     = {https://github.com/Approximate-Science/ridgefill-data}
 }
 ```

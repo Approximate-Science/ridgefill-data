@@ -1,0 +1,34 @@
+{
+  "model": "llama-3.1-8b-instruct",
+  "clock_note": "UTC date and zone from START refit and the S8 fit record; HH:MM:SS event clocks retained in line.",
+  "stages": [
+    {
+      "name": "capture_and_fit",
+      "start": {
+        "timestamp": "2026-10-07T04:31:37Z",
+        "line": "04:31:37 host accumulators: 9.5 GiB fp64 for 72 pairs",
+        "origin": "orchestration log, 2026-10-07",
+        "source_line": 3822
+      },
+      "end": {
+        "timestamp": "2026-10-07T04:56:04Z",
+        "line": "04:56:04 S=8: lambda* 0.03 read cos 0.8162 (identity 0.6163) -> proj/llama-3.1-8b-instruct-sweep-s8.safetensors",
+        "origin": "orchestration log, 2026-10-07",
+        "source_line": 3942
+      }
+    }
+  ],
+  "clock_evidence": {
+    "line": "=== 2026-10-07T04:30:16Z START refit:llama-3.1-8b-instruct",
+    "origin": "orchestration log, 2026-10-07",
+    "source_line": 3872
+  },
+  "fit_record": {
+    "origin": "results/fit-sweep-llama-3.1-8b-instruct-s8.json",
+    "time_utc": "2026-10-07T04:56:03Z",
+    "rows": 834541,
+    "docs": 71,
+    "lambda_star": 0.03,
+    "projector_sha256": "911b01565af665931c1e2cb01dd6fc6a7951f120117e1327281245c51a75b335"
+  }
+}

@@ -1354,3 +1354,26 @@ Z.turn2.qwen3.needle_coverage.median,54 %,Z,"paper App. D, Table D.1 and accompa
 Z.turn2.qwen3.rows_minus_exact.delta,-10.7,Z,"paper App. D, paired contrast following Table D.1 (additional point-estimate check)"
 Z.turn2.qwen3.rows_minus_exact.ci_lo,-18.7,Z,"paper App. D, Table D.1 and accompanying text"
 Z.turn2.qwen3.rows_minus_exact.ci_hi,-5.3,Z,"paper App. D, Table D.1 and accompanying text"
+X.ledger.rest_on,42,X,paper §9; provenance/ledger/rest-on.tsv and cited.jsonl
+X.ledger.full,27,X,paper §9; provenance/ledger/rest-on.tsv and cited.jsonl
+X.ledger.hash_only,15,X,paper §9; provenance/ledger/rest-on.tsv and cited.jsonl
+X.sterm.prompts,13,X,paper §2.3; provenance/fits/flashnext/sterm-kva-big-s24.json
+X.sterm.states,62,X,paper §2.3; provenance/fits/flashnext/sterm-kva-big-s24.json
+X.detfix.cost_pct.16384,6.64,X,paper §5.1; results/flashnext/determinism-throughput/
+X.detfix.cost_pct.32768,5.65,X,paper §5.1; results/flashnext/determinism-throughput/
+X.detfix.cost_pct.65536,5.26,X,paper §5.1; results/flashnext/determinism-throughput/
+X.detfix.cost_pct.min,5.26,X,paper §5.1; results/flashnext/determinism-throughput/
+X.detfix.cost_pct.max,6.64,X,paper §5.1; results/flashnext/determinism-throughput/
+X.niahchat.exact,60 of 60,X,paper App. I.2; results/development/needles-dev/s2-niahchat/
+X.token_classes.protected.min,1.186091,X,Section 2.4; minimum E across four protected classes and two models; Qwen3.5-9B word-piece; paper rounds to 1.2
+X.token_classes.protected.max,1.747422,X,Section 2.4; maximum E across four protected classes and two models; Llama-3.1-8B word-start-cap; paper rounds to 1.7
+X.token_classes.number.min,0.789887,X,Section 2.4; minimum number E across two models; Qwen3.5-9B; paper rounds to 0.8
+X.token_classes.number.max,1.049976,X,Section 2.4; maximum number E across two models; Llama-3.1-8B; paper rounds to 1.05
+X.token_classes.word_start.llama,0.775818,X,Section 2.4 qualitative lower-case word-start claim; Llama-3.1-8B diagnostic; below parity
+X.token_classes.word_start.qwen,0.862348,X,Section 2.4 qualitative lower-case word-start claim; Qwen3.5-9B diagnostic; below parity
+X.G.minutes.llama31_8b,24.450000,X,provenance/fits/reference/timing/llama-3.1-8b-instruct.json; accumulator setup through final S8 event; minutes; paper rounds to 24
+X.G.minutes.qwen35_9b,43.616667,X,provenance/fits/reference/timing/qwen3.5-9b.json; START refit including download through final S8 event; minutes; paper rounds to 44
+X.G.minutes.qwen3_8b,31.033333,X,provenance/fits/reference/timing/qwen3-8b.json; first integrity event through EXIT=0; minutes; paper rounds to 31
+X.G.hours.flashnext,1.993889,X,provenance/fits/flashnext/timing/qwen3.8-flash-next.json; sum of four active elapsed-stage brackets on two R9700s; hours; paper rounds to 2
+X.G.overlap.fit_raw_max_tokens,47,X,provenance/checks/calib-token-overlap.json; maximum per-document raw shared-shingle run across fitted cohorts and both evaluation sets
+X.G.overlap.held_header_raw_tokens,80,X,provenance/checks/calib-token-overlap.json; raw heldc0 fresh30 witnesses including source_code_128000_0.txt; held-out maximum across tokenizers

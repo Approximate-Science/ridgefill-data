@@ -1,0 +1,29 @@
+{
+  "model": "qwen3.5-9b",
+  "clock_note": "UTC from START refit and S8 fit metadata; start includes model download, end is the final S8 map event.",
+  "stages": [
+    {
+      "name": "download_capture_and_fit",
+      "start": {
+        "timestamp": "2026-10-07T04:15:49Z",
+        "line": "=== 2026-10-07T04:15:49Z START refit:qwen3.5-9b",
+        "origin": "orchestration log, 2026-10-07",
+        "source_line": 3872
+      },
+      "end": {
+        "timestamp": "2026-10-07T04:59:26Z",
+        "line": "04:59:26 S=8: lambda* 0.03 read cos 0.8748 (identity 0.7292) -> proj/qwen3.5-9b-sweep-s8.safetensors",
+        "origin": "orchestration log, 2026-10-07",
+        "source_line": 3942
+      }
+    }
+  ],
+  "fit_record": {
+    "origin": "results/fit-sweep-qwen3.5-9b-s8.json",
+    "time_utc": "2026-10-07T04:59:25Z",
+    "rows": 839652,
+    "docs": 71,
+    "lambda_star": 0.03,
+    "projector_sha256": "39c6e75cb9da7304b494b9e93adba18c13b5cbbd4eea0092cb7ae74a178ee2f1"
+  }
+}

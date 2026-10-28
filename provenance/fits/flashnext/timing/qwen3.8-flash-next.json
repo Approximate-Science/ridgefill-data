@@ -1,0 +1,66 @@
+{
+  "model": "qwen3.8-flash-next",
+  "clock_note": "Same-day local driver clocks, 2026-10-04; timezone unspecified and not needed for interval differences. Sum the four nonoverlapping stage brackets, excluding inter-stage gaps.",
+  "stages": [
+    {
+      "name": "initial_capture",
+      "start": {
+        "timestamp": "2026-10-04T00:01:27",
+        "line": "00:01:27 capture train/trainc58: 11915 tokens, 6 files, 1490 rows",
+        "origin": "runs/qfn/logs/QFN-capture.log",
+        "source_line": 3
+      },
+      "end": {
+        "timestamp": "2026-10-04T00:44:28",
+        "line": "00:44:28 capture chatheld/heldc2: 7067 tokens, 4 files, 884 rows",
+        "origin": "runs/qfn/logs/QFN-capture.log",
+        "source_line": 148
+      }
+    },
+    {
+      "name": "batch0_accumulate",
+      "start": {
+        "timestamp": "2026-10-04T03:37:07",
+        "line": "03:37:07 bigcap: b0: accumulate (S24 card 0, S16 card 1)",
+        "origin": "runs/qfn/logs/bigcap-run.log",
+        "source_line": 1
+      },
+      "end": {
+        "timestamp": "2026-10-04T03:38:59",
+        "line": "03:38:59 bigcap: b0: done",
+        "origin": "runs/qfn/logs/bigcap-run.log",
+        "source_line": 8
+      }
+    },
+    {
+      "name": "batch1_capture_and_accumulate",
+      "start": {
+        "timestamp": "2026-10-04T03:39:44",
+        "line": "03:39:44 bigcap: b1: capture, 160 documents left",
+        "origin": "runs/qfn/logs/bigcap-run.log",
+        "source_line": 13
+      },
+      "end": {
+        "timestamp": "2026-10-04T04:44:31",
+        "line": "04:44:31 bigcap: b1: done",
+        "origin": "runs/qfn/logs/bigcap-run.log",
+        "source_line": 23
+      }
+    },
+    {
+      "name": "split24_fit_and_report",
+      "start": {
+        "timestamp": "2026-10-04T04:44:33",
+        "line": "04:44:33 split 24: configs ['plain'], msfa (15, 19, 23), sums 6.2 GiB",
+        "origin": "runs/qfn/logs/fit-big-s24.log",
+        "source_line": 1
+      },
+      "end": {
+        "timestamp": "2026-10-04T04:54:31",
+        "line": "04:54:31 report results/qfn/report-s24.json",
+        "origin": "runs/qfn/logs/fit-big-s24.log",
+        "source_line": 18
+      }
+    }
+  ]
+}

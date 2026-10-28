@@ -86,6 +86,12 @@ Each printed result of the paper that the claims above do not cover. The scripts
 | C | Appendix C: filled-region RULER counts and arm means by task and length | `recompute/` c_ruler_by_task_length.py | 259 |
 | Z | Appendices D–I: second-question details, release provenance counts and other appendix values | `recompute/` z_second_question.py, z_release_provenance.py, z_misc_counts.py | 50 |
 
+## Values whose raw records joined in release 1.4
+
+| Claim | What the paper says | Files | Script | Values |
+|---|---|---|---|---|
+| X | §2.3 states per layer, §2.4 token-class shares, §5.1 determinism cost, §9 ledger counts, App. G capture times and token overlaps, App. I.2 corrected-format exact run | `provenance/ledger/rest-on.tsv`, `provenance/fits/flashnext/`, `provenance/fits/*/timing/`, `provenance/checks/calib-token-overlap.json`, `results/development/token-classes/impact-corpus-classes.json`, `results/development/needles-dev/s2-niahchat/`, `results/flashnext/determinism-throughput/` | `recompute/x_found.py`, `x_token_classes.py`, `x_calibration_timing.py` | 23 |
+
 ## Facts in §9 and the appendices
 
 | Fact | Files | Check |

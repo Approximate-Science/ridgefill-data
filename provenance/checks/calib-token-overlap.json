@@ -1,0 +1,2815 @@
+{
+  "script": "code/checks/calib_overlap.py",
+  "measurement_note": "Raw text only, add_special_tokens=False; contiguous positions with verified shared 8-token shingles. Run length is positions + 7, an upper bound on the common string with one evaluation document. Missing per_calib_doc entries have no shared 8-token shingle (contribute zero). eval_docs in long_runs is the union of documents touched by any shared shingle, not a per-run alignment.",
+  "evaluation_documents": {
+    "locked126": 126,
+    "fresh30": 30
+  },
+  "tokenizers": {
+    "llama-3.1-8b-instruct": {
+      "tokenizer_json_sha256": "6b9e4e7fb171f92fd137b777cc2714bf87d11576700a1dcd7a399e7bbe39537b"
+    },
+    "qwen3.5-9b": {
+      "tokenizer_json_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42"
+    },
+    "qwen3-8b": {
+      "tokenizer_json_sha256": "aeb13307a71acd8fe81861d94ad54ab689df773318809eed3cbe794b4492dae4"
+    },
+    "qwen3.8-flash-next": {
+      "tokenizer_json_sha256": "0997f410c57a1f4e53b09e4be8f4a172d90edd9564368fb0847030937229b9f3"
+    }
+  },
+  "sha256": {
+    "ref_fit": {
+      "docs": 71,
+      "matches": []
+    },
+    "ref_held": {
+      "docs": 5,
+      "matches": []
+    },
+    "fn_fit": {
+      "docs": 253,
+      "matches": []
+    },
+    "fn_held": {
+      "docs": 10,
+      "matches": []
+    },
+    "fn_sterm": {
+      "docs": 13,
+      "matches": []
+    },
+    "gsq_source_docs": {
+      "docs": 717,
+      "not_in_manifests": [],
+      "matches": []
+    }
+  },
+  "shingles": {
+    "llama-3.1-8b-instruct/ref_fit/raw/locked126": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 9
+        },
+        "trainc19": {
+          "longest_run_tokens": 8
+        },
+        "trainc38": {
+          "longest_run_tokens": 10
+        },
+        "trainc98": {
+          "longest_run_tokens": 11
+        },
+        "trainc6": {
+          "longest_run_tokens": 9
+        },
+        "trainc72": {
+          "longest_run_tokens": 17
+        },
+        "trainc39": {
+          "longest_run_tokens": 8
+        },
+        "trainc9": {
+          "longest_run_tokens": 9
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 11
+        },
+        "trainc89": {
+          "longest_run_tokens": 11
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc37": {
+          "longest_run_tokens": 10
+        },
+        "trainc84": {
+          "longest_run_tokens": 17
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 13
+        },
+        "trainc50": {
+          "longest_run_tokens": 8
+        },
+        "trainc10": {
+          "longest_run_tokens": 9
+        },
+        "trainc80": {
+          "longest_run_tokens": 11
+        },
+        "trainc11": {
+          "longest_run_tokens": 9
+        },
+        "trainc28": {
+          "longest_run_tokens": 10
+        },
+        "trainc88": {
+          "longest_run_tokens": 19
+        },
+        "trainc29": {
+          "longest_run_tokens": 8
+        },
+        "trainc15": {
+          "longest_run_tokens": 11
+        },
+        "trainc91": {
+          "longest_run_tokens": 12
+        },
+        "trainc87": {
+          "longest_run_tokens": 8
+        },
+        "trainc99": {
+          "longest_run_tokens": 10
+        },
+        "trainc48": {
+          "longest_run_tokens": 11
+        },
+        "trainc70": {
+          "longest_run_tokens": 8
+        },
+        "trainc74": {
+          "longest_run_tokens": 24
+        },
+        "trainc95": {
+          "longest_run_tokens": 10
+        },
+        "trainc18": {
+          "longest_run_tokens": 9
+        },
+        "trainc61": {
+          "longest_run_tokens": 8
+        },
+        "trainc16": {
+          "longest_run_tokens": 8
+        },
+        "trainc30": {
+          "longest_run_tokens": 13
+        },
+        "trainc62": {
+          "longest_run_tokens": 9
+        },
+        "trainc76": {
+          "longest_run_tokens": 14
+        },
+        "trainc101": {
+          "longest_run_tokens": 9
+        },
+        "trainc46": {
+          "longest_run_tokens": 14
+        },
+        "trainc23": {
+          "longest_run_tokens": 12
+        },
+        "trainc67": {
+          "longest_run_tokens": 10
+        },
+        "trainc43": {
+          "longest_run_tokens": 11
+        },
+        "trainc26": {
+          "longest_run_tokens": 12
+        },
+        "trainc44": {
+          "longest_run_tokens": 8
+        },
+        "trainc51": {
+          "longest_run_tokens": 15
+        },
+        "trainc53": {
+          "longest_run_tokens": 11
+        },
+        "trainc42": {
+          "longest_run_tokens": 10
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 12
+        },
+        "trainc77": {
+          "longest_run_tokens": 10
+        }
+      }
+    },
+    "llama-3.1-8b-instruct/ref_fit/raw/fresh30": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 9
+        },
+        "trainc19": {
+          "longest_run_tokens": 8
+        },
+        "trainc38": {
+          "longest_run_tokens": 10
+        },
+        "trainc98": {
+          "longest_run_tokens": 11
+        },
+        "trainc32": {
+          "longest_run_tokens": 15
+        },
+        "trainc72": {
+          "longest_run_tokens": 15
+        },
+        "trainc39": {
+          "longest_run_tokens": 8
+        },
+        "trainc9": {
+          "longest_run_tokens": 10
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 15
+        },
+        "trainc1": {
+          "longest_run_tokens": 16
+        },
+        "trainc89": {
+          "longest_run_tokens": 11
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc27": {
+          "longest_run_tokens": 12
+        },
+        "trainc37": {
+          "longest_run_tokens": 14
+        },
+        "trainc84": {
+          "longest_run_tokens": 43
+        },
+        "trainc100": {
+          "longest_run_tokens": 15
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 11
+        },
+        "trainc80": {
+          "longest_run_tokens": 9
+        },
+        "trainc28": {
+          "longest_run_tokens": 9
+        },
+        "trainc88": {
+          "longest_run_tokens": 8
+        },
+        "trainc29": {
+          "longest_run_tokens": 10
+        },
+        "trainc15": {
+          "longest_run_tokens": 8
+        },
+        "trainc87": {
+          "longest_run_tokens": 8
+        },
+        "trainc99": {
+          "longest_run_tokens": 10
+        },
+        "trainc63": {
+          "longest_run_tokens": 10
+        },
+        "trainc48": {
+          "longest_run_tokens": 10
+        },
+        "trainc70": {
+          "longest_run_tokens": 14
+        },
+        "trainc74": {
+          "longest_run_tokens": 20
+        },
+        "trainc95": {
+          "longest_run_tokens": 13
+        },
+        "trainc18": {
+          "longest_run_tokens": 10
+        },
+        "trainc16": {
+          "longest_run_tokens": 9
+        },
+        "trainc30": {
+          "longest_run_tokens": 10
+        },
+        "trainc76": {
+          "longest_run_tokens": 10
+        },
+        "trainc46": {
+          "longest_run_tokens": 11
+        },
+        "trainc60": {
+          "longest_run_tokens": 25
+        },
+        "trainc23": {
+          "longest_run_tokens": 8
+        },
+        "trainc67": {
+          "longest_run_tokens": 10
+        },
+        "trainc4": {
+          "longest_run_tokens": 13
+        },
+        "trainc5": {
+          "longest_run_tokens": 11
+        },
+        "trainc44": {
+          "longest_run_tokens": 8
+        },
+        "trainc51": {
+          "longest_run_tokens": 9
+        },
+        "trainc53": {
+          "longest_run_tokens": 10
+        },
+        "trainc42": {
+          "longest_run_tokens": 10
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 10
+        },
+        "trainc92": {
+          "longest_run_tokens": 22
+        },
+        "trainc71": {
+          "longest_run_tokens": 21
+        },
+        "trainc77": {
+          "longest_run_tokens": 14
+        }
+      }
+    },
+    "llama-3.1-8b-instruct/ref_held/raw/locked126": {
+      "per_calib_doc": {
+        "held1-code": {
+          "longest_run_tokens": 25
+        },
+        "heldc0": {
+          "longest_run_tokens": 9
+        },
+        "heldc2": {
+          "longest_run_tokens": 9
+        }
+      }
+    },
+    "llama-3.1-8b-instruct/ref_held/raw/fresh30": {
+      "per_calib_doc": {
+        "held1-code": {
+          "longest_run_tokens": 10
+        },
+        "heldc0": {
+          "longest_run_tokens": 77
+        },
+        "heldc1": {
+          "longest_run_tokens": 15
+        }
+      }
+    },
+    "qwen3.5-9b/ref_fit/raw/locked126": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 12
+        },
+        "trainc19": {
+          "longest_run_tokens": 13
+        },
+        "trainc38": {
+          "longest_run_tokens": 11
+        },
+        "trainc98": {
+          "longest_run_tokens": 11
+        },
+        "trainc6": {
+          "longest_run_tokens": 12
+        },
+        "trainc32": {
+          "longest_run_tokens": 12
+        },
+        "trainc72": {
+          "longest_run_tokens": 20
+        },
+        "trainc21": {
+          "longest_run_tokens": 9
+        },
+        "trainc13": {
+          "longest_run_tokens": 11
+        },
+        "trainc39": {
+          "longest_run_tokens": 11
+        },
+        "trainc9": {
+          "longest_run_tokens": 10
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 12
+        },
+        "trainc75": {
+          "longest_run_tokens": 12
+        },
+        "trainc1": {
+          "longest_run_tokens": 8
+        },
+        "trainc89": {
+          "longest_run_tokens": 16
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc27": {
+          "longest_run_tokens": 9
+        },
+        "trainc37": {
+          "longest_run_tokens": 13
+        },
+        "trainc84": {
+          "longest_run_tokens": 18
+        },
+        "trainc100": {
+          "longest_run_tokens": 8
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 13
+        },
+        "trainc50": {
+          "longest_run_tokens": 8
+        },
+        "trainc10": {
+          "longest_run_tokens": 9
+        },
+        "trainc80": {
+          "longest_run_tokens": 13
+        },
+        "trainc11": {
+          "longest_run_tokens": 12
+        },
+        "trainc28": {
+          "longest_run_tokens": 12
+        },
+        "trainc88": {
+          "longest_run_tokens": 20
+        },
+        "trainc29": {
+          "longest_run_tokens": 9
+        },
+        "trainc15": {
+          "longest_run_tokens": 11
+        },
+        "trainc91": {
+          "longest_run_tokens": 12
+        },
+        "trainc87": {
+          "longest_run_tokens": 11
+        },
+        "trainc99": {
+          "longest_run_tokens": 11
+        },
+        "trainc24": {
+          "longest_run_tokens": 9
+        },
+        "trainc63": {
+          "longest_run_tokens": 9
+        },
+        "trainc48": {
+          "longest_run_tokens": 12
+        },
+        "trainc33": {
+          "longest_run_tokens": 11
+        },
+        "trainc70": {
+          "longest_run_tokens": 11
+        },
+        "trainc74": {
+          "longest_run_tokens": 24
+        },
+        "trainc14": {
+          "longest_run_tokens": 11
+        },
+        "trainc95": {
+          "longest_run_tokens": 12
+        },
+        "trainc18": {
+          "longest_run_tokens": 9
+        },
+        "trainc61": {
+          "longest_run_tokens": 12
+        },
+        "trainc2": {
+          "longest_run_tokens": 10
+        },
+        "trainc16": {
+          "longest_run_tokens": 10
+        },
+        "trainc30": {
+          "longest_run_tokens": 13
+        },
+        "trainc62": {
+          "longest_run_tokens": 9
+        },
+        "trainc76": {
+          "longest_run_tokens": 17
+        },
+        "trainc101": {
+          "longest_run_tokens": 9
+        },
+        "trainc46": {
+          "longest_run_tokens": 18
+        },
+        "trainc60": {
+          "longest_run_tokens": 11
+        },
+        "trainc23": {
+          "longest_run_tokens": 13
+        },
+        "trainc67": {
+          "longest_run_tokens": 12
+        },
+        "trainc43": {
+          "longest_run_tokens": 13
+        },
+        "trainc4": {
+          "longest_run_tokens": 12
+        },
+        "trainc26": {
+          "longest_run_tokens": 12
+        },
+        "trainc5": {
+          "longest_run_tokens": 8
+        },
+        "trainc44": {
+          "longest_run_tokens": 12
+        },
+        "trainc51": {
+          "longest_run_tokens": 17
+        },
+        "trainc53": {
+          "longest_run_tokens": 13
+        },
+        "trainc66": {
+          "longest_run_tokens": 10
+        },
+        "trainc42": {
+          "longest_run_tokens": 11
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 12
+        },
+        "trainc92": {
+          "longest_run_tokens": 8
+        },
+        "trainc71": {
+          "longest_run_tokens": 10
+        },
+        "trainc77": {
+          "longest_run_tokens": 12
+        }
+      }
+    },
+    "qwen3.5-9b/ref_fit/raw/fresh30": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 12
+        },
+        "trainc19": {
+          "longest_run_tokens": 17
+        },
+        "trainc38": {
+          "longest_run_tokens": 10
+        },
+        "trainc98": {
+          "longest_run_tokens": 15
+        },
+        "trainc6": {
+          "longest_run_tokens": 10
+        },
+        "trainc32": {
+          "longest_run_tokens": 15
+        },
+        "trainc72": {
+          "longest_run_tokens": 15
+        },
+        "trainc21": {
+          "longest_run_tokens": 8
+        },
+        "trainc13": {
+          "longest_run_tokens": 9
+        },
+        "trainc39": {
+          "longest_run_tokens": 10
+        },
+        "trainc9": {
+          "longest_run_tokens": 10
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 15
+        },
+        "trainc75": {
+          "longest_run_tokens": 10
+        },
+        "trainc1": {
+          "longest_run_tokens": 16
+        },
+        "trainc89": {
+          "longest_run_tokens": 15
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc27": {
+          "longest_run_tokens": 16
+        },
+        "trainc37": {
+          "longest_run_tokens": 15
+        },
+        "trainc84": {
+          "longest_run_tokens": 47
+        },
+        "trainc100": {
+          "longest_run_tokens": 15
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 11
+        },
+        "trainc50": {
+          "longest_run_tokens": 8
+        },
+        "trainc10": {
+          "longest_run_tokens": 8
+        },
+        "trainc80": {
+          "longest_run_tokens": 14
+        },
+        "trainc11": {
+          "longest_run_tokens": 11
+        },
+        "trainc28": {
+          "longest_run_tokens": 10
+        },
+        "trainc88": {
+          "longest_run_tokens": 10
+        },
+        "trainc29": {
+          "longest_run_tokens": 14
+        },
+        "trainc15": {
+          "longest_run_tokens": 9
+        },
+        "trainc91": {
+          "longest_run_tokens": 12
+        },
+        "trainc87": {
+          "longest_run_tokens": 8
+        },
+        "trainc99": {
+          "longest_run_tokens": 13
+        },
+        "trainc24": {
+          "longest_run_tokens": 8
+        },
+        "trainc63": {
+          "longest_run_tokens": 11
+        },
+        "trainc48": {
+          "longest_run_tokens": 10
+        },
+        "trainc33": {
+          "longest_run_tokens": 9
+        },
+        "trainc70": {
+          "longest_run_tokens": 15
+        },
+        "trainc74": {
+          "longest_run_tokens": 20
+        },
+        "trainc14": {
+          "longest_run_tokens": 10
+        },
+        "trainc95": {
+          "longest_run_tokens": 16
+        },
+        "trainc18": {
+          "longest_run_tokens": 10
+        },
+        "trainc61": {
+          "longest_run_tokens": 9
+        },
+        "trainc2": {
+          "longest_run_tokens": 10
+        },
+        "trainc16": {
+          "longest_run_tokens": 13
+        },
+        "trainc30": {
+          "longest_run_tokens": 10
+        },
+        "trainc76": {
+          "longest_run_tokens": 14
+        },
+        "trainc46": {
+          "longest_run_tokens": 15
+        },
+        "trainc60": {
+          "longest_run_tokens": 27
+        },
+        "trainc23": {
+          "longest_run_tokens": 10
+        },
+        "trainc67": {
+          "longest_run_tokens": 10
+        },
+        "trainc43": {
+          "longest_run_tokens": 8
+        },
+        "trainc4": {
+          "longest_run_tokens": 17
+        },
+        "trainc26": {
+          "longest_run_tokens": 9
+        },
+        "trainc5": {
+          "longest_run_tokens": 11
+        },
+        "trainc44": {
+          "longest_run_tokens": 12
+        },
+        "trainc51": {
+          "longest_run_tokens": 12
+        },
+        "trainc53": {
+          "longest_run_tokens": 15
+        },
+        "trainc66": {
+          "longest_run_tokens": 10
+        },
+        "trainc42": {
+          "longest_run_tokens": 12
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 14
+        },
+        "trainc92": {
+          "longest_run_tokens": 26
+        },
+        "trainc71": {
+          "longest_run_tokens": 27
+        },
+        "trainc77": {
+          "longest_run_tokens": 14
+        }
+      }
+    },
+    "qwen3.5-9b/ref_held/raw/locked126": {
+      "per_calib_doc": {
+        "held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "held1-code": {
+          "longest_run_tokens": 27
+        },
+        "heldc0": {
+          "longest_run_tokens": 9
+        },
+        "heldc1": {
+          "longest_run_tokens": 10
+        },
+        "heldc2": {
+          "longest_run_tokens": 12
+        }
+      }
+    },
+    "qwen3.5-9b/ref_held/raw/fresh30": {
+      "per_calib_doc": {
+        "held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "held1-code": {
+          "longest_run_tokens": 12
+        },
+        "heldc0": {
+          "longest_run_tokens": 80
+        },
+        "heldc1": {
+          "longest_run_tokens": 18
+        },
+        "heldc2": {
+          "longest_run_tokens": 9
+        }
+      }
+    },
+    "qwen3-8b/ref_fit/raw/locked126": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 12
+        },
+        "trainc19": {
+          "longest_run_tokens": 10
+        },
+        "trainc38": {
+          "longest_run_tokens": 10
+        },
+        "trainc98": {
+          "longest_run_tokens": 11
+        },
+        "trainc6": {
+          "longest_run_tokens": 9
+        },
+        "trainc32": {
+          "longest_run_tokens": 8
+        },
+        "trainc72": {
+          "longest_run_tokens": 20
+        },
+        "trainc13": {
+          "longest_run_tokens": 9
+        },
+        "trainc39": {
+          "longest_run_tokens": 10
+        },
+        "trainc9": {
+          "longest_run_tokens": 9
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 11
+        },
+        "trainc1": {
+          "longest_run_tokens": 8
+        },
+        "trainc89": {
+          "longest_run_tokens": 16
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc37": {
+          "longest_run_tokens": 10
+        },
+        "trainc84": {
+          "longest_run_tokens": 17
+        },
+        "trainc100": {
+          "longest_run_tokens": 8
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 13
+        },
+        "trainc50": {
+          "longest_run_tokens": 8
+        },
+        "trainc10": {
+          "longest_run_tokens": 9
+        },
+        "trainc80": {
+          "longest_run_tokens": 11
+        },
+        "trainc11": {
+          "longest_run_tokens": 9
+        },
+        "trainc28": {
+          "longest_run_tokens": 10
+        },
+        "trainc88": {
+          "longest_run_tokens": 19
+        },
+        "trainc29": {
+          "longest_run_tokens": 8
+        },
+        "trainc15": {
+          "longest_run_tokens": 11
+        },
+        "trainc91": {
+          "longest_run_tokens": 12
+        },
+        "trainc87": {
+          "longest_run_tokens": 8
+        },
+        "trainc99": {
+          "longest_run_tokens": 11
+        },
+        "trainc24": {
+          "longest_run_tokens": 9
+        },
+        "trainc63": {
+          "longest_run_tokens": 8
+        },
+        "trainc48": {
+          "longest_run_tokens": 11
+        },
+        "trainc33": {
+          "longest_run_tokens": 11
+        },
+        "trainc70": {
+          "longest_run_tokens": 9
+        },
+        "trainc74": {
+          "longest_run_tokens": 24
+        },
+        "trainc95": {
+          "longest_run_tokens": 10
+        },
+        "trainc18": {
+          "longest_run_tokens": 9
+        },
+        "trainc61": {
+          "longest_run_tokens": 8
+        },
+        "trainc2": {
+          "longest_run_tokens": 9
+        },
+        "trainc16": {
+          "longest_run_tokens": 9
+        },
+        "trainc30": {
+          "longest_run_tokens": 13
+        },
+        "trainc62": {
+          "longest_run_tokens": 9
+        },
+        "trainc76": {
+          "longest_run_tokens": 14
+        },
+        "trainc101": {
+          "longest_run_tokens": 9
+        },
+        "trainc46": {
+          "longest_run_tokens": 16
+        },
+        "trainc60": {
+          "longest_run_tokens": 9
+        },
+        "trainc23": {
+          "longest_run_tokens": 12
+        },
+        "trainc67": {
+          "longest_run_tokens": 10
+        },
+        "trainc43": {
+          "longest_run_tokens": 11
+        },
+        "trainc26": {
+          "longest_run_tokens": 12
+        },
+        "trainc44": {
+          "longest_run_tokens": 12
+        },
+        "trainc51": {
+          "longest_run_tokens": 15
+        },
+        "trainc53": {
+          "longest_run_tokens": 11
+        },
+        "trainc42": {
+          "longest_run_tokens": 11
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 12
+        },
+        "trainc92": {
+          "longest_run_tokens": 8
+        },
+        "trainc71": {
+          "longest_run_tokens": 8
+        },
+        "trainc77": {
+          "longest_run_tokens": 10
+        }
+      }
+    },
+    "qwen3-8b/ref_fit/raw/fresh30": {
+      "per_calib_doc": {
+        "trainc58": {
+          "longest_run_tokens": 10
+        },
+        "trainc19": {
+          "longest_run_tokens": 9
+        },
+        "trainc38": {
+          "longest_run_tokens": 10
+        },
+        "trainc98": {
+          "longest_run_tokens": 15
+        },
+        "trainc6": {
+          "longest_run_tokens": 8
+        },
+        "trainc32": {
+          "longest_run_tokens": 15
+        },
+        "trainc72": {
+          "longest_run_tokens": 15
+        },
+        "trainc13": {
+          "longest_run_tokens": 9
+        },
+        "trainc39": {
+          "longest_run_tokens": 10
+        },
+        "trainc9": {
+          "longest_run_tokens": 10
+        },
+        "trainc8": {
+          "longest_run_tokens": 11
+        },
+        "trainc22": {
+          "longest_run_tokens": 15
+        },
+        "trainc75": {
+          "longest_run_tokens": 8
+        },
+        "trainc1": {
+          "longest_run_tokens": 16
+        },
+        "trainc89": {
+          "longest_run_tokens": 15
+        },
+        "trainc25": {
+          "longest_run_tokens": 16
+        },
+        "trainc27": {
+          "longest_run_tokens": 12
+        },
+        "trainc37": {
+          "longest_run_tokens": 14
+        },
+        "trainc84": {
+          "longest_run_tokens": 43
+        },
+        "trainc100": {
+          "longest_run_tokens": 15
+        },
+        "trainc36": {
+          "longest_run_tokens": 22
+        },
+        "trainc17": {
+          "longest_run_tokens": 11
+        },
+        "trainc10": {
+          "longest_run_tokens": 8
+        },
+        "trainc80": {
+          "longest_run_tokens": 9
+        },
+        "trainc28": {
+          "longest_run_tokens": 9
+        },
+        "trainc88": {
+          "longest_run_tokens": 9
+        },
+        "trainc29": {
+          "longest_run_tokens": 10
+        },
+        "trainc15": {
+          "longest_run_tokens": 9
+        },
+        "trainc91": {
+          "longest_run_tokens": 10
+        },
+        "trainc87": {
+          "longest_run_tokens": 8
+        },
+        "trainc99": {
+          "longest_run_tokens": 10
+        },
+        "trainc63": {
+          "longest_run_tokens": 10
+        },
+        "trainc48": {
+          "longest_run_tokens": 10
+        },
+        "trainc33": {
+          "longest_run_tokens": 9
+        },
+        "trainc70": {
+          "longest_run_tokens": 15
+        },
+        "trainc74": {
+          "longest_run_tokens": 20
+        },
+        "trainc95": {
+          "longest_run_tokens": 13
+        },
+        "trainc18": {
+          "longest_run_tokens": 10
+        },
+        "trainc2": {
+          "longest_run_tokens": 8
+        },
+        "trainc16": {
+          "longest_run_tokens": 9
+        },
+        "trainc30": {
+          "longest_run_tokens": 10
+        },
+        "trainc76": {
+          "longest_run_tokens": 10
+        },
+        "trainc46": {
+          "longest_run_tokens": 13
+        },
+        "trainc60": {
+          "longest_run_tokens": 25
+        },
+        "trainc23": {
+          "longest_run_tokens": 10
+        },
+        "trainc67": {
+          "longest_run_tokens": 10
+        },
+        "trainc4": {
+          "longest_run_tokens": 15
+        },
+        "trainc26": {
+          "longest_run_tokens": 8
+        },
+        "trainc5": {
+          "longest_run_tokens": 11
+        },
+        "trainc44": {
+          "longest_run_tokens": 12
+        },
+        "trainc51": {
+          "longest_run_tokens": 9
+        },
+        "trainc53": {
+          "longest_run_tokens": 10
+        },
+        "trainc42": {
+          "longest_run_tokens": 10
+        },
+        "trainc85": {
+          "longest_run_tokens": 9
+        },
+        "trainc55": {
+          "longest_run_tokens": 12
+        },
+        "trainc92": {
+          "longest_run_tokens": 22
+        },
+        "trainc71": {
+          "longest_run_tokens": 24
+        },
+        "trainc77": {
+          "longest_run_tokens": 14
+        }
+      }
+    },
+    "qwen3-8b/ref_held/raw/locked126": {
+      "per_calib_doc": {
+        "held1-code": {
+          "longest_run_tokens": 25
+        },
+        "heldc0": {
+          "longest_run_tokens": 9
+        },
+        "heldc2": {
+          "longest_run_tokens": 9
+        }
+      }
+    },
+    "qwen3-8b/ref_held/raw/fresh30": {
+      "per_calib_doc": {
+        "held1-code": {
+          "longest_run_tokens": 10
+        },
+        "heldc0": {
+          "longest_run_tokens": 77
+        },
+        "heldc1": {
+          "longest_run_tokens": 15
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_fit/raw/locked126": {
+      "per_calib_doc": {
+        "train/trainc58": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc19": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc38": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc98": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc6": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc32": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc72": {
+          "longest_run_tokens": 20
+        },
+        "train/trainc21": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc13": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc39": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc9": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc8": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc22": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc75": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc1": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc89": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc25": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc27": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc37": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc84": {
+          "longest_run_tokens": 18
+        },
+        "train/trainc100": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc36": {
+          "longest_run_tokens": 22
+        },
+        "train/trainc17": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc50": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc10": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc80": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc11": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc28": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc88": {
+          "longest_run_tokens": 20
+        },
+        "train/trainc29": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc15": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc91": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc87": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc99": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc24": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc63": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc48": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc33": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc70": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc74": {
+          "longest_run_tokens": 24
+        },
+        "train/trainc14": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc95": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc18": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc61": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc2": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc16": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc30": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc62": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc76": {
+          "longest_run_tokens": 17
+        },
+        "train/trainc101": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc46": {
+          "longest_run_tokens": 18
+        },
+        "train/trainc60": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc23": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc67": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc43": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc4": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc26": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc5": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc44": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc51": {
+          "longest_run_tokens": 17
+        },
+        "train/trainc53": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc66": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc42": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc85": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc55": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc92": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc71": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc77": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc58": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc38": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc32": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc13": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc1": {
+          "longest_run_tokens": 8
+        },
+        "chattrain/trainc25": {
+          "longest_run_tokens": 16
+        },
+        "chattrain/trainc84": {
+          "longest_run_tokens": 18
+        },
+        "chattrain/trainc17": {
+          "longest_run_tokens": 13
+        },
+        "chattrain/trainc10": {
+          "longest_run_tokens": 9
+        },
+        "chattrain/trainc11": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc88": {
+          "longest_run_tokens": 20
+        },
+        "chattrain/trainc91": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc99": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc63": {
+          "longest_run_tokens": 9
+        },
+        "chattrain/trainc74": {
+          "longest_run_tokens": 24
+        },
+        "chattrain/trainc30": {
+          "longest_run_tokens": 13
+        },
+        "chattrain/trainc76": {
+          "longest_run_tokens": 17
+        },
+        "chattrain/trainc60": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc26": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc44": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc53": {
+          "longest_run_tokens": 13
+        },
+        "chattrain/trainc71": {
+          "longest_run_tokens": 10
+        },
+        "big/code-000": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-000": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-000": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/prose-000": {
+          "longest_run_tokens": 15
+        },
+        "big/rust-000": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-000": {
+          "longest_run_tokens": 11
+        },
+        "big/techdocs-000": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-000": {
+          "longest_run_tokens": 8
+        },
+        "big/web-000": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/web-000": {
+          "longest_run_tokens": 12
+        },
+        "big/code-001": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-001": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-001": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/prose-001": {
+          "longest_run_tokens": 9
+        },
+        "big/rust-001": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-001": {
+          "longest_run_tokens": 11
+        },
+        "big/techdocs-001": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/techdocs-001": {
+          "longest_run_tokens": 10
+        },
+        "big/web-002": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/web-002": {
+          "longest_run_tokens": 12
+        },
+        "big/code-002": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-002": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-002": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-002": {
+          "longest_run_tokens": 12
+        },
+        "big/techdocs-002": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/techdocs-002": {
+          "longest_run_tokens": 10
+        },
+        "big/web-003": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/web-003": {
+          "longest_run_tokens": 12
+        },
+        "big/code-003": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-003": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-003": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-003": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-003": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-003": {
+          "longest_run_tokens": 12
+        },
+        "big/techdocs-003": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-003": {
+          "longest_run_tokens": 8
+        },
+        "big/web-004": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/web-004": {
+          "longest_run_tokens": 12
+        },
+        "big/code-004": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/code-004": {
+          "longest_run_tokens": 15
+        },
+        "big/prose-004": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/prose-004": {
+          "longest_run_tokens": 9
+        },
+        "big/rust-004": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-004": {
+          "longest_run_tokens": 12
+        },
+        "big/web-005": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/web-005": {
+          "longest_run_tokens": 17
+        },
+        "big/code-005": {
+          "longest_run_tokens": 31
+        },
+        "chatbig/code-005": {
+          "longest_run_tokens": 31
+        },
+        "big/prose-005": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/prose-005": {
+          "longest_run_tokens": 9
+        },
+        "big/rust-005": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-005": {
+          "longest_run_tokens": 13
+        },
+        "big/techdocs-005": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/techdocs-005": {
+          "longest_run_tokens": 9
+        },
+        "big/web-006": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/web-006": {
+          "longest_run_tokens": 10
+        },
+        "big/code-006": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-006": {
+          "longest_run_tokens": 13
+        },
+        "big/prose-006": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-006": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-006": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-006": {
+          "longest_run_tokens": 13
+        },
+        "big/techdocs-006": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-006": {
+          "longest_run_tokens": 8
+        },
+        "big/web-007": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/web-007": {
+          "longest_run_tokens": 11
+        },
+        "big/code-007": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-007": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-007": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/prose-007": {
+          "longest_run_tokens": 12
+        },
+        "big/rust-007": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-007": {
+          "longest_run_tokens": 13
+        },
+        "big/techdocs-007": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/techdocs-007": {
+          "longest_run_tokens": 9
+        },
+        "big/web-008": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-008": {
+          "longest_run_tokens": 9
+        },
+        "big/code-008": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/code-008": {
+          "longest_run_tokens": 11
+        },
+        "big/prose-008": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/prose-008": {
+          "longest_run_tokens": 14
+        },
+        "big/rust-008": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/rust-008": {
+          "longest_run_tokens": 15
+        },
+        "big/code-009": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-009": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-009": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-009": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-009": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/rust-009": {
+          "longest_run_tokens": 14
+        },
+        "big/techdocs-009": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-009": {
+          "longest_run_tokens": 8
+        },
+        "big/code-010": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/code-010": {
+          "longest_run_tokens": 11
+        },
+        "big/prose-010": {
+          "longest_run_tokens": 16
+        },
+        "chatbig/prose-010": {
+          "longest_run_tokens": 16
+        },
+        "big/rust-010": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-010": {
+          "longest_run_tokens": 11
+        },
+        "big/web-011": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/web-011": {
+          "longest_run_tokens": 11
+        },
+        "big/code-011": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-011": {
+          "longest_run_tokens": 12
+        },
+        "big/rust-011": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-011": {
+          "longest_run_tokens": 11
+        },
+        "big/web-012": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-012": {
+          "longest_run_tokens": 9
+        },
+        "big/code-012": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-012": {
+          "longest_run_tokens": 12
+        },
+        "big/prose-012": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-012": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-012": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/rust-012": {
+          "longest_run_tokens": 15
+        },
+        "big/techdocs-012": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/techdocs-012": {
+          "longest_run_tokens": 10
+        },
+        "big/web-013": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/web-013": {
+          "longest_run_tokens": 10
+        },
+        "big/code-013": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-013": {
+          "longest_run_tokens": 12
+        },
+        "big/rust-013": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/rust-013": {
+          "longest_run_tokens": 15
+        },
+        "big/techdocs-013": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/techdocs-013": {
+          "longest_run_tokens": 10
+        },
+        "big/web-014": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-014": {
+          "longest_run_tokens": 9
+        },
+        "big/code-014": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-014": {
+          "longest_run_tokens": 13
+        },
+        "big/prose-014": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-014": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-014": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-014": {
+          "longest_run_tokens": 11
+        },
+        "big/web-015": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/web-015": {
+          "longest_run_tokens": 12
+        },
+        "big/code-015": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/code-015": {
+          "longest_run_tokens": 15
+        },
+        "big/prose-015": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-015": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-015": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/rust-015": {
+          "longest_run_tokens": 11
+        },
+        "big/web-016": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/web-016": {
+          "longest_run_tokens": 11
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_fit/raw/fresh30": {
+      "per_calib_doc": {
+        "train/trainc58": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc19": {
+          "longest_run_tokens": 17
+        },
+        "train/trainc38": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc98": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc6": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc32": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc72": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc21": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc13": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc39": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc9": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc8": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc22": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc75": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc1": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc89": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc25": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc27": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc37": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc84": {
+          "longest_run_tokens": 47
+        },
+        "train/trainc100": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc36": {
+          "longest_run_tokens": 22
+        },
+        "train/trainc17": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc50": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc10": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc80": {
+          "longest_run_tokens": 14
+        },
+        "train/trainc11": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc28": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc88": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc29": {
+          "longest_run_tokens": 14
+        },
+        "train/trainc15": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc91": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc87": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc99": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc24": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc63": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc48": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc33": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc70": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc74": {
+          "longest_run_tokens": 20
+        },
+        "train/trainc14": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc95": {
+          "longest_run_tokens": 16
+        },
+        "train/trainc18": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc61": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc2": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc16": {
+          "longest_run_tokens": 13
+        },
+        "train/trainc30": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc76": {
+          "longest_run_tokens": 14
+        },
+        "train/trainc46": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc60": {
+          "longest_run_tokens": 27
+        },
+        "train/trainc23": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc67": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc43": {
+          "longest_run_tokens": 8
+        },
+        "train/trainc4": {
+          "longest_run_tokens": 17
+        },
+        "train/trainc26": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc5": {
+          "longest_run_tokens": 11
+        },
+        "train/trainc44": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc51": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc53": {
+          "longest_run_tokens": 15
+        },
+        "train/trainc66": {
+          "longest_run_tokens": 10
+        },
+        "train/trainc42": {
+          "longest_run_tokens": 12
+        },
+        "train/trainc85": {
+          "longest_run_tokens": 9
+        },
+        "train/trainc55": {
+          "longest_run_tokens": 14
+        },
+        "train/trainc92": {
+          "longest_run_tokens": 26
+        },
+        "train/trainc71": {
+          "longest_run_tokens": 27
+        },
+        "train/trainc77": {
+          "longest_run_tokens": 14
+        },
+        "chattrain/trainc58": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc38": {
+          "longest_run_tokens": 10
+        },
+        "chattrain/trainc32": {
+          "longest_run_tokens": 15
+        },
+        "chattrain/trainc13": {
+          "longest_run_tokens": 9
+        },
+        "chattrain/trainc1": {
+          "longest_run_tokens": 16
+        },
+        "chattrain/trainc25": {
+          "longest_run_tokens": 16
+        },
+        "chattrain/trainc84": {
+          "longest_run_tokens": 47
+        },
+        "chattrain/trainc17": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc10": {
+          "longest_run_tokens": 8
+        },
+        "chattrain/trainc11": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc88": {
+          "longest_run_tokens": 10
+        },
+        "chattrain/trainc91": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc99": {
+          "longest_run_tokens": 13
+        },
+        "chattrain/trainc63": {
+          "longest_run_tokens": 11
+        },
+        "chattrain/trainc74": {
+          "longest_run_tokens": 20
+        },
+        "chattrain/trainc30": {
+          "longest_run_tokens": 10
+        },
+        "chattrain/trainc76": {
+          "longest_run_tokens": 14
+        },
+        "chattrain/trainc60": {
+          "longest_run_tokens": 27
+        },
+        "chattrain/trainc26": {
+          "longest_run_tokens": 9
+        },
+        "chattrain/trainc44": {
+          "longest_run_tokens": 12
+        },
+        "chattrain/trainc53": {
+          "longest_run_tokens": 15
+        },
+        "chattrain/trainc71": {
+          "longest_run_tokens": 27
+        },
+        "big/code-000": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-000": {
+          "longest_run_tokens": 12
+        },
+        "big/prose-000": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/prose-000": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-000": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-000": {
+          "longest_run_tokens": 13
+        },
+        "big/web-000": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-000": {
+          "longest_run_tokens": 9
+        },
+        "big/code-001": {
+          "longest_run_tokens": 16
+        },
+        "chatbig/code-001": {
+          "longest_run_tokens": 16
+        },
+        "big/rust-001": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-001": {
+          "longest_run_tokens": 13
+        },
+        "big/techdocs-001": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/techdocs-001": {
+          "longest_run_tokens": 14
+        },
+        "big/web-002": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/web-002": {
+          "longest_run_tokens": 11
+        },
+        "big/code-002": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-002": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-002": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-002": {
+          "longest_run_tokens": 12
+        },
+        "big/techdocs-002": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/techdocs-002": {
+          "longest_run_tokens": 10
+        },
+        "big/web-003": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-003": {
+          "longest_run_tokens": 9
+        },
+        "big/code-003": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/code-003": {
+          "longest_run_tokens": 17
+        },
+        "big/prose-003": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-003": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-003": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/rust-003": {
+          "longest_run_tokens": 14
+        },
+        "big/techdocs-003": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/techdocs-003": {
+          "longest_run_tokens": 9
+        },
+        "big/web-004": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/web-004": {
+          "longest_run_tokens": 11
+        },
+        "big/code-004": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/code-004": {
+          "longest_run_tokens": 15
+        },
+        "big/rust-004": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-004": {
+          "longest_run_tokens": 13
+        },
+        "big/web-005": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/web-005": {
+          "longest_run_tokens": 13
+        },
+        "big/code-005": {
+          "longest_run_tokens": 20
+        },
+        "chatbig/code-005": {
+          "longest_run_tokens": 20
+        },
+        "big/prose-005": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-005": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-005": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-005": {
+          "longest_run_tokens": 13
+        },
+        "big/techdocs-005": {
+          "longest_run_tokens": 16
+        },
+        "chatbig/techdocs-005": {
+          "longest_run_tokens": 16
+        },
+        "big/web-006": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-006": {
+          "longest_run_tokens": 9
+        },
+        "big/code-006": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-006": {
+          "longest_run_tokens": 13
+        },
+        "big/prose-006": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-006": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-006": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-006": {
+          "longest_run_tokens": 12
+        },
+        "big/techdocs-006": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-006": {
+          "longest_run_tokens": 8
+        },
+        "big/web-007": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/web-007": {
+          "longest_run_tokens": 13
+        },
+        "big/code-007": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-007": {
+          "longest_run_tokens": 12
+        },
+        "big/prose-007": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-007": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-007": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/rust-007": {
+          "longest_run_tokens": 15
+        },
+        "big/techdocs-007": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/techdocs-007": {
+          "longest_run_tokens": 8
+        },
+        "big/code-008": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/code-008": {
+          "longest_run_tokens": 10
+        },
+        "big/prose-008": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/prose-008": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-008": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/rust-008": {
+          "longest_run_tokens": 14
+        },
+        "big/web-009": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-009": {
+          "longest_run_tokens": 9
+        },
+        "big/code-009": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/code-009": {
+          "longest_run_tokens": 11
+        },
+        "big/prose-009": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-009": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-009": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/rust-009": {
+          "longest_run_tokens": 12
+        },
+        "big/techdocs-009": {
+          "longest_run_tokens": 14
+        },
+        "chatbig/techdocs-009": {
+          "longest_run_tokens": 14
+        },
+        "big/code-010": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/code-010": {
+          "longest_run_tokens": 9
+        },
+        "big/prose-010": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/prose-010": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-010": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-010": {
+          "longest_run_tokens": 13
+        },
+        "big/web-011": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/web-011": {
+          "longest_run_tokens": 10
+        },
+        "big/code-011": {
+          "longest_run_tokens": 12
+        },
+        "chatbig/code-011": {
+          "longest_run_tokens": 12
+        },
+        "big/rust-011": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/rust-011": {
+          "longest_run_tokens": 13
+        },
+        "big/web-012": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-012": {
+          "longest_run_tokens": 9
+        },
+        "big/code-012": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/code-012": {
+          "longest_run_tokens": 13
+        },
+        "big/rust-012": {
+          "longest_run_tokens": 17
+        },
+        "chatbig/rust-012": {
+          "longest_run_tokens": 17
+        },
+        "big/web-013": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/web-013": {
+          "longest_run_tokens": 8
+        },
+        "big/code-013": {
+          "longest_run_tokens": 11
+        },
+        "chatbig/code-013": {
+          "longest_run_tokens": 11
+        },
+        "big/rust-013": {
+          "longest_run_tokens": 18
+        },
+        "chatbig/rust-013": {
+          "longest_run_tokens": 18
+        },
+        "big/techdocs-013": {
+          "longest_run_tokens": 13
+        },
+        "chatbig/techdocs-013": {
+          "longest_run_tokens": 13
+        },
+        "big/web-014": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/web-014": {
+          "longest_run_tokens": 9
+        },
+        "big/code-014": {
+          "longest_run_tokens": 15
+        },
+        "chatbig/code-014": {
+          "longest_run_tokens": 15
+        },
+        "big/rust-014": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/rust-014": {
+          "longest_run_tokens": 10
+        },
+        "big/code-015": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/code-015": {
+          "longest_run_tokens": 9
+        },
+        "big/prose-015": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/prose-015": {
+          "longest_run_tokens": 8
+        },
+        "big/rust-015": {
+          "longest_run_tokens": 10
+        },
+        "chatbig/rust-015": {
+          "longest_run_tokens": 10
+        },
+        "big/techdocs-015": {
+          "longest_run_tokens": 9
+        },
+        "chatbig/techdocs-015": {
+          "longest_run_tokens": 9
+        },
+        "big/web-016": {
+          "longest_run_tokens": 8
+        },
+        "chatbig/web-016": {
+          "longest_run_tokens": 8
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_held/raw/locked126": {
+      "per_calib_doc": {
+        "held/held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "held/held1-code": {
+          "longest_run_tokens": 27
+        },
+        "held/heldc0": {
+          "longest_run_tokens": 9
+        },
+        "held/heldc1": {
+          "longest_run_tokens": 10
+        },
+        "held/heldc2": {
+          "longest_run_tokens": 12
+        },
+        "chatheld/held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "chatheld/held1-code": {
+          "longest_run_tokens": 27
+        },
+        "chatheld/heldc0": {
+          "longest_run_tokens": 9
+        },
+        "chatheld/heldc1": {
+          "longest_run_tokens": 10
+        },
+        "chatheld/heldc2": {
+          "longest_run_tokens": 12
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_held/raw/fresh30": {
+      "per_calib_doc": {
+        "held/held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "held/held1-code": {
+          "longest_run_tokens": 12
+        },
+        "held/heldc0": {
+          "longest_run_tokens": 80
+        },
+        "held/heldc1": {
+          "longest_run_tokens": 18
+        },
+        "held/heldc2": {
+          "longest_run_tokens": 9
+        },
+        "chatheld/held0-rust": {
+          "longest_run_tokens": 12
+        },
+        "chatheld/held1-code": {
+          "longest_run_tokens": 12
+        },
+        "chatheld/heldc0": {
+          "longest_run_tokens": 80
+        },
+        "chatheld/heldc1": {
+          "longest_run_tokens": 18
+        },
+        "chatheld/heldc2": {
+          "longest_run_tokens": 9
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_sterm/raw/locked126": {
+      "per_calib_doc": {
+        "sterm1": {
+          "longest_run_tokens": 11
+        },
+        "sterm2": {
+          "longest_run_tokens": 9
+        },
+        "sterm3": {
+          "longest_run_tokens": 8
+        },
+        "sterm4": {
+          "longest_run_tokens": 10
+        },
+        "sterm5": {
+          "longest_run_tokens": 10
+        },
+        "sterm7": {
+          "longest_run_tokens": 12
+        },
+        "sterm8": {
+          "longest_run_tokens": 15
+        },
+        "sterm9": {
+          "longest_run_tokens": 13
+        },
+        "sterm10": {
+          "longest_run_tokens": 21
+        },
+        "sterm11": {
+          "longest_run_tokens": 9
+        }
+      }
+    },
+    "qwen3.8-flash-next/fn_sterm/raw/fresh30": {
+      "per_calib_doc": {
+        "sterm2": {
+          "longest_run_tokens": 8
+        },
+        "sterm4": {
+          "longest_run_tokens": 15
+        },
+        "sterm5": {
+          "longest_run_tokens": 10
+        },
+        "sterm7": {
+          "longest_run_tokens": 12
+        },
+        "sterm8": {
+          "longest_run_tokens": 11
+        },
+        "sterm9": {
+          "longest_run_tokens": 13
+        },
+        "sterm10": {
+          "longest_run_tokens": 11
+        },
+        "sterm12": {
+          "longest_run_tokens": 10
+        }
+      }
+    }
+  },
+  "long_runs": [
+    {
+      "model": "qwen3.5-9b",
+      "set": "ref_held",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "heldc0",
+      "run_tokens": 80,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_32768_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "set": "fn_held",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "held/heldc0",
+      "run_tokens": 80,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_32768_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "set": "fn_held",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "chatheld/heldc0",
+      "run_tokens": 80,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_32768_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "llama-3.1-8b-instruct",
+      "set": "ref_held",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "heldc0",
+      "run_tokens": 77,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_32768_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3-8b",
+      "set": "ref_held",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "heldc0",
+      "run_tokens": 77,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_32768_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3.5-9b",
+      "set": "ref_fit",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "trainc84",
+      "run_tokens": 47,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "set": "fn_fit",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "train/trainc84",
+      "run_tokens": 47,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3.8-flash-next",
+      "set": "fn_fit",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "chattrain/trainc84",
+      "run_tokens": 47,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "llama-3.1-8b-instruct",
+      "set": "ref_fit",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "trainc84",
+      "run_tokens": 43,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    },
+    {
+      "model": "qwen3-8b",
+      "set": "ref_fit",
+      "variant": "raw",
+      "eval_set": "fresh30",
+      "calib_doc": "trainc84",
+      "run_tokens": 43,
+      "eval_docs": [
+        "source_code_128000_0.txt",
+        "source_code_65536_0.txt"
+      ]
+    }
+  ]
+}

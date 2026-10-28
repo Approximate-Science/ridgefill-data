@@ -1,0 +1,141 @@
+{
+  "schema": "impact-corpus-classes-v1",
+  "method": {
+    "quantity": "absolute first-order impact",
+    "pooling": "all indexed windows, separately for each model; repeated prefix rows count once per window",
+    "excluded_rows": "row 0 of every window, for both class and total counts and impact sums",
+    "arithmetic": "impact cast to float32 before abs, then float64 sums within windows and math.fsum across windows",
+    "enrichment": "E_c = (sum_abs_impact_c / sum_abs_impact_total) / (N_c / N)",
+    "class_assignment": "existing NPZ cls IDs, in index.json classes order; no reclassification",
+    "protected_classes": [
+      "word-start-cap",
+      "word-piece-cap",
+      "word-piece",
+      "mixed"
+    ],
+    "range": "minimum and maximum over individual model/class enrichments, without pooling models",
+    "reference_code": [
+      "results/bigdata/analysis-opus/s4_extras.py",
+      "results/bigdata/analysis-opus/load.py"
+    ],
+    "checksum_encoding": "per model: SHA-256 of lexicographically sorted lowercase NPZ SHA-256 hex digests, each followed by LF, encoded as ASCII; duplicates retained"
+  },
+  "models": {
+    "llama-3.1-8b-instruct": {
+      "n_documents": 300,
+      "n_windows": 801,
+      "totals": {
+        "N": 7922825,
+        "sum_abs_impact": 1235.3979039603962
+      },
+      "classes": {
+        "special": {
+          "N_c": 0,
+          "sum_abs_impact": 0.0
+        },
+        "newline": {
+          "N_c": 188379,
+          "sum_abs_impact": 27.034797347809697
+        },
+        "space": {
+          "N_c": 400669,
+          "sum_abs_impact": 38.828770740183266
+        },
+        "number": {
+          "N_c": 157041,
+          "sum_abs_impact": 25.71101631921883
+        },
+        "punct": {
+          "N_c": 1787774,
+          "sum_abs_impact": 211.2461415224161
+        },
+        "word-start": {
+          "N_c": 3132896,
+          "sum_abs_impact": 378.9941348129858
+        },
+        "word-start-cap": {
+          "N_c": 463404,
+          "sum_abs_impact": 126.26542723353222
+        },
+        "word-piece": {
+          "N_c": 897788,
+          "sum_abs_impact": 220.73076297237236
+        },
+        "word-piece-cap": {
+          "N_c": 361516,
+          "sum_abs_impact": 91.13474814460375
+        },
+        "mixed": {
+          "N_c": 533358,
+          "sum_abs_impact": 115.45210486727416
+        }
+      },
+      "provenance": {
+        "index": "impact-corpus/llama-3.1-8b-instruct/index.json",
+        "index_sha256": "bc4a180e53a3bb17717c1c53f1d032ae5e806608e479b837b47fa62c7aa979a4",
+        "npz_count": 801,
+        "npz_bytes": 940482991,
+        "npz_checksums_verified_against_index": true,
+        "sorted_npz_sha256_list_sha256": "18a4ab81f162d18b1c45bf7bc5be4a0c331e643ea960fa71e9e6d52b25953f32"
+      }
+    },
+    "qwen3.5-9b": {
+      "n_documents": 300,
+      "n_windows": 801,
+      "totals": {
+        "N": 8513466,
+        "sum_abs_impact": 292.68299041763805
+      },
+      "classes": {
+        "special": {
+          "N_c": 0,
+          "sum_abs_impact": 0.0
+        },
+        "newline": {
+          "N_c": 640945,
+          "sum_abs_impact": 17.491417713749378
+        },
+        "space": {
+          "N_c": 404774,
+          "sum_abs_impact": 7.1836648455212035
+        },
+        "number": {
+          "N_c": 259763,
+          "sum_abs_impact": 7.053963638133267
+        },
+        "punct": {
+          "N_c": 1799285,
+          "sum_abs_impact": 55.997511918157244
+        },
+        "word-start": {
+          "N_c": 3148048,
+          "sum_abs_impact": 93.32868900448676
+        },
+        "word-start-cap": {
+          "N_c": 466598,
+          "sum_abs_impact": 27.44696239033395
+        },
+        "word-piece": {
+          "N_c": 892090,
+          "sum_abs_impact": 36.376227653570545
+        },
+        "word-piece-cap": {
+          "N_c": 363548,
+          "sum_abs_impact": 21.35521053025912
+        },
+        "mixed": {
+          "N_c": 538415,
+          "sum_abs_impact": 26.449342723426604
+        }
+      },
+      "provenance": {
+        "index": "impact-corpus/qwen3.5-9b/index.json",
+        "index_sha256": "2c33fcef4084799b90b70367220ec68fc36af5fbaa27ea2e19ad309c7f00ebe1",
+        "npz_count": 801,
+        "npz_bytes": 1079606466,
+        "npz_checksums_verified_against_index": true,
+        "sorted_npz_sha256_list_sha256": "4b8c6e38523cab243c50ef3a7ae7afc01c7ea7b18bfe8116ec6ad665c600d4cc"
+      }
+    }
+  }
+}

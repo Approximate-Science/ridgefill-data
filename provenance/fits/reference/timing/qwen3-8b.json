@@ -1,0 +1,21 @@
+{
+  "model": "qwen3-8b",
+  "clock_note": "Start date and UTC offset inherited from the same log's EXIT timestamp; first event through successful exit.",
+  "stages": [
+    {
+      "name": "capture_and_fit",
+      "start": {
+        "timestamp": "2026-10-04T18:16:23-05:00",
+        "line": "18:16:23 integrity: qwen3-8b: 11 files (15.3 GiB) checked against SHA256SUMS in 4.5s",
+        "origin": "runs/logs/kva-capture-sweep-qwen3-8b.log",
+        "source_line": 1
+      },
+      "end": {
+        "timestamp": "2026-10-04T18:47:25-05:00",
+        "line": "EXIT=0 2026-10-04T18:47:25-05:00",
+        "origin": "runs/logs/kva-capture-sweep-qwen3-8b.log",
+        "source_line": 29
+      }
+    }
+  ]
+}
