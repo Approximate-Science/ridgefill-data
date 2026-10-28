@@ -72,6 +72,20 @@ Status DEVELOPMENT, not FINAL: these back §1, §3 and Appendix I, and no number
 | D4 | Decode-time check on Qwen3.8-27B: full-scan overhead, periodic-check misses | `DEV/certificate-27b/` | `recompute/dev_history.py` | 4 |
 | D5 | Needle suites passed where RULER multi-key failed on Qwen3.8-27B | `DEV/needles-vs-ruler-27b/` | `recompute/dev_history.py` | 6 |
 
+## Values of the paper's text and appendices (release 1.3)
+
+Each printed result of the paper that the claims above do not cover. The scripts read the same raw files.
+
+| Claim | What the paper says | Script | Values |
+|---|---|---|---|
+| M | §1–3: shares, calibration and fit-selection numbers of the method sections | `recompute/` m_fit_selection.py, m_prefix_shares.py, m_reference_population.py | 20 |
+| E | §4: 27B row shares and compute, timing offsets, per-item diagnostics, multi-user details | `recompute/` e_timing_shares.py, e_item_diagnostics.py, e_mix_users.py | 47 |
+| F | §5, §7–9: engine, calibration and reference-study limits quoted in the text | `recompute/` f_engine_limits.py, f_calibration_limits.py, f_reference_limits.py | 22 |
+| T | §6: split curve, arm, fresh-document and RULER values not covered by S7–S12 | `recompute/` t_nll.py, t_ruler.py, t_fresh.py | 127 |
+| AB | Appendices A and B: every arm of Tables A.1–A.3 and every contrast of Table B.1 | `recompute/` appendix_a_arms.py, appendix_ab_contrasts.py | 153 |
+| C | Appendix C: filled-region RULER counts and arm means by task and length | `recompute/` c_ruler_by_task_length.py | 259 |
+| Z | Appendices D–I: second-question details, release provenance counts and other appendix values | `recompute/` z_second_question.py, z_release_provenance.py, z_misc_counts.py | 50 |
+
 ## Facts in §9 and the appendices
 
 | Fact | Files | Check |
