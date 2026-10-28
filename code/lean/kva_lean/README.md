@@ -1,6 +1,6 @@
 # KVA lemmas in Lean 4 + Mathlib
 
-Formalisation of eleven lemmas (plus a shared helper module) for a paper on KVA, a training-free prefill
+Formalisation of twelve lemmas (plus a shared helper module) for RidgeFill (formerly KVA), a training-free prefill
 accelerator for long prompts. All proofs compile with **zero `sorry`/`admit`**,
 and every main theorem depends only on the standard axioms
 `[propext, Classical.choice, Quot.sound]` (see `#print axioms` output below).
@@ -20,6 +20,7 @@ and every main theorem depends only on the standard axioms
 | 9. QK-norm erases key-size errors | `KvaLean/QkNormInvariance.lean` | `rmsNorm_smul_pos`, `qk_attnOut_rescale`, `rmsNorm_eq_dir`, `rmsNorm_dir_lipschitz_max`, `qk_attn_dir_bound`, `rmsNormEps_sub_le`, `vnorm_rmsNorm_eq`, `abs_vnorm_rmsNorm_ratio_sub_one_le` (notes: `notes/QkNormInvariance.md`) |
 | 10. Speedup with exact rows | `KvaLean/SpeedupExactRows.lean` | `kva_speedupR_anti_R`, `kva_speedupR_anti_premium`, `kva_speedupR_ge_one_iff`, `kva_speedupR_ge_one_iff_le_breakEven`, `kva_speedupR_ge_one_iff_calib`, `kva_speedupR_lt_one_of_large`, `kva_speedupR_ge_one_of_unit_premium` (notes: `notes/SpeedupExactRows.md`) |
 | 11. Count-matched random control | `KvaLean/RandomControl.lean` | `randomGain_eq`, `skill_eq`, `skill_pairwise`, `unmatched_control_bias`, `skill_top_max`, `sum_skill_kSubsets`, `sum_skill_relabel`, `exists_ge_avgSet` (notes: `notes/RandomControl.md`) |
+| 12. Exact affine fills preserve lines, and RMSNorm is not affine. | `KvaLean/AffineFill.lean` | `affine_fill_iff_line_condition`, `no_affine_fill_of_line_violation`, `rmsNormalize_not_affine`, `rmsNormEps_not_affine`, `no_affine_fill_matches_rmsnorm` |
 | shared helper | `KvaLean/VecNorm.lean` | `vnorm` (Euclidean norm as a plain sum), `abs_dotProduct_le` (Cauchy–Schwarz), `vnorm_smul`, `vnorm_add_le`, `vnorm_sub_le`, `vnorm_sum_le` |
 
 `KvaLean.lean` imports all modules.
@@ -192,6 +193,24 @@ measured ~2.5× factor.)
     a hypothesis `‖H u‖ ≤ L‖u‖`; the Frobenius norm is one valid `L`.
   - No general C² Taylor bound: only the quadratic identity is proved.
 
+### Lemma 12 — exact affine fills and RMSNorm non-affinity (Table H.1)
+
+- `affine_fill_iff_line_condition`: for maps between real vector spaces, an
+  exact fill `f x = A x + b` exists iff
+  `f(x + t • (y - x)) = f x + t • (f y - f x)` for every `x`, `y`, and real `t`.
+  The reverse implication constructs the linear map `A x = f x - f 0`.
+- `no_affine_fill_of_line_violation`: one violating triple `x, y, t` rules
+  out every affine fill that agrees with the target on every input.
+- `rmsNormalize_not_affine`: on `Fin n → ℝ`, for `n ≥ 1` and `ε > 0`,
+  `x ↦ x / √((∑ i, (x i)²) / n + ε)` is not affine. The proof compares
+  coordinate zero at `0`, `e₀`, and `2e₀`.
+- `rmsNormEps_not_affine`: the same holds after an elementwise gain `g`
+  when `g 0 ≠ 0`, using the existing `rmsNormEps` definition.
+- `no_affine_fill_matches_rmsnorm` combines the ungained and gained results
+  for Table H.1. This concerns RMSNorm on the entire real input space;
+  non-affinity of an arbitrary full transformer layer or a runtime lower
+  bound would require additional hypotheses.
+
 ## Toolchain
 
 - Lean `4.34.1` (commit `5045d0056413266e57c625dcd7c365b10e377c52`),
@@ -242,6 +261,9 @@ Every theorem below reports exactly `[propext, Classical.choice, Quot.sound]`
 - `quad_joint_eq_general`, `quad_joint_eq`, `perToken_gap`,
   `quad_joint_eq_needs_symm`, `crossTerm_abs_le`, `crossTerm_abs_le_sq`,
   `crossTerm_abs_le_frob`
+- `affine_fill_iff_line_condition`, `no_affine_fill_of_line_violation`,
+  `rmsNormalize_not_affine`, `rmsNormEps_not_affine`,
+  `no_affine_fill_matches_rmsnorm`
 
 Lemmas 5–7 (2026-10-02, `lake build` from `lean/kva_lean` with
 a local `ELAN_HOME`): 3116 jobs,
@@ -276,3 +298,11 @@ is empty.
 
 ### Lemmas 8-11 (2026-10-04)
 Added after the Flash-Next run; each file's plain-math statement, the measurement it backs, its assumptions and what it doesn't cover are in `notes/<File>.md`. All four build with `lake build` (3,120 jobs) with no `sorry` and only `propext`, `Classical.choice`, `Quot.sound`.
+
+### Lemma 12 (2026-10-28)
+
+Added `KvaLean/AffineFill.lean` and its import in `KvaLean.lean`.
+`lake build` succeeds (3,121 jobs) with zero errors and zero warnings.
+All five main theorems' `#print axioms` lines report exactly
+`[propext, Classical.choice, Quot.sound]`. The source scan
+`grep -rn "sorry\|admit\|axiom \|native_decide" KvaLean/` is empty.
