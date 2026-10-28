@@ -1,12 +1,12 @@
 path	bytes	sha256	licence	kind	status	claims	origin	origin_sha256	transform
 .github/workflows/data.yml	1349	477299674821d24106a4ff0632d15a558146b3bb58595a653f86cedc16fbf55b	Apache-2.0	code	n/a		release/.github/workflows/data.yml		written
 .gitignore	115	1bcb10427a5e155ef45d2a180eb7daf7eba2301b8da242a6d12688642c3e898c	CC-BY-4.0	documentation	n/a		release/.gitignore		written
-CITATION.cff	781	0c3cc2c87afcef1f9643dd0c3c6f3944ed554a913509b76e488893f8bc789450	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
+CITATION.cff	781	92407044173528dacf7dee61fb0a5dbd89065109f6f2d2f01f326f73f63bf7ff	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
 CLAIMS.md	9594	025a38d3fab475ad621d12eae334b817532d90efc02fa1ab0ec7b918e2562dcc	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
 NOTICE	1742	35a0e01b021379dffc2a809dac4646fae6172c5f23cbd12b8468ca4765b8f557	CC-BY-4.0	documentation	n/a		release/NOTICE		written
-README.md	14737	756544d073758097270b04628dca635f66eff10a27b59712261cec9e91c3a624	CC-BY-4.0	documentation	n/a		release/README.md		written
+README.md	14737	f347f7995b49a9aca038bbeff7cd29942b3e4fae6796f236715c5319207015d7	CC-BY-4.0	documentation	n/a		release/README.md		written
 REPRODUCE.md	5232	355146603381897ee4d1b9b200f205e94a174e7e4083e490d59df5d168a78b25	CC-BY-4.0	documentation	n/a		release/REPRODUCE.md		written
 SUPERSEDED.md	1902	a521d85cb0b05b443d285c31238406368ff081e5965e6fed6b8915a3ec0b677e	CC-BY-4.0	documentation	n/a		release/SUPERSEDED.md		written
 assets/ridgefill-banner.webp	63040	c39308ef507cbd571c6fb9c1d51dd8a6e2a4bfd07cc0f550ac50ccc0652ffda5	CC-BY-4.0	documentation	n/a		release/assets/ridgefill-banner.webp		written
@@ -216,7 +216,7 @@ code/tests/test_qwen3.py	9017	476a2610c4c71e63e8077ccb413931a6697abed457b1e5f34a
 code/tests/test_refit_clean.py	6374	1885860e65e8c2dcdf6ba88c1a7a28d79c5ba222f934e73855a71c3bebc2e624	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tests/test_refit_clean.py		export:ridgefill-v1.0
 code/tests/test_tail_round.py	596	91ed82f7afa9a773f146e35a973a74f3600f582d0bcaf9856e1adcb81c5a7f41	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tests/test_tail_round.py		export:ridgefill-v1.0
 code/tools/kcheck.sh	898	c30795c3839d6e31b71a527fd8a558f3e07d3aae1b680f06b26897febca8900e	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tools/kcheck.sh		export:ridgefill-v1.0
-derived/claims.csv	130386	549d2f4c6079cd4cad7109ef87d3a49f12ffb0e4be6057f6d9e7f9dc61106b2e	CC-BY-4.0	derived	n/a		release/		written
+derived/claims.csv	130386	0e27c3d13c0d6a3acbce4747ac93fae32ff214561faa0e92e121a5930d541583	CC-BY-4.0	derived	n/a		release/		written
 derived/per-document-nll.csv	2565889	8c29d1b1de41cab83aac709cba1651112c34b134e878550acedd545c665b7cec	CC-BY-4.0	derived	n/a	S7,S8,R6	derived:tools/make_per_document_csv.py		derived
 figures/fig_arms.pdf	44485	eccd95f03adfae556d4631403760fff89359f48323e01290c8283f3e01672ed0	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_arms.pdf	eccd95f03adfae556d4631403760fff89359f48323e01290c8283f3e01672ed0	copy
 figures/fig_arms.png	135185	851c47d960abb01bfdf948adfdd1356ffd2de62caeec92266eec8c5989579131	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_arms.png	851c47d960abb01bfdf948adfdd1356ffd2de62caeec92266eec8c5989579131	copy
