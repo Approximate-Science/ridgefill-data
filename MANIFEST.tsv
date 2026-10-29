@@ -1,12 +1,12 @@
 path	bytes	sha256	licence	kind	status	claims	origin	origin_sha256	transform
 .github/workflows/data.yml	1349	477299674821d24106a4ff0632d15a558146b3bb58595a653f86cedc16fbf55b	Apache-2.0	code	n/a		release/.github/workflows/data.yml		written
 .gitignore	115	1bcb10427a5e155ef45d2a180eb7daf7eba2301b8da242a6d12688642c3e898c	CC-BY-4.0	documentation	n/a		release/.gitignore		written
-CITATION.cff	889	93fddd5e077757db0e2c3c4b5022ea66f70f27bea9f1e7054a6efeab7bb9c914	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
+CITATION.cff	889	f8b23736c0d13d9a8e233a4547915105e23ff3a9a2785e2f95071bf72279d96a	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
 CLAIMS.md	9594	4d201533b57b3402eae1a298a54738aa3ece9873ccdf0d24cdb1fd0c4fd8fd1d	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
 NOTICE	1746	59f9fc7c2bfc56ba186ea2227910d15a7473e4a68f22f32d6d7b3045e1e83a6f	CC-BY-4.0	documentation	n/a		release/NOTICE		written
-README.md	14744	a2a6ebea45033ca0c07d11b2aef2cf0008284b583598105be3a39f3f4c4d5166	CC-BY-4.0	documentation	n/a		release/README.md		written
+README.md	14744	a76a1c3b596df58e04652237aa0cd067e0b87488ff537af1e8b310c02f5f4f95	CC-BY-4.0	documentation	n/a		release/README.md		written
 REPRODUCE.md	5232	355146603381897ee4d1b9b200f205e94a174e7e4083e490d59df5d168a78b25	CC-BY-4.0	documentation	n/a		release/REPRODUCE.md		written
 SUPERSEDED.md	1902	a521d85cb0b05b443d285c31238406368ff081e5965e6fed6b8915a3ec0b677e	CC-BY-4.0	documentation	n/a		release/SUPERSEDED.md		written
 assets/ridgefill-banner.webp	63040	c39308ef507cbd571c6fb9c1d51dd8a6e2a4bfd07cc0f550ac50ccc0652ffda5	CC-BY-4.0	documentation	n/a		release/assets/ridgefill-banner.webp		written
@@ -264,12 +264,16 @@ figures/fig_two_sweep.svg	1740819	359cc3054f8c2217111b0f8ed3b6a53f7a8d9a98c13392
 figures/fig_wrong_stick.pdf	22382	ad943d42d043d9a5d9abd40a9d0171adfac950d555131a3c0334db38046bf427	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.pdf	ad943d42d043d9a5d9abd40a9d0171adfac950d555131a3c0334db38046bf427	copy
 figures/fig_wrong_stick.png	116921	000f026985c8c4bd748e6f8340f4433d36078e9f5d78a90453a1ad636a97b252	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.png	000f026985c8c4bd748e6f8340f4433d36078e9f5d78a90453a1ad636a97b252	copy
 figures/fig_wrong_stick.svg	19804	ee91848ff6602c676820f7d0afc103e9cc6a5d0ed7294df321bf1838b13031d0	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.svg	ee91848ff6602c676820f7d0afc103e9cc6a5d0ed7294df321bf1838b13031d0	copy
-provenance/ORIGINS.tsv	8275	e1f54330d0e17bcf574b6d535d39710bcda03bbd4afc33e72e69ef41e6af99d6	CC-BY-4.0	provenance	n/a		release/ORIGINS.tsv		written
-provenance/STRIPPED.tsv	1539582	df32b3725fb28a27424a3cf37cdde3080dbc04795b9fc56dc18b6ef0bc2300bb	CC-BY-4.0	provenance	n/a		release/STRIPPED.tsv		written
+provenance/ORIGINS.tsv	8597	d400bb1da8d3ede0baa1c0c9dfe41f138eb07cdcf77f769bb52f52fa4b6b0556	CC-BY-4.0	provenance	n/a		release/ORIGINS.tsv		written
+provenance/STRIPPED.tsv	1540862	f3b8aefc3b8fda7e4fd83cc717a9ae6db104eec71fb506d2f8ed71657f05a6a1	CC-BY-4.0	provenance	n/a		release/STRIPPED.tsv		written
 provenance/checks/calib-token-overlap.json	66980	206f3a29502829851276729c0153a11418b6ae78b6e4229741c795af95aa189e	CC-BY-4.0	provenance	n/a		calib-overlap/		redact
 provenance/checks/calib-vs-longbench-v2.json	69998	66d195e9d2fe7c6b8ff757774e9b70b749fc094908c806d379bcd13547ec5879	CC-BY-4.0	provenance	n/a		derived:tools/overlap_lbv2.pycalib-vs-longbench-v2.json		derived
 provenance/external.tsv	42693	52cf6419b92a5580947337cca7cc61f343192bd6784f1d84535eeba5b1370024	CC-BY-4.0	provenance	n/a		release/external.tsv		written
 provenance/fits/flashnext/QFN-capture.log	10029	cc62a7158d765b6090200cf80b9a80928196d6a94b79046a44e17daecccba890	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/runs/qfn/logs/QFN-capture.log	cc62a7158d765b6090200cf80b9a80928196d6a94b79046a44e17daecccba890	copy
+provenance/fits/flashnext/capture-sessions/QFN-bigcap-b1/docker-run-args.json	2961	30a3931d05045dd687fcbb03ef31e211818174b25683f9aa279b833e16d03231	CC-BY-4.0	provenance	n/a	LB1a	kva-paper-final/results/qfn/sessions/QFN-bigcap-b1/docker-run-args.json	d26e4bc37a04b010188f9b2c9d78f2770a5baa131693b05ca5c5a00d8948d497	redact:WORKSTATION_PATH
+provenance/fits/flashnext/capture-sessions/QFN-bigcap-b1/status.json	10974	6d8d0dd0b96c3ba4ae328c90ffb9b45bb8e9b7acf17990a53f4e4a57cd748b8b	CC-BY-4.0	provenance	n/a	LB1a	kva-paper-final/results/qfn/sessions/QFN-bigcap-b1/status.json	0ece24dc4be483141cbbe7f8f2daafd306fc6d2e75e36b7291afa8fb0e85f0f5	redact:WORKSTATION_PATH
+provenance/fits/flashnext/capture-sessions/QFN-capture/docker-run-args.json	2960	58597f7610312c241b14e614cda21b4c71eb5458df3245607b634cbd06f36ab1	CC-BY-4.0	provenance	n/a	LB1a	kva-paper-final/results/qfn/sessions/QFN-capture/docker-run-args.json	0f8c07140d11638b6da143d933a26c1b48e8a149197e30adc6badc30d3860c57	redact:WORKSTATION_PATH
+provenance/fits/flashnext/capture-sessions/QFN-capture/status.json	10966	7c71d555fe0d7fe6485f964d6474c43f9ada4c36ee195cf577471d274594b120	CC-BY-4.0	provenance	n/a	LB1a	kva-paper-final/results/qfn/sessions/QFN-capture/status.json	381ac35e372ee13e2415a5bb3e445855f951a64e1e1c96254065f6df55ca0302	redact:WORKSTATION_PATH
 provenance/fits/flashnext/fit-big-s24.log	2774	c4804208c2e2b55bcd10425b2d4337cc2698c6ee024a9db26fb4405d7b8df916	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/runs/qfn/logs/fit-big-s24.log	b1807e2a4747cf7b8746d164564bb500594719165d1bbc413d1f1ed8e9bdfee3	redact:WORKSTATION_PATH
 provenance/fits/flashnext/report-big-s24.json	37502	2ce9a08a76c10ad7efb261576f9797526675f718fa9aefbe37ab8e41374c38d0	CC-BY-4.0	provenance	n/a	LB1a	kva-workdir/qfn/proj/report-big-s24.json	34c46e5ea6118ddf84baac9fb6a5b64f1889b32b886c312f3cff502bde9647de	redact:WORKSTATION_PATH
 provenance/fits/flashnext/sterm-kva-big-s24.json	4230	77060c059ee5307546d27223706cb7a5202793f64dbb5863dfe6ec185c979aa8	CC-BY-4.0	provenance	n/a	LB1a	kva-flashnext/		redact
