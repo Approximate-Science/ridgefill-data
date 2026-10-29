@@ -1304,7 +1304,7 @@ C.qwen3.niah_single_1.32k.identity,84.2,C,"paper App. C, Table C.3; Qwen3 single
 C.qwen3.niah_single_1.32k.nofill,0.0,C,"paper App. C, Table C.3; Qwen3 single_1 32K No fill mean score (%)"
 C.qwen3.niah_single_1.32k.ridgefill_rows,100.0,C,"paper App. C, Table C.3; Qwen3 single_1 32K RidgeFill + rows mean score (%)"
 C.qwen3.niah_single_1.32k.identity_rows,100.0,C,"paper App. C, Table C.3; Qwen3 single_1 32K Identity + rows mean score (%)"
-Z.formal.theorem_lemma_declarations,210,Z,paper App. H
+Z.formal.theorem_lemma_declarations,219,Z,paper App. H
 Z.flashnext.host_experts_per_gpu,"16,042",Z,paper App. H
 Z.flashnext.protected_rows.per_prefix.min_pct,3,Z,"paper App. H, protected-row discussion; diagnostic per-prefix minimum only, NOT mapped to the per-chunk assertion"
 Z.flashnext.protected_rows.per_prefix.max_pct,10 %,Z,"paper App. H, protected-row discussion; diagnostic per-prefix maximum only, NOT mapped to the per-chunk assertion"
