@@ -21,7 +21,7 @@ from one pass over calibration text. A chosen set of rows, the last few thousand
 run the full model, so nothing is trained and no token is dropped.
 
 This repository holds the data and code of the paper *RidgeFill: Training-Free Late-Layer Cache Fill for Faster
-Prefill* by Dylan Johnston and tcclaviger, which is in preparation. Every number in the paper can be recomputed from
+Prefill* by Dylan Johnston and Robert P Smith, which is in preparation. Every number in the paper can be recomputed from
 the files here, without any benchmark or calibration text. Code is released under Apache-2.0 (`LICENSE`) and results
 under CC BY 4.0 (`LICENSE-DATA`); [Licences](#licences) gives the licence of every path.
 
@@ -188,10 +188,10 @@ The paper is in preparation. Until it is out, cite this data release (`CITATION.
 
 ```bibtex
 @misc{johnston2026ridgefilldata,
-  author  = {Johnston, Dylan and {tcclaviger}},
+  author  = {Johnston, Dylan and Smith, Robert P},
   title   = {{RidgeFill}: data and code for ``Training-Free Late-Layer Cache Fill for Faster Prefill''},
   year    = {2026},
-  version = {1.6},
+  version = {1.7},
   url     = {https://github.com/Approximate-Science/ridgefill-data}
 }
 ```

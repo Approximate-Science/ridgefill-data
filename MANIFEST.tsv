@@ -1,12 +1,12 @@
 path	bytes	sha256	licence	kind	status	claims	origin	origin_sha256	transform
 .github/workflows/data.yml	1349	477299674821d24106a4ff0632d15a558146b3bb58595a653f86cedc16fbf55b	Apache-2.0	code	n/a		release/.github/workflows/data.yml		written
 .gitignore	115	1bcb10427a5e155ef45d2a180eb7daf7eba2301b8da242a6d12688642c3e898c	CC-BY-4.0	documentation	n/a		release/.gitignore		written
-CITATION.cff	781	f09fabe55b63c5d9e8882f24958af0e495551f1155f024c040b2afb100f0576b	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
+CITATION.cff	889	93fddd5e077757db0e2c3c4b5022ea66f70f27bea9f1e7054a6efeab7bb9c914	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
 CLAIMS.md	9594	025a38d3fab475ad621d12eae334b817532d90efc02fa1ab0ec7b918e2562dcc	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
-NOTICE	1742	35a0e01b021379dffc2a809dac4646fae6172c5f23cbd12b8468ca4765b8f557	CC-BY-4.0	documentation	n/a		release/NOTICE		written
-README.md	14737	18eed3fbea1aa819c4361d7ffd1e756941ad36d71e5e6e40b6d3e884ecfb7870	CC-BY-4.0	documentation	n/a		release/README.md		written
+NOTICE	1746	59f9fc7c2bfc56ba186ea2227910d15a7473e4a68f22f32d6d7b3045e1e83a6f	CC-BY-4.0	documentation	n/a		release/NOTICE		written
+README.md	14744	a2a6ebea45033ca0c07d11b2aef2cf0008284b583598105be3a39f3f4c4d5166	CC-BY-4.0	documentation	n/a		release/README.md		written
 REPRODUCE.md	5232	355146603381897ee4d1b9b200f205e94a174e7e4083e490d59df5d168a78b25	CC-BY-4.0	documentation	n/a		release/REPRODUCE.md		written
 SUPERSEDED.md	1902	a521d85cb0b05b443d285c31238406368ff081e5965e6fed6b8915a3ec0b677e	CC-BY-4.0	documentation	n/a		release/SUPERSEDED.md		written
 assets/ridgefill-banner.webp	63040	c39308ef507cbd571c6fb9c1d51dd8a6e2a4bfd07cc0f550ac50ccc0652ffda5	CC-BY-4.0	documentation	n/a		release/assets/ridgefill-banner.webp		written
