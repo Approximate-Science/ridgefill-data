@@ -54,3 +54,4 @@ results/development/token-classes/impact-corpus-classes.json	release/	derived	Pe
 results/development/needles-dev/s2-niahchat/	dev-offline-niah/	copy	Development checkpoint, the corrected-format needle session (60 prompts, every arm), from the pre-paper archive of 2026-10-02.
 results/flashnext/determinism-throughput/	ridgefill-determinism/	copy	Decode throughput of the exact arm with and without the determinism fix: three greedy 128-token requests at 16K, 32K and 64K.
 code/lean/kva_lean/KvaLean/AffineFill.lean	release/	written	Lemma 12 (2026-10-28): exact affine fills preserve lines, and RMS normalization is not affine; written for release 1.5.
+code/lean/kva_lean/KvaLean/ContextFill.lean	release/	written	Lemma 13 (2026-10-29): a per-row fill cannot equal causal softmax attention with a residual on every prompt when the value map is nonzero; written for release 1.6.

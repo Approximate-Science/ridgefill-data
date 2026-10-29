@@ -118,9 +118,10 @@ code/kva/ridge.py	7999	9603d87127d2fb01320209a7e868c3dc82575533f4c6cc04e623bf618
 code/kva/select.py	24883	762b7b75a9458cd5ac103a501f58e81cb1f7026b818d1b3e1f6dc7674884af0a	Apache-2.0	code	n/a		kva@ridgefill-v1.0:kva/select.py	41cd09413c9931a7b1fc06a612da7dd0d783a94478abed392d1f33e2031bb1ac	edit:reword
 code/kva/wfit.py	3249	c0d83ecde788d4bb2083ac83d1bab6cb5fff11c697db65d7a43c41ad2bd70013	Apache-2.0	code	n/a		kva@ridgefill-v1.0:kva/wfit.py		export:ridgefill-v1.0
 code/lean/kva_lean/.gitignore	7	b3ad09fc93f83fdbd0bee771258dd4a58d3798fd7e6048611dde5a804bb43f1e	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/.gitignore		export:ridgefill-v1.0
-code/lean/kva_lean/KvaLean.lean	360	2506e3959dcc632204a09119f731d9074ab81ca97c41cc4114a6829b76d7e7cc	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean.lean		export:ridgefill-v1.0
+code/lean/kva_lean/KvaLean.lean	387	6abbb3f7d4f43ccde9eca057781633edd6e71ac4ba93f4a959860e6c44a74a15	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean.lean		export:ridgefill-v1.0
 code/lean/kva_lean/KvaLean/AffineFill.lean	7964	f5565fef91ffa729a7f7983f7bc0450bf1e596a92edbf81b91f1034ab2d3e18b	Apache-2.0	code	n/a		release/		written
 code/lean/kva_lean/KvaLean/AttnSensitivity.lean	20787	92a9fa2fe8ec073864b79ec5461929a5a9ddd8e464acb018bc829e07ac187383	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/AttnSensitivity.lean		export:ridgefill-v1.0
+code/lean/kva_lean/KvaLean/ContextFill.lean	8114	466c71594167bf691ef18ce9aff1afa611f4e3833182650000f0b3d9771d3640	Apache-2.0	code	n/a		release/		written
 code/lean/kva_lean/KvaLean/CrossTerms.lean	9852	a9196d173e16773e0926d0f9005ed7306701bad207404265bf7006b865a8cd02	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/CrossTerms.lean		export:ridgefill-v1.0
 code/lean/kva_lean/KvaLean/GdnContraction.lean	7996	8fb7d24a3aa62e45cd4671bfce155aa61062c23a49aab302affd8b3d2dbc63bf	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/GdnContraction.lean		export:ridgefill-v1.0
 code/lean/kva_lean/KvaLean/ImpactBound.lean	5627	0b39298bcfbe9913d3de76513a1f29ec75d3aa750afda86a9b331362d7ce5683	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/ImpactBound.lean		export:ridgefill-v1.0
@@ -132,7 +133,7 @@ code/lean/kva_lean/KvaLean/Speedup.lean	10783	bd68c6f20f5fad481b70e93939bda2a37f
 code/lean/kva_lean/KvaLean/SpeedupExactRows.lean	18320	a983c8953c920e6698ed5daf891371c4fab8a2cb8e9cbfa6db932a384c920c02	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/SpeedupExactRows.lean		export:ridgefill-v1.0
 code/lean/kva_lean/KvaLean/StCorrection.lean	18526	983fac37ecb45c56501170708bf2cc7e73e9ae45ca1d21de7a989350d2792c18	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/StCorrection.lean		export:ridgefill-v1.0
 code/lean/kva_lean/KvaLean/VecNorm.lean	3088	51c9aa67250a17dafe218557d8b94220ca7ef1ab38f71999fb9f85a2c8649774	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/KvaLean/VecNorm.lean		export:ridgefill-v1.0
-code/lean/kva_lean/README.md	19644	5718db0ffa0d4646ce3f4576d71a3f50601df3eae42f902da217dfd120352a9e	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/README.md		export:ridgefill-v1.0
+code/lean/kva_lean/README.md	21982	e3fa34a5bbd1897854fcb6d685c74c58663da05ffea8545d3d8bc9770a859538	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/README.md		export:ridgefill-v1.0
 code/lean/kva_lean/lake-manifest.json	3142	448ff7cdf031eccf85e03c86060fd2e9dcfeaa3b6f5123a1eb83d4b612d9b5b8	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/lake-manifest.json		export:ridgefill-v1.0
 code/lean/kva_lean/lakefile.toml	351	75d1a44b6837c304150971310c514260eb5a38f166c31c1b46a96fe10a28bdb0	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/lakefile.toml		export:ridgefill-v1.0
 code/lean/kva_lean/lean-toolchain	25	d5edba4e4b8faad9c1baeadb265716d20d03be4d1a2647dc5e35b0c0325bea7b	Apache-2.0	code	n/a		kva@ridgefill-v1.0:lean/kva_lean/lean-toolchain		export:ridgefill-v1.0
@@ -263,7 +264,7 @@ figures/fig_two_sweep.svg	1740819	359cc3054f8c2217111b0f8ed3b6a53f7a8d9a98c13392
 figures/fig_wrong_stick.pdf	22382	ad943d42d043d9a5d9abd40a9d0171adfac950d555131a3c0334db38046bf427	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.pdf	ad943d42d043d9a5d9abd40a9d0171adfac950d555131a3c0334db38046bf427	copy
 figures/fig_wrong_stick.png	116921	000f026985c8c4bd748e6f8340f4433d36078e9f5d78a90453a1ad636a97b252	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.png	000f026985c8c4bd748e6f8340f4433d36078e9f5d78a90453a1ad636a97b252	copy
 figures/fig_wrong_stick.svg	19804	ee91848ff6602c676820f7d0afc103e9cc6a5d0ed7294df321bf1838b13031d0	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_wrong_stick.svg	ee91848ff6602c676820f7d0afc103e9cc6a5d0ed7294df321bf1838b13031d0	copy
-provenance/ORIGINS.tsv	8050	9a76f33126862e230dee910080ed1272c53106bbe0dae1a886456428d09603fb	CC-BY-4.0	provenance	n/a		release/ORIGINS.tsv		written
+provenance/ORIGINS.tsv	8275	e1f54330d0e17bcf574b6d535d39710bcda03bbd4afc33e72e69ef41e6af99d6	CC-BY-4.0	provenance	n/a		release/ORIGINS.tsv		written
 provenance/STRIPPED.tsv	1539582	df32b3725fb28a27424a3cf37cdde3080dbc04795b9fc56dc18b6ef0bc2300bb	CC-BY-4.0	provenance	n/a		release/STRIPPED.tsv		written
 provenance/checks/calib-token-overlap.json	66980	206f3a29502829851276729c0153a11418b6ae78b6e4229741c795af95aa189e	CC-BY-4.0	provenance	n/a		calib-overlap/		redact
 provenance/checks/calib-vs-longbench-v2.json	69998	66d195e9d2fe7c6b8ff757774e9b70b749fc094908c806d379bcd13547ec5879	CC-BY-4.0	provenance	n/a		derived:tools/overlap_lbv2.pycalib-vs-longbench-v2.json		derived

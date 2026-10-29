@@ -1,6 +1,6 @@
 # KVA lemmas in Lean 4 + Mathlib
 
-Formalisation of twelve lemmas (plus a shared helper module) for RidgeFill (formerly KVA), a training-free prefill
+Formalisation of thirteen lemmas (plus a shared helper module) for RidgeFill (formerly KVA), a training-free prefill
 accelerator for long prompts. All proofs compile with **zero `sorry`/`admit`**,
 and every main theorem depends only on the standard axioms
 `[propext, Classical.choice, Quot.sound]` (see `#print axioms` output below).
@@ -21,6 +21,7 @@ and every main theorem depends only on the standard axioms
 | 10. Speedup with exact rows | `KvaLean/SpeedupExactRows.lean` | `kva_speedupR_anti_R`, `kva_speedupR_anti_premium`, `kva_speedupR_ge_one_iff`, `kva_speedupR_ge_one_iff_le_breakEven`, `kva_speedupR_ge_one_iff_calib`, `kva_speedupR_lt_one_of_large`, `kva_speedupR_ge_one_of_unit_premium` (notes: `notes/SpeedupExactRows.md`) |
 | 11. Count-matched random control | `KvaLean/RandomControl.lean` | `randomGain_eq`, `skill_eq`, `skill_pairwise`, `unmatched_control_bias`, `skill_top_max`, `sum_skill_kSubsets`, `sum_skill_relabel`, `exists_ge_avgSet` (notes: `notes/RandomControl.md`) |
 | 12. Exact affine fills preserve lines, and RMSNorm is not affine. | `KvaLean/AffineFill.lean` | `affine_fill_iff_line_condition`, `no_affine_fill_of_line_violation`, `rmsNormalize_not_affine`, `rmsNormEps_not_affine`, `no_affine_fill_matches_rmsnorm` |
+| 13. Context dependence rules out exact per-row fills | `KvaLean/ContextFill.lean` | `no_per_row_fill_of_context_witness`, `causal_attention_context_dependent`, `no_per_row_fill_matches_attention`, `no_per_row_fill_matches_attention_of_injective` (helper: `causalAttnResidual_pair_sub_const`) |
 | shared helper | `KvaLean/VecNorm.lean` | `vnorm` (Euclidean norm as a plain sum), `abs_dotProduct_le` (Cauchy–Schwarz), `vnorm_smul`, `vnorm_add_le`, `vnorm_sub_le`, `vnorm_sum_le` |
 
 `KvaLean.lean` imports all modules.
@@ -211,6 +212,28 @@ measured ~2.5× factor.)
   non-affinity of an arbitrary full transformer layer or a runtime lower
   bound would require additional hypotheses.
 
+### Lemma 13 — context dependence rules out exact per-row fills
+
+- `no_per_row_fill_of_context_witness`: for arbitrary row and output types,
+  two prompts with the same input at a row but different target outputs
+  rule out every exact fill `φ (x i)`, without assuming linearity.
+- `causalAttnResidual` defines causal single-head softmax attention plus
+  the input residual, normalizing only over the prefix through the row.
+  `causalAttnResidual_pair_sub_const` proves that replacing `(z, z)` by
+  `(a, z)` changes row `1` by `w • (V a - V z)`, where `w > 0` is the
+  new prompt's weight of row `0`.
+- `causal_attention_context_dependent`: if the linear value map `V ≠ 0`,
+  every row state `z` has such a length-two witness pair, with different
+  outputs at row `1`, for arbitrary query/key maps and real score scale.
+- `no_per_row_fill_matches_attention`: no function of a row's own state
+  matches these outputs on every length-two prompt.
+  `no_per_row_fill_matches_attention_of_injective` preserves this conclusion
+  after any injective per-row map, including an MLP block if it is injective.
+- Scope: one head; a restricted prompt family inherits the obstruction if
+  it contains a witness pair. Arbitrary multi-head compositions and
+  noninjective MLP blocks are not covered. This concerns exactness on every
+  prompt, not average error or a computational lower bound.
+
 ## Toolchain
 
 - Lean `4.34.1` (commit `5045d0056413266e57c625dcd7c365b10e377c52`),
@@ -242,7 +265,7 @@ lake build           # must succeed with no errors and no warnings
 
 ## Axiom check (`#print axioms`, from the build log)
 
-Every theorem below reports exactly `[propext, Classical.choice, Quot.sound]`
+Every theorem in the following list reports exactly `[propext, Classical.choice, Quot.sound]`
 — in particular no `sorryAx`:
 
 - `frob_gdn_step_le`, `gdn_prefix_contraction`
@@ -264,6 +287,10 @@ Every theorem below reports exactly `[propext, Classical.choice, Quot.sound]`
 - `affine_fill_iff_line_condition`, `no_affine_fill_of_line_violation`,
   `rmsNormalize_not_affine`, `rmsNormEps_not_affine`,
   `no_affine_fill_matches_rmsnorm`
+- `causalAttnResidual_pair_sub_const`, `causal_attention_context_dependent`,
+  `no_per_row_fill_matches_attention`, `no_per_row_fill_matches_attention_of_injective`
+
+The abstract theorem `no_per_row_fill_of_context_witness` uses no axioms.
 
 Lemmas 5–7 (2026-10-02, `lake build` from `lean/kva_lean` with
 a local `ELAN_HOME`): 3116 jobs,
@@ -305,4 +332,13 @@ Added `KvaLean/AffineFill.lean` and its import in `KvaLean.lean`.
 `lake build` succeeds (3,121 jobs) with zero errors and zero warnings.
 All five main theorems' `#print axioms` lines report exactly
 `[propext, Classical.choice, Quot.sound]`. The source scan
+`grep -rn "sorry\|admit\|axiom \|native_decide" KvaLean/` is empty.
+
+### Lemma 13 (2026-10-29)
+
+Added `KvaLean/ContextFill.lean` and its import in `KvaLean.lean`.
+`lake build` succeeds (3,122 jobs) with zero errors and zero warnings.
+The four attention results' `#print axioms` lines report exactly
+`[propext, Classical.choice, Quot.sound]`; the abstract obstruction uses
+no axioms. The source scan
 `grep -rn "sorry\|admit\|axiom \|native_decide" KvaLean/` is empty.
