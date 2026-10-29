@@ -2,7 +2,7 @@ path	bytes	sha256	licence	kind	status	claims	origin	origin_sha256	transform
 .github/workflows/data.yml	1349	477299674821d24106a4ff0632d15a558146b3bb58595a653f86cedc16fbf55b	Apache-2.0	code	n/a		release/.github/workflows/data.yml		written
 .gitignore	115	1bcb10427a5e155ef45d2a180eb7daf7eba2301b8da242a6d12688642c3e898c	CC-BY-4.0	documentation	n/a		release/.gitignore		written
 CITATION.cff	889	93fddd5e077757db0e2c3c4b5022ea66f70f27bea9f1e7054a6efeab7bb9c914	CC-BY-4.0	documentation	n/a		release/CITATION.cff		written
-CLAIMS.md	9594	025a38d3fab475ad621d12eae334b817532d90efc02fa1ab0ec7b918e2562dcc	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
+CLAIMS.md	9594	4d201533b57b3402eae1a298a54738aa3ece9873ccdf0d24cdb1fd0c4fd8fd1d	CC-BY-4.0	documentation	n/a		release/CLAIMS.md		written
 LICENSE	10174	0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594	licence text	documentation	n/a		release/LICENSE		written
 LICENSE-DATA	18658	b0795076b6787cb92063ffd73df82a6930705dca321b249e10a9ad5175428fff	licence text	documentation	n/a		release/LICENSE-DATA		written
 NOTICE	1746	59f9fc7c2bfc56ba186ea2227910d15a7473e4a68f22f32d6d7b3045e1e83a6f	CC-BY-4.0	documentation	n/a		release/NOTICE		written
@@ -217,7 +217,7 @@ code/tests/test_qwen3.py	9017	476a2610c4c71e63e8077ccb413931a6697abed457b1e5f34a
 code/tests/test_refit_clean.py	6374	1885860e65e8c2dcdf6ba88c1a7a28d79c5ba222f934e73855a71c3bebc2e624	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tests/test_refit_clean.py		export:ridgefill-v1.0
 code/tests/test_tail_round.py	596	91ed82f7afa9a773f146e35a973a74f3600f582d0bcaf9856e1adcb81c5a7f41	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tests/test_tail_round.py		export:ridgefill-v1.0
 code/tools/kcheck.sh	898	c30795c3839d6e31b71a527fd8a558f3e07d3aae1b680f06b26897febca8900e	Apache-2.0	code	n/a		kva@ridgefill-v1.0:tools/kcheck.sh		export:ridgefill-v1.0
-derived/claims.csv	130386	72904a5ed9f9eb35c16f1386d14671252f805f53ddb317548fbf2ce979d82f4a	CC-BY-4.0	derived	n/a		release/		written
+derived/claims.csv	130641	be78ff37e331d9e9c964c1da178ad753d8160a6f1eb401902864aebc50feb046	CC-BY-4.0	derived	n/a		release/		written
 derived/per-document-nll.csv	2565889	8c29d1b1de41cab83aac709cba1651112c34b134e878550acedd545c665b7cec	CC-BY-4.0	derived	n/a	S7,S8,R6	derived:tools/make_per_document_csv.py		derived
 figures/fig_arms.pdf	44485	eccd95f03adfae556d4631403760fff89359f48323e01290c8283f3e01672ed0	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_arms.pdf	eccd95f03adfae556d4631403760fff89359f48323e01290c8283f3e01672ed0	copy
 figures/fig_arms.png	135185	851c47d960abb01bfdf948adfdd1356ffd2de62caeec92266eec8c5989579131	CC-BY-4.0	figure	n/a		paper-draft/figures/fig_arms.png	851c47d960abb01bfdf948adfdd1356ffd2de62caeec92266eec8c5989579131	copy
@@ -317,7 +317,7 @@ provenance/ledger/cited.jsonl	61978	15118f817c18974fa5d97fde701026677180acf657a5
 provenance/ledger/index.tsv	131425	43c5605104cc206097237dfa998d07b45e83e9bcdad726372eacf9eae24e5c0c	CC-BY-4.0	provenance	n/a		derived:kva@8f2ef1c:ledger/paper/ledger.jsonlindex.tsv		derived
 provenance/ledger/rest-on.tsv	1869	44dcd239f705faf4ce3ebdd6f8b2de3bc21608645459c990d1acf3a2b92e9c1c	CC-BY-4.0	provenance	n/a		release/		written
 recompute/appendix_a_arms.py	6304	4c1fbf7763c542ea830dbcebc5f3066310cb3a476d098ba9944fa0a43ef57bc3	Apache-2.0	code	n/a		release/appendix_a_arms.py		written
-recompute/appendix_ab_contrasts.py	5936	320c0b4ac501061b412e555d0af35ad5c015bb3ab03dcb5acb38de9fa590d572	Apache-2.0	code	n/a		release/appendix_ab_contrasts.py		written
+recompute/appendix_ab_contrasts.py	6046	03faa0ec6b933f2a6aa4887127609ee3204f8791612223bcb8a245baec98c23b	Apache-2.0	code	n/a		release/appendix_ab_contrasts.py		written
 recompute/bca.py	5100	25e8e601c964eefc87ac0d8a7ca9f8b8f9c9363b121e3a67d13604b0f25caf4b	Apache-2.0	code	n/a		release/bca.py		written
 recompute/c_ruler_by_task_length.py	3986	6724516f3ed3c6777aca56ecee24bb544f5813e93dd9933afd532f7176cacf95	Apache-2.0	code	n/a		release/c_ruler_by_task_length.py		written
 recompute/cfg/llama-3.1-8b.json	139	7d4523a0d1fd38bef33a6791a13514b145385cc98b5481cb17287095fb85fe0c	Apache-2.0	code	n/a		release/cfg/llama-3.1-8b.json		written

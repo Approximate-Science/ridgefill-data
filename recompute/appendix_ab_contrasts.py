@@ -35,6 +35,7 @@ CONTRASTS = [
     ("llama", "ridgefill_vs_identity_half", "ruler_filled", ("kva", "1/2"), ("noproj", "1/2"), None, 1, ALL),
     ("llama", "ridgefill_vs_identity_64k", "ruler_filled", ("kva", P), ("noproj", P), "64k", 1, ALL),
     ("llama", "ridgefill_rows_vs_exact_64k", "ruler_filled", ("kva+qattn10", P), ("exact", "-"), "64k", 1, ALL),
+    ("llama", "identity_rows_vs_exact", "ruler_filled", ("noproj+qattn10", P), ("exact", "-"), None, 1, ALL),
     ("llama", "identity_qblind_vs_identity_rows", "ruler_filled", ("noproj+qblind10", P), ("noproj+qattn10", P), None, 1, ALL),
     ("qwen35", "ridgefill_vs_nofill", "nll_novel", ("kva", P), ("skip", P), None, 3, ENDS),
     ("qwen35", "ridgefill_vs_pop", "nll_novel", ("kva", P), ("pop-native", "pop"), None, 3, ENDS),
