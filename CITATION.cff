@@ -19,6 +19,21 @@ keywords:
   - KV cache
   - ridge regression
   - long context
+preferred-citation:
+  type: article
+  status: preprint
+  title: "RidgeFill: Training-Free Late-Layer Cache Fill for Faster Prefill"
+  authors:
+    - family-names: Johnston
+      given-names: Dylan
+    - family-names: Smith
+      given-names: Robert P
+      alias: tcclaviger
+  year: 2026
+  publisher:
+    name: Zenodo
+  doi: 10.5281/zenodo.23890247
+  url: "https://doi.org/10.5281/zenodo.23890247"
 references:
   - type: software
     title: "RidgeFill"

@@ -21,7 +21,8 @@ from one pass over calibration text. A chosen set of rows, the last few thousand
 run the full model, so nothing is trained and no token is dropped.
 
 This repository holds the data and code of the paper *RidgeFill: Training-Free Late-Layer Cache Fill for Faster
-Prefill* by Dylan Johnston and Robert P Smith, which is in preparation. Every number in the paper can be recomputed from
+Prefill* by Dylan Johnston and Robert P Smith (preprint, 2026,
+[doi:10.5281/zenodo.23890247](https://doi.org/10.5281/zenodo.23890247)). Every number in the paper can be recomputed from
 the files here, without any benchmark or calibration text. Code is released under Apache-2.0 (`LICENSE`) and results
 under CC BY 4.0 (`LICENSE-DATA`); [Licences](#licences) gives the licence of every path.
 
@@ -184,7 +185,21 @@ outputs are Built with Llama.
 
 ## Citation
 
-The paper is in preparation. Until it is out, cite this data release (`CITATION.cff`):
+Cite the paper:
+
+```bibtex
+@misc{johnston2026ridgefill,
+  author    = {Johnston, Dylan and Smith, Robert P},
+  title     = {{RidgeFill}: Training-Free Late-Layer Cache Fill for Faster Prefill},
+  year      = {2026},
+  publisher = {Zenodo},
+  note      = {Preprint},
+  doi       = {10.5281/zenodo.23890247},
+  url       = {https://doi.org/10.5281/zenodo.23890247}
+}
+```
+
+To cite the data and code themselves, cite this data release (`CITATION.cff`):
 
 ```bibtex
 @misc{johnston2026ridgefilldata,
